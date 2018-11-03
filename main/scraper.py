@@ -37,9 +37,9 @@ def scrape(teamName, list_urls):
             if homeOAway % 3 is 0:
                 nextText = str(name_box)[19:]
                 if nextText[0] is not '<' and nextText[5] is not '=':
-                    fullText = fullText + nextText + '\n'
+                    fullText = fullText + nextText[:-5] + '\n'
             homeOAway+=1
-        print(fullText)
+
 
     f= open("./../interdata/scraperaw.txt","w+")
     for line in fullText:
