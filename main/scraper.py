@@ -6,9 +6,9 @@ import requests
 
 def main():
     list_urls = ['4580415', '4577144', '4577145', '4576367', '4572959', '4571240', '4570564', '4568118', '4564636', '4564039']
-    scrape(list_urls)
+    scrape('Georgia Tech', list_urls)
 
-def scrape(list_urls):
+def scrape(teamName, list_urls):
     fullText = ''
     for url in list_urls:
         quote_page = 'http://stats.ncaa.org/game/play_by_play/' + url
@@ -21,17 +21,25 @@ def scrape(list_urls):
         # parse the html using beautiful soup and store in variable soup
         # this is the html code of the website
         soup = BeautifulSoup(req.content, 'html.parser')
-        cont = True
-        blank = soup.find('td', attrs={'class': 'asaklsfalksfja'})
 
-        i = 0
+        #getting the first instance of a school name (the away team)
+        school_box = soup.find('td', attrs={'class': 'boldtext', 'width': '40%'})
+        #only the name of the school, none of the tags
+        awayTeam = str(school_box)[48:-5]
+        if awayTeam is teamName:
+            homeOAway = 3
+        else:
+            homeOAway = 1
+        #getting all of the boxes that contain the play by play score
         all_boxes = soup.findAll('td', attrs={'class': 'smtext'})
+
         for name_box in all_boxes:
-            #name_box = soup.find('td', attrs={'class': 'smtext'})
-            empty = ''
-            nextText = str(name_box)[19:]
-            if nextText[0] is not '<' and nextText[5] is not '=':
-                fullText = fullText + nextText[:-5] + '\n'
+            if homeOAway % 3 is 0:
+                nextText = str(name_box)[19:]
+                if nextText[0] is not '<' and nextText[5] is not '=':
+                    fullText = fullText + nextText + '\n'
+            homeOAway+=1
+        print(fullText)
 
     f= open("./../interdata/scraperaw.txt","w+")
     for line in fullText:
