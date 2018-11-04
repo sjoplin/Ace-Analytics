@@ -28,36 +28,52 @@ while line:
     #print(words)
     #
 
-    num = 0
-    for each in potOutcome:
+    num1 = 0
+    for each in words:
 
-        if (each in words):
+        if (each in potOutcome):
             #print(words)
-            temp = words[words.index(each)]
-            names.append(words[0].lower())
-            results.append(temp.lower())
+            if (num1 == 0):
+                #temp = words[words.index(each)]
+                names.append(words[0].lower())
+                results.append(each.lower())
+                num1 = 1
 
-            num = 0;
 
-            newlines = []
-            for each in words:
-                newlines.append(each.strip(','))
-            words = newlines
-            #print(words)
+                num = 0;
 
-            for each in words:
-                if (num == 0):
-                    if (each in direction):
-                        #print(words)
-                        #if (num == 0):
+                newlines = []
+                for each in words:
+                    newlines.append(each.strip(','))
+                words = newlines
 
-                        #print(each)
-                        count += 1
+
+                newlines = []
+                for each in words:
+                    newlines.append(each.strip('.\n'))
+                words = newlines
+                print(words)
+
+                for each in words:
+                    if (num == 0):
+                        if (each in direction):
+                            #print(each)
+                            #print(words)
+                            if (num == 0):
+
+                                #print(each)
+                                count += 1
+                                        #print(count)
+                                #temp2 = words[words.index(each)]
+                                #print(temp2)
+                                area.append(each.lower())
+                                #print(area)
+
+                                num = 1
                                 #print(count)
-                        temp2 = words[words.index(each)]
-                        area.append(temp2.lower())
 
-                        num = 1
+                                #print(count)
+
 
 
 
