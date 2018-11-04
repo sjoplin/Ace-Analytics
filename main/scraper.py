@@ -2,7 +2,7 @@
 import urllib
 from bs4 import BeautifulSoup
 import requests
-from createSampledata import generateStats
+from createSampledata import generateStats, getPlayerStats
 # specify the url
 
 def main():
@@ -79,12 +79,12 @@ def singleurlscrape(teamName, teamhomepage):
 
     for i in range(10):
         finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames-i-1]))[:]))
+    getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
     scrape(teamName, finalURLS)
 
 
 
 def getFinalURL(gameurl):
-
     quote_page = gameurl
     hdr = { 'Moneyball' : 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36' }
     session = requests.Session()
