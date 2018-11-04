@@ -26,6 +26,8 @@ def scrape(teamName, list_urls):
         school_box = soup.find('td', attrs={'class': 'boldtext', 'width': '40%'})
         #only the name of the school, none of the tags
         awayTeam = str(school_box)[48:-5]
+        awayTeam = "".join(awayTeam.split())
+        teamName = "".join(awayTeam.split())
         if awayTeam is teamName:
             homeOAway = 3
         else:

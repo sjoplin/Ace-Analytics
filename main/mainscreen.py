@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLineEdit, QLabel, QHBoxLayout
 
-#from scraper import scrape
+from scraper import scrape
 
 def main():
     app = QApplication([])
@@ -32,7 +32,7 @@ def execute(teamButton, urlButtons):
     urlList = []
     for bttn in urlButtons:
         urlList.append(bttn.text())
-    #scrape(desiredTeam, urlList)
+    scrape(desiredTeam, urlList)
 
 
 
