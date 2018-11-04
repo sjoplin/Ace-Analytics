@@ -10,7 +10,7 @@ def main():
     #scrape('Georgia Tech', list_urls)
     singleurlscrape('Florida St.', 'http://stats.ncaa.org/teams/312381')
 
-def scrape(teamName, list_urls):
+def scrape(data, teamName, list_urls):
     fullText = ''
 
     for url in list_urls:
@@ -51,7 +51,7 @@ def scrape(teamName, list_urls):
     for line in fullText:
         f.write(line)
     f.close()
-    generateStats()
+    generateStats(data)
 
 
 
@@ -79,8 +79,8 @@ def singleurlscrape(teamName, teamhomepage):
 
     for i in range(10):
         finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames-i-1]))[:]))
-    getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
-    scrape(teamName, finalURLS)
+    data = getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
+    scrape(data, teamName, finalURLS)
 
 
 
