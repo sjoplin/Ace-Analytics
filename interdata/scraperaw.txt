@@ -161,7 +161,6 @@ Holmgren to lf.
 Martin to rf.
 Pickett,B homered to left center, 3 RBI, unearned: Ramsey,K scored, unearned: Murray,L scored, unearned.
 Hearn to p.
-/  for Romero.
 Goodman,Z singled to center field, out at second cf to ss to 2b.
 Delamora,B pinch hit for Parkinson,S.
 Delamora,B reached on a throwing error by 3b.
@@ -344,3 +343,4 @@ Ziemba singled, bunt (0-0).
 Wood pinch hit for Narron.
 Wood struck out swinging (3-2 FBBFBS).
 King lined out to 1b (0-0).
+
