@@ -1,5 +1,5 @@
 # import libraries
-import urllib2
+import urllib
 from bs4 import BeautifulSoup
 import requests
 # specify the url
