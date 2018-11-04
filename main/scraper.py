@@ -2,6 +2,7 @@
 import urllib
 from bs4 import BeautifulSoup
 import requests
+from createSampledata import generateStats
 # specify the url
 
 def main():
@@ -50,6 +51,9 @@ def scrape(teamName, list_urls):
     for line in fullText:
         f.write(line)
     f.close()
+    generateStats()
+
+
 
 def singleurlscrape(teamName, teamhomepage):
     quote_page = teamhomepage

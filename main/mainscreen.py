@@ -3,6 +3,9 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLi
 from scraper import singleurlscrape
 
 def main():
+    launch()
+
+def launch():
     app = QApplication([])
     window = QWidget()
     layout = QVBoxLayout()
