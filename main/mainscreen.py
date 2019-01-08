@@ -1,9 +1,11 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLineEdit, QLabel, QHBoxLayout
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLineEdit, QLabel
 
 from scraper import singleurlscrape
 
+
 def main():
     launch()
+
 
 def launch():
     app = QApplication([])
@@ -33,8 +35,6 @@ def execute(teamButton, button):
     desiredTeam = teamButton.text()
     url = button.text()
     singleurlscrape(desiredTeam, url)
-
-
 
 
 if __name__ == "__main__":

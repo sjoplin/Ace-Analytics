@@ -1,354 +1,369 @@
-SORGI,A. lined out to 3b (1-1 BF).
-DEES struck out swinging (2-2 KBFFBFS).
-SEARLE popped up to 1b (0-1 S).
-HOLCOMB flied out to lf (1-2 FKFB).
-SIMMONS fouled out to 3b (1-2 FSB).
-PARKER,K. grounded out to 1b unassisted (2-1 FBB).
-FORSHEY struck out swinging (1-2 FKBS).
-GONZALEZ struck out swinging, out at first c to 1b (0-2 KKS).
-BLEVINS grounded out to 3b (1-2 BSF).
-SORGI,A. out at first p to 2b (1-1 SB).
-DEES struck out swinging (2-2 KFBBS).
-SEARLE struck out swinging (3-2 BBKSBFFS).
-RICE, B. to c for ALVAREZ, N..
-HOLCOMB grounded out to ss (1-1 BF).
-SIMMONS popped up to 2b (1-0 B).
-PARKER,K. walked (3-1 FBBBB).
-FORSHEY flied out to rf (1-2 SKB).
-GONZALEZ struck out looking (0-2 SSK).
-BLEVINS grounded out to 3b (2-2 FBBS).
-SORGI,A. grounded out to 1b unassisted (0-1 K).
-DEES fouled out to 1b (0-0).
-SEARLE singled up the middle (2-2 BBKF).
-HOLCOMB struck out swinging (2-2 KBBSS).
-SIMMONS fouled out to 3b (0-0).
-SORGI,A. fouled out to c (0-0).
-DEES struck out swinging (1-2 KBFS).
-SEARLE singled to shortstop (2-1 BFB).
-HOLCOMB fouled out to c (3-2 BBKFB).
-SIMMONS struck out swinging (2-2 BFBFS).
-PARKER,K. struck out swinging (2-2 FBFBS).
-NATHAM popped up to ss (2-2 KFBBF).
-GONZALEZ popped up to 3b (1-0 B).
-HAMM struck out swinging (1-2 SBSS).
-SORGI,A. popped up to ss (0-1 S).
-ALVAREZ, N. to c for HOLLAND, A..
-DEES hit by pitch (0-1 K).
-DEES advanced to second on a wild pitch.
-SEARLE grounded out to 3b (3-2 BFBFBF).
-HOLCOMB doubled to right center, RBI (0-1 K)3a DEES scored.
-SIMMONS walked (3-2 FBFBFBFFB).
-BLEVINS pinch ran for SIMMONS.
-PARKER,K. singled to center field (2-2 FFBBF)3a BLEVINS advanced to second3a HOLCOMB advanced to third.
-MEEKS, K. to p for MCCRADY, M..
-NATHAM reached on a fielder's choice (0-0)3a PARKER,K. advanced to second3a BLEVINS advanced to third3a HOLCOMB out at home ss to c.
-SORGI,N. pinch hit for GONZALEZ.
-SORGI,N. grounded out to ss (2-2 KBFB).
-HAMM out at first 3b to 2b, bunt (0-0).
-SORGI,A. singled up the middle (0-1 F).
-DEES popped up to 2b (2-2 BSBF).
-SEARLE reached on a fielding error by 3b (0-0)3a SORGI,A. advanced to second.
-HOLCOMB fouled out to lf (0-0).
-SIMMONS grounded out to 3b (0-0).
-PARKER,K. doubled to left center (0-0).
-WHEELER pinch ran for PARKER,K..
-NATHAM grounded out to 3b (2-1 BBS).
-GONZALEZ flied out to cf (0-2 KF).
-HERDER pinch hit for HAMM.
-HERDER singled to left field (0-0).
-HAMM to lf for HERDER.
-STIENE, D. to p for MEEKS, K..
-SORGI,A. reached on a fielder's choice (1-2 BFK)3a HAMM out at second ss to 2b.
-SORGI,A. advanced to second on a wild pitch.
-DEES popped up to p (2-2 SFBFFB).
-SEARLE popped up to 2b (1-0 B).
-SORGI,A. singled to third base (1-0 B).
-SORGI,A. advanced to second on a passed ball.
-DEES reached on a throwing error by p, advanced to second on the throw, SAC, bunt (1-0 B)3a SORGI,A. scored, unearned.
-SEARLE struck out looking (3-2 FBBSFBK).
-DEES advanced to third on a passed ball.
-HOLCOMB flied into double play lf to c (3-1 FBBB)3a DEES out on the play.
-SIMMONS struck out swinging (1-2 KBFS).
-PARKER,K. doubled down the rf line (0-0).
-HAMM pinch ran for PARKER,K..
-NATHAM struck out swinging (1-2 FBFFS).
-GONZALEZ fouled out to 1b (2-2 SBFB).
-BLEVINS struck out looking (2-2 FBFBK).
-SORGI,A. struck out looking (2-2 KBFBFK).
-DEES popped up to p (2-1 SBB).
-SEARLE fouled out to 1b (3-2 FBFBBFF).
-HOLCOMB doubled to left field (1-2 BFKF).
-SIMMONS flied out to rf (0-2 FKFF).
-PARKER,K. grounded out to 3b (3-2 BBBKK).
-NATHAM popped up to ss (0-0).
-GONZALEZ popped up to 2b (1-0 B).
-BLEVINS grounded out to 3b (0-1 K).
-SORGI,A. reached on a fielding error by 3b (0-0).
-DEES out at first 1b to 2b, SAC, bunt (1-0 B)3a SORGI,A. advanced to second.
-SEARLE doubled to left center, RBI (1-1 FB)3a SORGI,A. scored, unearned.
-HOLCOMB struck out looking (1-2 KBFK).
-SIMMONS struck out swinging (1-2 FSBFS).
-PARKER,K. singled to center field (1-2 FBF).
-NATHAM out at first 1b to 2b, SAC, bunt (0-0)3a PARKER,K. advanced to second.
-GONZALEZ singled to second base (0-2 SS)3a PARKER,K. advanced to third.
-WHEELER pinch ran for PARKER,K..
-BLEVINS intentionally walked (3-0 BBBB)3a GONZALEZ advanced to second.
-SORGI,A. reached on a fielder's choice (1-2 BFF)3a BLEVINS advanced to second3a GONZALEZ advanced to third3a WHEELER out at home p to c.
-DEES walked, RBI (3-0 BBBB)3a SORGI,A. advanced to second3a BLEVINS advanced to third3a GONZALEZ scored.
-SORGI,A. grounded out to 2b (1-0 B).
-DEES doubled down the lf line (3-2 FBBFB).
-SEARLE fouled out to 1b (0-1 F).
-HOLCOMB reached on a fielding error by 1b (0-0)3a DEES advanced to third.
-SIMMONS flied out to rf (1-0 B).
-NATHAM flied out to cf to left center (0-2 KK).
-EVERETT struck out swinging (3-2 BBKKBS).
-GONZALEZ grounded out to 2b (0-0).
-BLEVINS grounded out to 2b (0-0).
-SORGI,A. out at first c to 2b, bunt (0-0).
-DEES struck out swinging (1-2 KSBS).
-SEARLE grounded out to ss (0-2 KFF).
-HOLCOMB popped up to 3b (0-0).
-SIMMONS flied out to cf (2-1 BFB).
-HUGHES to p for RUSSELL.
-NATHAM struck out swinging (2-2 KFBBFFS).
-EVERETT walked (3-1 BBFBB).
-GONZALEZ reached on a fielder's choice (2-0 BB)3a EVERETT out at second 2b to ss.
-GONZALEZ advanced to second on a passed ball.
-BLEVINS out at first 3b to 2b, bunt (1-0 B).
-SORGI,A. singled to shortstop (3-2 BFBBF).
-DEES hit by pitch (0-0)3a SORGI,A. advanced to second.
-HERDER pinch hit for SEARLE.
-HERDER singled to left field (2-0 BB)3a DEES advanced to second3a SORGI,A. advanced to third.
-HERDER advanced to second on a wild pitch3a DEES advanced to third3a SORGI,A. scored.
-HOLCOMB walked (3-1 KBBBB).
-KENNAW to p.
-/  for HUGHES.
-SIMMONS singled to left field, RBI (1-1 BF)3a HOLCOMB advanced to second3a HERDER out at third lf to 3b3a DEES scored.
-NATHAM singled to center field (1-2 BFF)3a SIMMONS advanced to second3a HOLCOMB advanced to third.
-EVERETT flied out to 1b (2-2 KFBBF).
-GONZALEZ flied out to cf (0-0).
-BLEVINS reached on a fielding error by 3b (2-2 BFBK).
-KENNAW to dp.
-SHARP to p.
-BLEVINS stole second.
-SORGI,A. reached on a fielding error by ss (1-2 KSB).
-DEES struck out swinging (1-2 KSBS).
-SEARLE doubled to right field, RBI (0-0)3a SORGI,A. advanced to third3a BLEVINS scored, unearned.
-HOLCOMB flied out to rf, SF, RBI (0-0)3a SEARLE advanced to third3a SORGI,A. scored, unearned.
-SIMMONS grounded out to 2b (0-0).
-SORGI,A. grounded out to 2b (2-2 BBKFF).
-DEES walked (3-2 BFKBFBFB).
-SEARLE struck out swinging (2-2 KBFBS).
-HOLCOMB grounded out to 2b (0-0).
-LUTHER to 1b for SBORLINI.
-SIMMONS singled down the lf line (0-0).
-HAMM pinch ran for SIMMONS.
-PARKER,K. doubled to center field (3-2 BFBFFBF)3a HAMM advanced to third.
-WHEELER pinch ran for PARKER,K..
-GONZALEZ struck out swinging (0-2 SSS).
-NATHAM singled to center field, RBI (2-0 BB)3a WHEELER advanced to third3a HAMM scored.
-BLEVINS struck out swinging (2-2 SFBBFS).
-SORGI,A. popped up to 3b (1-2 FBFF).
-SPEERS to ss for ANDERSON.
-DEES grounded out to p (1-0 B).
-SEARLE grounded out to 1b unassisted (0-2 FK).
-HOLCOMB singled up the middle (1-0 B).
-SIMMONS homered to left field, 2 RBI (2-1 FBB)3a HOLCOMB scored.
-PARKER,K. flied out to rf (0-1 K).
-GONZALEZ grounded out to 3b (1-0 B).
-NATHAM grounded out to ss (1-1 BF).
-BLEVINS singled to left field (0-0).
-SORGI,A. grounded out to c unassisted (1-1 FB).
-BaBROWNFIELD to 3b for TAUBE.
-DEES grounded out to 3b (0-0).
-SEARLE singled to right center (0-0).
-HOLCOMB singled to right field (1-2 FFFBF)3a SEARLE advanced to third.
-HOLCOMB stole second.
-SIMMONS flied out to rf (3-2 BBFBKFFF).
-PARKER,K. struck out swinging (3-2 FFBBBS).
-SELLE to c for VODAN.
-EVERETT pinch hit for GONZALEZ.
-EVERETT struck out swinging (1-2 FFBS).
-NATHAM grounded out to p (3-2 FKBFBB).
-BLEVINS struck out swinging (0-2 SFS).
-SORGI,A. grounded out to ss (1-1 SB).
-DEES struck out looking (1-2 BKFK).
-SEARLE walked (3-2 BBFKBFFB).
-HOLCOMB lined out to cf (1-2 SFB).
-SORGI,A. singled to catcher, bunt (2-0 BB).
-DEES fouled out to c, bunt (1-0 B).
-SEARLE grounded into double play p to ss to 1b (1-0 B)3a SORGI,A. out on the play.
-HOLCOMB singled through the left side (1-0 B).
-SIMMONS flied out to rf down the rf line (1-2 KFFB).
-PARKER,K. popped up to 3b (0-0).
-NATHAM flied out to cf (2-2 BKFBF).
-GONZALEZ walked (3-0 BBBB).
-BLEVINS grounded out to c unassisted (0-0).
-SORGI,A. singled to left field (1-0 B)3a GONZALEZ advanced to second.
-DEES flied out to cf (2-1 FBB).
-SEARLE fouled out to 2b (2-1 BFB).
-HOLCOMB singled through the left side (3-2 BBKFFB).
-SIMMONS singled through the left side (0-0)3a HOLCOMB advanced to second.
-HAMM pinch ran for SIMMONS.
-HAMM advanced to second3a HOLCOMB advanced to third on a wild pitch.
-PARKER,K. flied out to cf (2-1 BKB).
-NATHAM singled to third base, RBI (3-2 BFBBK)3a HAMM advanced to third3a HOLCOMB scored.
-WHEELER pinch ran for NATHAM.
-GONZALEZ walked (3-2 BFFBFBFFB)3a WHEELER advanced to second.
-BLEVINS lined out to ss (3-2 FBKFBFB).
-SORGI,A. grounded out to c unassisted (1-2 FFB).
-BRANCIFORT to 1b for ANDERSON.
-DEES flied out to cf to right center (1-1 BF).
-SEARLE flied out to lf (0-0).
-HOLCOMB flied out to lf (1-0 B).
-SPEERS to ss for TAUBE.
-BaBROWNFIELD to 3b for SBORLINI.
-SIMMONS doubled to left field (2-0 BB).
-PARKER,K. reached on a fielding error by p, SAC, bunt (0-0)3a SIMMONS advanced to third.
-HERDER pinch ran for PARKER,K..
-NATHAM to dp for WHEELER.
-NATHAM lined into double play 3b unassisted (0-1 K)3a SIMMONS out on the play.
-GONZALEZ flied out to lf to left center (0-0).
-SCOARSTE to 2b for MILLER.
-SELLE to c for VODAN.
-BLEVINS grounded out to ss (1-0 B).
-SORGI,A. flied out to lf (0-0).
-DEES singled down the rf line (0-1 K).
-SEARLE singled to shortstop (1-0 B)3a DEES advanced to third.
-HOLCOMB lined out to 3b (0-0).
-SORGI,A. grounded out to 3b (3-1 BBBK).
-DEES hit by pitch (2-0 BB).
-SEARLE grounded out to ss (0-2 KFF)3a DEES advanced to second.
-HOLCOMB popped up to 3b (1-0 B).
-SIMMONS flied out to rf (3-2 KBBFFFBFFFF).
-PARKER,K. fouled out to 3b (0-2 FF).
-GONZALEZ singled to center field (3-2 BFBFFFBF).
-NATHAM struck out swinging (2-2 BFBFS).
-BLEVINS struck out swinging (3-2 FBFBFBS).
-SORGI,A. grounded out to p (2-2 KFBB).
-DEES singled through the left side (0-0).
-SEARLE grounded out to 3b (0-0).
-HOLCOMB grounded out to 3b (1-1 FB).
-SIMMONS singled to shortstop (1-2 FBFF).
-PARKER,K. reached on a fielder's choice (2-0 BB)3a SIMMONS out at second ss to 2b.
-GONZALEZ walked (3-2 FBBKFBB)3a PARKER,K. advanced to second.
-NATHAM lined out to cf (1-2 KFB).
-SPEERS to ss for ANDERSON.
-BaBROWNFIELD to 3b for SBORLINI.
-BLEVINS grounded out to 3b (3-2 FFBBFBF).
-SORGI,A. grounded out to p (1-1 BF).
-DEES grounded out to 3b (2-2 KBKB).
-SCOARSTE to 2b for MILLER.
-SEARLE grounded out to 2b (1-2 BFF).
-HOLCOMB struck out swinging (2-2 BFBFFS).
-SIMMONS fouled out to 3b (0-0).
-SELLE to c for BRANCIFORT.
-PARKER,K. lined out to 3b (0-1 S).
-GONZALEZ struck out swinging (2-2 FBBSS).
-NATHAM reached on a fielding error by ss (0-0).
-HAMM pinch ran for NATHAM.
-BLEVINS walked (3-2 BSFFFBFBFFFB)3a HAMM advanced to second.
-SORGI,A. grounded out to c unassisted (0-2 FF).
-SORGI,A. grounded out to c unassisted (1-2 FBFF).
-DEES singled to left center (1-2 BFK).
-SEARLE popped up to 1b (2-1 FBB).
-HOLCOMB struck out looking (1-2 FFFBK).
-SIMMONS grounded out to ss (2-2 BKBK).
-PARKER,K. singled to left field (3-2 BBKBKF).
-GONZALEZ reached on a fielder's choice to second base (0-0)3a PARKER,K. out at second 2b to ss.
-NATHAM singled down the lf line (0-0)3a GONZALEZ advanced to second.
-BLEVINS grounded out to 3b, bunt (3-1 BBSB)3a NATHAM advanced to second3a GONZALEZ advanced to third.
-SORGI,A. grounded out to 3b (0-1 K).
-DEES grounded out to 3b (1-0 B).
-SEARLE singled up the middle (2-1 BKB).
-HOLCOMB grounded out to 3b (2-2 BFBSF).
-SIMMONS struck out swinging (2-2 BFBSS).
-PARKER,K. popped up to 2b (1-2 KKB).
-GONZALEZ grounded out to ss (2-2 BFBF).
-NATHAM grounded out to p (1-1 BK).
-BLEVINS singled to shortstop (3-1 BFBB).
-SORGI,A. grounded out to c unassisted (3-2 BBFSB).
-DEES struck out swinging (2-2 BKBKFS).
-SEARLE lined out to p (2-2 KBKB).
-HOLCOMB struck out looking (2-2 FBBKK).
-SIMMONS out at first 1b to 2b (2-2 BKKBFFF).
-Heide to c for White.
-PARKER,K. struck out swinging (1-2 KSBS).
-EVERETT pinch hit for GONZALEZ.
-EVERETT out at first p to 2b (1-1 SB).
-NATHAM popped up to 2b (2-0 BB).
-SORGI,A. walked (3-2 BFBBFB).
-SORGI,A. stole second.
-DEES walked (3-2 FFFBFBFBB).
-SORGI,A. stole third.
-DEES stole second.
-SEARLE tripled down the lf line, 2 RBI (3-2 BFFFBFB)3a DEES scored3a SORGI,A. scored.
-HOLCOMB fouled out to lf, SF, RBI (1-2 KBKFF)3a SEARLE scored.
-PARKER,K. grounded out to 2b (1-0 B).
-EVERETT lined out to 2b (1-1 KB).
-GONZALEZ grounded out to ss (2-2 FBFB).
-NATHAM grounded out to ss (3-2 BBBKK).
-WHEELER hit by pitch (0-0).
-SORGI,A. grounded out to 3b (0-2 SF).
-DEES singled up the middle (3-2 FBBFB).
-SEARLE singled to center field (1-1 BF)3a DEES advanced to second.
-HOLCOMB grounded into double play 3b to 1b (0-0)3a SEARLE advanced to second3a DEES out on the play.
-PARKER,K. hit by pitch (0-0).
-EVERETT struck out looking (1-2 BKKK).
-GONZALEZ popped up to 2b (0-2 KF).
-NATHAM singled through the left side (1-1 BK).
-WHEELER reached on a fielder's choice (1-1 BK)3a NATHAM out at second ss to 2b.
-SORGI,A. grounded out to c unassisted (0-0).
-DEES singled through the right side (0-2 KK).
-SEARLE doubled down the lf line (2-1 SBB)3a DEES advanced to third.
-HOLCOMB doubled to left field, 2 RBI (0-0)3a SEARLE scored3a DEES scored.
-L. Murphy to p.
-C. Sinclair to 1b.
-R. Glenn to dp.
-PARKER,K. hit by pitch (0-2 KK).
-EVERETT grounded out to 1b unassisted (0-2 KK)3a PARKER,K. advanced to second3a HOLCOMB advanced to third, scored on a throwing error by 1b.
-BLEVINS pinch ran for PARKER,K..
-GONZALEZ singled to center field, advanced to second on the throw, advanced to third (0-2 KF)3a BLEVINS advanced to third, scored on a throwing error by cf, unearned.
-NATHAM flied out to lf, SF, RBI (2-2 KKFFFFFFFBFB)3a GONZALEZ scored, unearned.
-SORGI,A. walked.
-DEES singled to right center; SORGI,A. advanced to second.
-SEARLE singled to center field; DEES advanced to second; SORGI,A. advanced to third.
-HOLCOMB singled to right field, 2 RBI; SEARLE advanced to second; DEES scored; SORGI,A. scored.
-HOLCOMB advanced to second on the throw; SEARLE advanced to third on the throw.
-SIMMONS struck out swinging.
-PARKER,K. flied out to cf, SF, RBI; SEARLE scored.
-GONZALEZ flied out to lf.
-EVERETT lined out to rf.
-HAMM out at first 3b to 2b.
-SORGI,A. singled to second base.
-DEES grounded out to 2b.
-SEARLE doubled to left center.
-HOLCOMB reached on an error by ss; SEARLE advanced to third.
-KMETT to p for VERTZ.
-SIMMONS doubled to left field, RBI; HOLCOMB advanced to third; SEARLE scored.
-BLEVINS pinch ran for SIMMONS.
-PARKER,K. flied out to lf, SF, RBI; BLEVINS advanced to third; HOLCOMB scored, unearned.
-GONZALEZ walked.
-EVERETT reached on a fielder's choice, RBI; GONZALEZ advanced to second; BLEVINS scored.
-JASCOE to 3b.
-GAMBONE to ss.
-HAMM popped up to 3b.
-SORGI,A. walked; EVERETT advanced to second; GONZALEZ advanced to third.
-DEES singled up the middle, RBI; SORGI,A. advanced to second; EVERETT advanced to third; GONZALEZ scored.
-SEARLE lined out to 3b.
-HOLCOMB flied out to rf.
-SIMMONS flied out to cf.
-PARKER,K. grounded out to 1b unassisted.
-GONZALEZ doubled to right field.
-EVERETT grounded out to ss; GONZALEZ advanced to third.
-SORGI,N. pinch hit for HAMM.
-SORGI,N. grounded out to 3b.
-SORGI,A. grounded out to 2b.
-DEES grounded out to ss.
-SEARLE struck out swinging.
-HOLCOMB grounded out to 3b.
-SIMMONS struck out swinging, out at first c to 1b.
-PARKER,K. reached on an error by 3b.
-WHEELER pinch ran for PARKER,K..
-GONZALEZ struck out swinging; WHEELER advanced to second on a wild pitch.
-EVERETT popped up to ss.
+Goodman,Z to dp.
+DeBerry,D to lf.
+Sonnon, D struck out looking (3-2 BKBFBK).
+Stanford, C doubled to left field (1-2 BKK).
+Krzus, K lined out to rf (0-2 KK).
+Stanford, C advanced to third on a passed ball.
+Prairie, R grounded out to ss (3-1 BFBB).
+Huckabay, C singled to center field (1-1 BK).
+Hooper, L walked (3-0 BBBB)3a Huckabay, C advanced to second.
+Ellebracht struck out looking (3-2 BKBBKK).
+Bell, M flied out to cf (1-1 BF).
+Chisholm, K grounded out to ss (2-2 BKSB).
+Delamora,B to 3b for West,B.
+Sonnon, D walked (3-1 BBFBB).
+Stanford, C singled to third base (2-2 BKBF)3a Sonnon, D advanced to second.
+Krzus, K singled to center field, RBI (0-2 KFF)3a Stanford, C advanced to second3a Sonnon, D scored.
+Prairie, R struck out looking (0-2 FFK).
+Huckabay, C flied out to lf (1-2 BKF).
+Hooper, L flied out to lf (1-1 FB).
+Goodman,Z to dp for Parkinson,S.
+Ellebracht struck out swinging (1-2 KBFFS).
+Bell, M flied out to rf (2-1 BFB).
+Chisholm, K flied out to ss (2-2 KKBB).
+Shifflett,K to 2b for Cole,H.
+Sonnon, D lined out to ss (0-0).
+Stanford, C struck out looking (3-2 BBKBFK).
+Krzus, K flied out to rf (0-0).
+Prairie, R grounded out to p (1-1 BF).
+Huckabay, C lined out to lf (3-2 BBKKFFB).
+Hooper, L struck out swinging (1-2 KFBS).
+Roper, B flied out to cf (0-1 K).
+Bell, M popped up to p (0-1 K).
+Chisholm, K hit by pitch (0-0).
+Sonnon, D walked (3-0 BBBB)3a Chisholm, K advanced to second.
+Webb, S pinch ran for Chisholm, K.
+Stanford, C struck out swinging (0-2 KKS).
+Sonnon, D singled through the left side (1-1).
+Stanford, C walked (3-1)3a Sonnon, D advanced to second.
+Krzus, K struck out swinging (2-2).
+Huckabay, C struck out swinging (3-2).
+Roper, B grounded out to 3b (1-2).
+Hooper, L walked (3-0).
+Ellebracht singled to center field (3-2)3a Hooper, L advanced to third.
+Ellebracht stole second.
+Bell, M flied out to rf, SF, RBI (2-2)3a Ellebracht advanced to third3a Hooper, L scored.
+Chisholm, K lined out to ss (1-2).
+Sonnon, D struck out swinging (1-2).
+Stanford, C walked (3-2).
+Krzus, K reached on a fielder's choice (0-2)3a Stanford, C advanced to second.
+Huckabay, C reached on a fielder's choice (2-1)3a Krzus, K advanced to second on a fielding error by 2b3a Stanford, C advanced to third.
+Roper, B homered to right field, 4 RBI (1-2)3a Huckabay, C scored3a Krzus, K scored, unearned3a Stanford, C scored.
+Dreswick to p for Frei.
+Hooper, L struck out swinging (1-2).
+Ellebracht reached on a fielding error by ss (1-1).
+Bell, M struck out swinging (0-2).
+Chisholm, K hit by pitch (0-0)3a Ellebracht advanced to second.
+Sonnon, D struck out swinging (3-2).
+Stanford, C struck out swinging (1-2).
+Krzus, K grounded out to 3b (0-1).
+Huckabay, C singled through the left side (1-1).
+Roper, B struck out swinging (2-2).
+Mora, B pinch hit for Hooper, L.
+Mora, B struck out swinging (0-2).
+Ellebracht doubled to right field (2-2).
+von Behren pinch ran for Ellebracht.
+Dropped foul ball, E3F.
+Bell, M flied out to rf (0-0)3a von Behren advanced to third.
+Chisholm, K popped up to p (0-1).
+Sonnon, D singled to left field (0-0).
+Stanford, C out at first 1b to 2b, SAC (0-1)3a Sonnon, D advanced to second.
+Sonnon, D advanced to third on a passed ball.
+Krzus, K walked (3-2).
+Huckabay, C doubled to center field, RBI (2-2)3a Krzus, K advanced to third3a Sonnon, D scored.
+Webb, S pinch ran for Huckabay, C.
+Roper, B struck out swinging (2-2).
+Hooper, L popped up to c (0-0).
+Ellebracht flied out to lf (2-1).
+Bell, M fouled out to lf (0-2).
+Chisholm, K popped up to ss (2-2).
+Sonnon, D struck out looking (3-2).
+Stanford, C walked (3-0).
+Krzus, K fouled out to 3b (0-2).
+Huckabay, C struck out swinging (0-2).
+Roper, B walked (3-2).
+Ellebracht hit by pitch (0-0)3a Roper, B advanced to second.
+Hooper, L out at first 1b to 2b, SAC (0-0)3a Ellebracht advanced to second3a Roper, B advanced to third.
+Bell, M popped up to ss (0-0).
+Chisholm, K fouled out to c (0-1).
+Sonnon, D singled, bunt (2-2).
+Stanford, C out at first 2b to ss, reached on a fielder's choice (2-2)3a Sonnon, D out on the play.
+Krzus, K singled to center field (1-1)3a Stanford, C advanced to second.
+Huckabay, C struck out looking (3-2).
+Roper, B walked (3-2)3a Krzus, K advanced to second3a Stanford, C advanced to third.
+Ellebracht grounded out to ss (2-2).
+Hooper, L popped up to 1b (0-0).
+Bell, M flied out to lf (2-2).
+Chisholm, K popped up to ss (2-2).
+Sonnon, D lined out to lf (0-0).
+Stanford, C walked (3-1).
+Krzus, K fouled out to 3b (2-1).
+Huckabay, C popped up to 2b (0-2).
+Roper, B walked (3-2).
+Ellebracht popped up to ss (0-2).
+Pye, S pinch hit for Hooper, L.
+Pye, S reached on a fielder's choice (0-0)3a Roper, B advanced to second on a fielding error by 2b.
+Bell, M flied out to rf (0-1)3a Roper, B advanced to third.
+Chisholm, K homered to left field, 3 RBI, unearned (2-2)3a Pye, S scored, unearned3a Roper, B scored, unearned.
+Sonnon, D flied out to cf (1-2).
+Stanford, C walked (3-1).
+Webb, S pinch ran for Stanford, C.
+Krzus, K out at first ss to 2b, reached on a fielder's choice (0-2)3a Webb, S out on the play.
+Huckabay, C popped up to ss (1-1).
+Roper, B grounded out to 3b (0-1).
+Sonnon, D walked (3-2).
+Stanford, C homered to center field, 2 RBI (1-1)3a Sonnon, D scored.
+Krzus, K struck out swinging (1-2).
+Huckabay, C struck out swinging (1-2).
+Prairie, R struck out swinging (2-2).
+Hooper, L hit by pitch (1-2).
+Roper, B struck out looking (3-2).
+Bell, M popped up to ss (0-1).
+Chisholm, K flied out to rf (1-1).
+Sonnon, D flied out to cf (2-2).
+Stanford, C struck out swinging (2-2).
+Krzus, K struck out swinging (2-2).
+Huckabay, C walked (3-1).
+Prairie, R flied out to rf (0-1).
+Hooper, L walked (3-1)3a Huckabay, C advanced to second.
+Roper, B singled to shortstop, advanced to third on an error by cf, RBI (0-2)3a Hooper, L advanced to third, scored on an error by cf3a Huckabay, C scored.
+Bell, M popped up to 1b (0-2).
+Chisholm, K singled down the lf line, RBI (3-1)3a Roper, B scored.
+Sonnon, D singled up the middle (3-2)3a Chisholm, K advanced to second.
+Stanford, C grounded out to 3b unassisted, reached on a fielder's choice (0-2)3a Sonnon, D advanced to second3a Chisholm, K out on the play.
+Dreswick to p for Frei.
+Krzus, K hit by pitch (0-2).
+Huckabay, C struck out looking (1-2).
+Prairie, R struck out swinging (0-2).
+Hooper, L struck out looking (1-2).
+Severini to 2b.
+Roper, B struck out swinging (1-2).
+Bell, M homered, RBI (0-1).
+Chisholm, K struck out swinging (2-2).
+Sonnon, D struck out looking (1-2).
+Stanford, C grounded out to 1b unassisted (2-2).
+Krzus, K grounded out to ss (2-2).
+Huckabay, C flied out to lf (3-2).
+Chimento to c for Belinskas.
+Prairie, R struck out looking (0-2).
+Hooper, L struck out swinging (0-2).
+Roper, B singled to left field (1-2).
+Bell, M popped up to ss (0-0).
+Chisholm, K struck out swinging (2-2).
+Sonnon, D popped up to ss (0-0).
+Stanford, C grounded out to ss (1-1).
+Krzus, K grounded out to 3b (2-2).
+Huckabay, C fouled out to 1b (1-2).
+Prairie, R flied out to rf (1-2).
+Sonnon, D struck out swinging (3-2).
+Stanford, C struck out swinging (2-2).
+Krzus, K hit by pitch (2-1).
+Huckabay, C struck out swinging (2-2).
+Prairie, R grounded out to 1b unassisted (1-2).
+Hooper, L hit by pitch (3-2).
+Roper, B popped up to ss (1-1).
+Chisholm, K popped up to 2b (3-2).
+Bell, M struck out swinging (1-2).
+Sonnon, D walked (3-1).
+Stanford, C struck out swinging (1-2); Sonnon, D stole second.
+Krzus, K walked (3-1).
+Krzus, K advanced to second on a wild pitch; Sonnon, D advanced to third on a wild pitch.
+Huckabay, C walked (3-2); Krzus, K advanced to third on a wild pitch; Sonnon, D scored on a wild pitch.
+Eberle, C. to p.
+/  for Dail, J..
+Prairie, R struck out swinging (3-2).
+Nolan, C. to ss for Metz, W..
+Hooper, L grounded out to ss (3-2).
+Roper, B fouled out to 3b (0-0).
+Chisholm, K struck out looking (2-2).
+Bell, M grounded out to ss (1-2).
+Sonnon, D walked (3-2).
+Stanford, C struck out swinging (3-2); Sonnon, D stole second.
+Krzus, K walked (3-2).
+Huckabay, C walked (3-2); Krzus, K advanced to second; Sonnon, D advanced to third.
+Prairie, R singled up the middle, 2 RBI (1-1); Huckabay, C advanced to third; Krzus, K scored; Sonnon, D scored.
+Hooper, L grounded out to ss (3-2).
+Trull, D. to lf for Jones, H..
+Roper, B grounded out to p (2-1).
+Chadwick, K pinch hit for Chisholm, K.
+Chadwick, K walked (3-0).
+Stavro, S pinch ran for Chadwick, K.
+Bell, M reached on a fielder's choice (3-2); Stavro, S out at second p to 2b.
+Webb, S pinch ran for Bell, M.
+Chisholm, K to ss for Stavro, S.
+Sonnon, D grounded out to ss (2-1).
+Sonnon, D grounded out to 1b unassisted (1-2).
+Stanford, C struck out looking (2-2).
+Krzus, K popped up to ss (0-1).
+Huckabay, C struck out swinging (1-2).
+Prairie, R struck out swinging (1-2).
+Hooper, L popped up to ss (3-2).
+Ellebracht struck out looking (1-2).
+Chisholm, K popped up to 2b (0-0).
+Bell, M struck out swinging (1-2).
+Trull, D. to lf for Davis, C..
+Sonnon, D fouled out to 1b (0-1).
+Stanford, C doubled to right center (3-2).
+Krzus, K popped up to rf (3-2).
+Huckabay, C fouled out to ss (0-1).
+Prairie, R flied out to cf (1-1).
+Hooper, L walked (3-2).
+Ellebracht singled up the middle (1-1); Hooper, L advanced to second.
+Stavro, S pinch ran for Ellebracht.
+Chisholm, K fouled out to c (1-2).
+Bell, M grounded out to 2b (2-2).
+Sonnon, D fouled out to 3b (3-2).
+Stanford, C grounded out to 2b (1-2).
+Krzus, K struck out looking (3-2).
+Huckabay, C homered to left field, RBI (1-0).
+Prairie, R fouled out to 3b (3-2).
+Hooper, L fouled out to 1b (2-2).
+Ellebracht popped up to 1b (0-1).
+Sonnon, D singled up the middle (2-2).
+Stanford, C walked (3-2); Sonnon, D advanced to second.
+Stanford, C advanced to second on a passed ball; Sonnon, D advanced to third on a passed ball.
+Krzus, K reached on a fielder's choice (3-2); Stanford, C advanced to third; Sonnon, D out at home 2b to c.
+Huckabay, C struck out swinging (3-2).
+Prairie, R struck out looking (2-2).
+Hooper, L popped up to cf (1-1).
+Roper, B walked (3-2).
+Chisholm, K reached on a fielder's choice (1-2); Roper, B out at second 3b to 2b.
+Bell, M homered to left field, 2 RBI (1-0); Chisholm, K scored.
+Sonnon, D grounded out to 2b (1-1).
+Stanford, C singled to left field (0-0).
+Krzus, K reached on a fielding error by 2b (1-1); Stanford, C advanced to second.
+Huckabay, C walked (3-1); Krzus, K advanced to second; Stanford, C advanced to third.
+Prairie, R reached on a fielder's choice (1-0); Huckabay, C advanced to second; Krzus, K advanced to third; Stanford, C out at home p to c.
+Hooper, L lined into double play 1b unassisted (1-2); Prairie, R out on the play.
+Roper, B grounded out to ss (3-2).
+Chisholm, K grounded out to 3b (0-0).
+Bell, M grounded out to 3b (3-2).
+Eberle, C. to p for Metz, W..
+Sonnon, D struck out looking (0-2).
+Stanford, C grounded out to 3b (0-2).
+Krzus, K grounded out to 2b (3-2).
+Huckabay, C walked (3-2).
+Webb, S pinch ran for Huckabay, C.
+Trull, D. to lf for Davis, C..
+Webb, S out at second c to ss, caught stealing.
+Prairie, R doubled to right center (1-2).
+Hooper, L flied out to rf, SF, RBI (2-1); Prairie, R scored.
+Roper, B grounded out to 2b (1-1).
+Sonnon, D struck out swinging (2-2 BBKKFS).
+Stanford, C lined out to cf (2-1 BKB).
+Krzus, K doubled to right center, advanced to third on a throwing error by cf (3-2 BKBBF).
+Prairie, R struck out swinging (2-2 BBKSS).
+Huckabay, C grounded out to 2b (2-2 BBKS).
+Hooper, L lined out to 1b (1-1 KB).
+Chisholm, K struck out swinging (1-2 BKFS).
+Ellebracht grounded out to 2b (2-2 BBKF).
+Bell, M struck out swinging (2-2 BKKBFS).
+Sonnon, D walked (3-2 BKBBKB).
+Stanford, C struck out swinging (1-2 KFBS).
+Krzus, K grounded out to p (0-0).
+Prairie, R struck out swinging, out at first c to 1b (1-2 BSKS).
+Huckabay, C fouled out to 1b (1-1 BF).
+Hooper, L fouled out to 1b (1-2 KFB).
+Chisholm, K struck out looking (0-2 KFK).
+Ellebracht grounded out to 2b (1-1 BK).
+JIMMERSON, A to dp for SNIDER, A..
+CHAMBERS, L. to rf for JONES, A..
+WEAVER, H. to lf for HULL, L..
+Bell, M singled through the left side (0-0).
+Sonnon, D struck out swinging (3-2 KBFBBS).
+Stanford, C walked (3-1 BKBBB)3a Bell, M advanced to second.
+Krzus, K walked (3-0 BBBB)3a Stanford, C advanced to second3a Bell, M advanced to third.
+Prairie, R popped up to 1b (2-1 KBB).
+Huckabay, C singled up the middle, RBI (1-2 BKF)3a Krzus, K advanced to second3a Stanford, C advanced to third, out at home cf to c3a Bell, M scored.
+Hooper, L singled to third base (2-1 BBF).
+Hooper, L advanced to second on a wild pitch.
+Chisholm, K struck out looking (2-2 BBFFK).
+Mora, B pinch hit for Ellebracht.
+Mora, B lined out to 3b (3-2 BFBBF).
+Bell, M fouled out to c (0-0).
+Sonnon, D grounded out to ss (0-0).
+Stanford, C grounded out to ss (3-1 BBKB).
+Krzus, K grounded out to ss (1-0 B).
+Roper, B singled to pitcher (3-2 BKKFBB).
+Huckabay, C out at first p to 2b, SAC, bunt (1-0 B)3a Roper, B advanced to second.
+Chadwick, K pinch hit for Hooper, L.
+Chadwick, K grounded out to 3b (1-1 KB).
+Pye, S pinch hit for Chisholm, K.
+Roper, B advanced to third on a wild pitch.
+Pye, S grounded out to ss (1-0 B).
+Sonnon, D walked (3-1).
+Stanford, C fouled out to 3b (2-2).
+Krzus, K hit by pitch (1-0); Sonnon, D advanced to second.
+Prairie, R fouled out to rf (2-1); Sonnon, D advanced to third.
+Huckabay, C singled through the right side, RBI (1-2); Krzus, K advanced to second; Sonnon, D scored.
+Hooper, L doubled to right field, RBI (1-1); Huckabay, C advanced to third; Krzus, K scored.
+Chisholm, K flied out to lf (3-2).
+Ellebracht hit by pitch (2-1).
+Bell, M singled to left field (2-2); Ellebracht advanced to second.
+Webb, S pinch ran for Ellebracht.
+Sonnon, D walked (3-1); Bell, M advanced to second; Webb, S advanced to third.
+Stanford, C walked, RBI (3-1); Sonnon, D advanced to second; Bell, M advanced to third; Webb, S scored.
+Krzus, K reached on a fielder's choice (1-1); Stanford, C advanced to second; Sonnon, D advanced to third; Bell, M out at home ss to c.
+Prairie, R struck out swinging (2-2).
+Huckabay, C reached on a fielder's choice (1-2); Krzus, K advanced to second; Stanford, C out at third 3b unassisted.
+Hooper, L flied out to lf (3-2).
+Chisholm, K grounded out to 2b (1-1).
+Webb, S grounded out to ss (0-1).
+Bailiff,K to c for West,B.
+Bell, M struck out looking (0-2).
+Sonnon, D walked (3-2).
+Stanford, C flied out to cf (1-1).
+Krzus, K singled to third base (3-1); Sonnon, D advanced to second.
+Prairie, R tripled to right field, 2 RBI (2-1); Krzus, K scored; Sonnon, D scored.
+Huckabay, C walked (3-0).
+Hooper, L hit by pitch (0-0); Huckabay, C advanced to second.
+Chisholm, K flied out to cf (1-0).
+Webb, S grounded out to p (2-2).
+Bell, M walked (3-0).
+Bell, M advanced to second on a wild pitch.
+Bell, M advanced to third on a wild pitch.
+Sonnon, D walked (3-2).
+Pickett,B to p for Cole,H.
+/  for Nommensen,H.
+Stanford, C walked (3-1); Sonnon, D advanced to second.
+Krzus, K singled up the middle, RBI (0-1); Stanford, C advanced to second; Sonnon, D advanced to third; Bell, M scored.
+Prairie, R struck out looking (3-2).
+Huckabay, C lined out to 2b (0-1).
+Dray,M to 3b for Shifflett,K.
+Hooper, L flied out to cf (2-1).
+Chisholm, K grounded out to 3b (1-0).
+Webb, S struck out looking (0-2).
+Sonnon, D struck out looking (1-2).
+Stanford, C lined out to 2b (3-2).
+Krzus, K singled up the middle (1-1).
+Prairie, R walked (3-2); Krzus, K advanced to second.
+Huckabay, C flied out to lf (2-2).
+Hooper, L popped up to rf (0-1).
+Chisholm, K grounded out to ss (3-2).
+Pye, S grounded out to p (0-1).
+Webb, S grounded out to p (1-2).
+Sonnon, D homered to left field, RBI (1-2).
+Stanford, C doubled to left center (2-0).
+Krzus, K doubled to center field (1-2); Stanford, C advanced to third, out at home cf to ss to c.
+Prairie, R walked (3-2).
+Huckabay, C flied out to cf (0-1).
+Dray,M to 3b for West,B.
+Hooper, L grounded out to ss (1-1).
+Chisholm, K lined out to 2b (0-1).
+Pye, S popped up to 2b (1-1).
+Webb, S struck out swinging (3-2).
+Sonnon, D hit by pitch (0-0).
+Stanford, C reached on a fielder's choice (3-2); Sonnon, D out at second 3b to 2b.
+Krzus, K hit by pitch (0-0); Stanford, C advanced to second.
+Roper, B pinch ran for Stanford, C.
+Prairie, R singled up the middle, advanced to second on the throw, RBI (1-1); Krzus, K advanced to third; Roper, B scored.
+Huckabay, C tripled to right field, 2 RBI (1-2); Prairie, R scored; Krzus, K scored.
+Hooper, L flied out to rf (0-1).
+Chisholm, K struck out swinging (2-2).
+Ellebracht pinch hit for Pye, S.
+Ellebracht singled through the left side (1-2).
+von Behren pinch ran for Ellebracht.
+Chadwick, K pinch hit for Webb, S.
+Chadwick, K fouled out to 1b (2-2).
+Sonnon, D tripled to right field, RBI (3-2); von Behren scored.
+Stanford, C popped up to ss (1-1).

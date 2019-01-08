@@ -1,19 +1,15 @@
 # Import all libraries needed for the tutorial
 import pandas as pd
-from numpy import random
-from bs4 import BeautifulSoup
-import matplotlib.pyplot as plt
-import sys #only needed to determine Python version number
-import matplotlib #only needed to determine Matplotlib version number
-import string
 import requests
+from bs4 import BeautifulSoup
 from makePDFs import printPDFs
+
 
 def generateStats(playerdata):
     potOutcome = ["grounded", "flied", "lined", "double", "popped", "singled", "doubled", "tripled", "homered"]
-    direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first', '2b', 'c', 'second', '3b', 'third', 'ss', 'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
+    direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first', '2b', 'c', 'second', '3b', 'third', 'ss',
+                 'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
     trajectory = ['grounded', 'flied', 'lined']
-
 
     names = [];
     results = [];
@@ -25,19 +21,19 @@ def generateStats(playerdata):
     count = 0
     temp = ''
     while line:
-        #print(line)
+        # print(line)
 
         words = line.split(' ')
-        #print(words)
+        # print(words)
         #
 
         num1 = 0
         for each in words:
 
             if (each in potOutcome):
-                #print(words)
+                # print(words)
                 if (num1 == 0):
-                    #temp = words[words.index(each)]
+                    # temp = words[words.index(each)]
                     nextName = words[0].lower()
                     if nextName[1] == '.' or len(nextName) < 2:
                         nextName = nextName + ' ' + words[1].lower()
@@ -45,14 +41,12 @@ def generateStats(playerdata):
                     results.append(each.lower())
                     num1 = 1
 
-
                     num = 0;
 
                     newlines = []
                     for each in words:
                         newlines.append(each.strip(','))
                     words = newlines
-
 
                     newlines = []
                     for each in words:
@@ -69,38 +63,32 @@ def generateStats(playerdata):
 
                             if (each in direction or each == "down"):
                                 if (flag == True):
-                                    #if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
+                                    # if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
                                     temp = 'down '
 
-                                #print(each)
-                                #print(words)
+                                # print(each)
+                                # print(words)
                                 if (num == 0):
 
-                                    #print(each)
+                                    # print(each)
 
                                     count += 1
-                                            #print(count)
-                                    #temp2 = words[words.index(each)]
-                                    #print(temp2)
+                                    # print(count)
+                                    # temp2 = words[words.index(each)]
+                                    # print(temp2)
                                     if each != 'down':
                                         if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
                                             area.append(temp + each.lower())
                                         else:
                                             area.append(each.lower())
-                                        #print(area)
+                                        # print(area)
 
                                         num = 1
                                         temp = ''
 
-                                    #print(count)
+                                    # print(count)
 
-                                    #print(count)
-
-
-
-
-
-
+                                    # print(count)
 
         line = f.readline()
 
@@ -109,30 +97,31 @@ def generateStats(playerdata):
     s = pd.Series(names)
     p = pd.Series(results)
     a = pd.Series(area)
-    data = pd.DataFrame({'Names':s, 'Results':p, 'Area':a})
+    data = pd.DataFrame({'Names': s, 'Results': p, 'Area': a})
     pd.set_option('display.max_rows', 170)
-    #print(data)
+    # print(data)
     printPDFs(data, playerdata)
+
 
 def getPlayerStats(teamname, url):
     quote_page = url
     # query the website and return the html to the variable page
-    hdr = { 'Moneyball' : 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36' }
+    hdr = {
+        'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
     session = requests.Session()
     req = session.get(quote_page, headers=hdr)
     soup = BeautifulSoup(req.content, 'html.parser')
     name_box = soup.findAll('td', attrs={'colspan': '26'})
-    firstTeam = "".join(((str(name_box))[18:18+len(teamname)]).split())
-    secondTeam = "".join(((str(name_box))[-7-len(teamname):-7]).split())
-    player_names = soup.findAll('td', attrs={'width':'20%'})
+    firstTeam = "".join(((str(name_box))[18:18 + len(teamname)]).split())
+    secondTeam = "".join(((str(name_box))[-7 - len(teamname):-7]).split())
+    player_names = soup.findAll('td', attrs={'width': '20%'})
     playerurls = []
     for player in player_names:
         playerStr = str(player)
         if playerStr[17:19] == "<a" and playerStr[26:29] == "/pl":
             playerurls.append(playerStr[26:97])
-    #if teamname == firstTeam:
+    # if teamname == firstTeam:
     alltable = soup.findAll('table', attrs={'class': 'mytable'})
-
 
     if firstTeam == "".join(teamname.split()):
         correctTable = str(alltable[1])
@@ -142,31 +131,30 @@ def getPlayerStats(teamname, url):
     playerMainUrls = []
     playerMainNames = []
     for i in range(len(correctTable) - 5):
-        if correctTable[i:i+4] == 'href':
-            playerMainUrls.append("".join(correctTable[i+7:i+77]))
-            everythingname = ("".join(correctTable[i+79:i+108]))
+        if correctTable[i:i + 4] == 'href':
+            playerMainUrls.append("".join(correctTable[i + 7:i + 77]))
+            everythingname = ("".join(correctTable[i + 79:i + 108]))
             splitname = everythingname.split(',')
             playerMainNames.append(splitname[0])
-
-
 
     allStatsForEveryone = []
     j = 0
     for player in playerMainUrls:
         quote_page2 = 'http://stats.ncaa.org/' + player
-        hdr = { 'Moneyball' : 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36' }
+        hdr = {
+            'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
         session = requests.Session()
         req = session.get(quote_page2, headers=hdr)
         soup2 = BeautifulSoup(req.content, 'html.parser')
-        dataFields = soup2.findAll('tr', attrs={'class':'grey_heading'})
+        dataFields = soup2.findAll('tr', attrs={'class': 'grey_heading'})
         dataStr = str(dataFields[1])
 
         stats = []
         for k in range(len(dataStr) - 8):
-            if dataStr[k:k+5] == '<div>':
-                stats.append ("".join(dataStr[k+25:k+40].split()))
+            if dataStr[k:k + 5] == '<div>':
+                stats.append("".join(dataStr[k + 25:k + 40].split()))
         listOfStats = [2, 3, 4, 5, 7, 8, 9, 11, 13, 16, 17, 18, 23, 24]
-        #length 14 becasue counting stinks
+        # length 14 becasue counting stinks
         statNames = ['BA', 'OBPct', 'SLGPct', 'AB', 'H', '2B', '3B', 'HR', 'BB', 'SF', 'SH', 'K', 'SB', 'CS']
         finalStats = []
         for jk in range(len(stats)):
@@ -176,30 +164,22 @@ def getPlayerStats(teamname, url):
                     finalStats.append(toAdd)
                 else:
                     finalStats.append('0')
-        j+=1
-        woba = round(float(float(finalStats[2]) + float(finalStats[1])*2)/3, 3)
+        j += 1
+        woba = round(float(float(finalStats[2]) + float(finalStats[1]) * 2) / 3, 3)
         stealAttempts = (int(finalStats[13]) + int(finalStats[12]))
 
-        #firsbase = int(listOfStats[4]) - int(listOfStats[5]) - int(listOfStats[6]) - int(listOfStats[7])
+        # firsbase = int(listOfStats[4]) - int(listOfStats[5]) - int(listOfStats[6]) - int(listOfStats[7])
         finalStats.append(woba)
         finalStats.append(stealAttempts)
-        #finalStats.append(firsbase)
+        # finalStats.append(firsbase)
         statNames.append('WOBA')
         statNames.append('SBA')
-        #statNames.append('1b')
+        # statNames.append('1b')
         allStatsForEveryone.append(finalStats)
     pnames = pd.Series(playerMainNames)
     sdata = pd.Series(allStatsForEveryone)
-    data = pd.DataFrame({'Names':pnames, 'Stats':sdata})
+    data = pd.DataFrame({'Names': pnames, 'Stats': sdata})
     return (data)
 
-
-
-
-    #<a href="/player/index?game_sport_year_ctl_id=13430&amp;stats_player_seq=1648871">Cooper, Mikayla</a>
-    #print(firstTable.get("href"))
-
-
-
-
-
+    # <a href="/player/index?game_sport_year_ctl_id=13430&amp;stats_player_seq=1648871">Cooper, Mikayla</a>
+    # print(firstTable.get("href"))
