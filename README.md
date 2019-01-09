@@ -18,4 +18,4 @@ By plotting how and where each hit goes for the players, it enables coaches to m
 ----
 ### Installation
 
-This requires Python3 as well as the packages PyQt5, PIL, reportLab, bs4, and pandas. Once you have these packages, simply run \_\_init\_\_.py and input the team name as shown on the website as well as the URL of the main team page.
+This only works with python3. If you plan on contributing, please create a virtual environment into a folder named "env". Once that is done, simply run \_\_init\_\_.py and input the team name as found on the team website as well as their home url.
