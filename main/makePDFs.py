@@ -36,6 +36,8 @@ def printPDFs(df=None, data=None):
                 thisPlay = play.ix[i]
                 thisBallLoc = ballLoc.ix[i]
                 # print(thisPlay + " " + thisBallLoc)
+
+                #determines the symbol of the result
                 result = None
                 if thisPlay == 'grounded' or thisPlay == 'flied' or thisPlay == 'popped' or thisPlay == 'lined' or thisPlay == 'double':
                     result = ''

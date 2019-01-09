@@ -4,43 +4,59 @@ import requests
 from bs4 import BeautifulSoup
 from makePDFs import printPDFs
 
-
+#parses the rawtext into panda format
 def generateStats(playerdata):
-    potOutcome = ["grounded", "flied", "lined", "double", "popped", "singled", "doubled", "tripled", "homered"]
-    direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first', '2b', 'c', 'second', '3b', 'third', 'ss',
+
+    #Keys of all potential outcomes, directions and trajectory.
+    #Basically looking for these words in the rawtext
+
+    potOutcome = ["grounded", "flied", "lined", "double", "popped", "singled",
+                  "doubled", "tripled", "homered"]
+    direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first',
+                 '2b', 'c', 'second', '3b', 'third', 'ss',
                  'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
     trajectory = ['grounded', 'flied', 'lined']
 
+    #arrays for various categories
     names = [];
     results = [];
     area = [];
     traj = [];
+
+    #reading the raw data
     f = open('./../interdata/scraperaw.txt')
     line = f.readline()
 
     count = 0
     temp = ''
     while line:
-        # print(line)
 
+        #splits each line by individual words
         words = line.split(' ')
-        # print(words)
-        #
 
+        #marker to see if the player name has been added to the array
         num1 = 0
+
+        #loop through every word and find the words that match the ones in the
+        #keys
         for each in words:
 
+            #if the word exists in the potOutcomes then add the name to the
+            #names, result and direction arrays
             if (each in potOutcome):
-                # print(words)
+
+                #checks to see if the playername has been added
                 if (num1 == 0):
-                    # temp = words[words.index(each)]
                     nextName = words[0].lower()
                     if nextName[1] == '.' or len(nextName) < 2:
                         nextName = nextName + ' ' + words[1].lower()
+
+                    #adds player name and result
                     names.append(nextName)
                     results.append(each.lower())
                     num1 = 1
 
+                    #marker to see if direction was added
                     num = 0;
 
                     newlines = []
@@ -56,6 +72,8 @@ def generateStats(playerdata):
                     for each in words:
 
                         flag = False
+
+                        #checks to see if the keyword "down" is in the direction
                         if (each == 'down'):
                             flag = True
 
@@ -63,32 +81,22 @@ def generateStats(playerdata):
 
                             if (each in direction or each == "down"):
                                 if (flag == True):
-                                    # if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
                                     temp = 'down '
 
-                                # print(each)
-                                # print(words)
                                 if (num == 0):
 
-                                    # print(each)
-
-                                    count += 1
-                                    # print(count)
-                                    # temp2 = words[words.index(each)]
-                                    # print(temp2)
+                                    #adds the direction "down" + direction or
+                                    #just the dierection depending on the
+                                    #keyword
                                     if each != 'down':
                                         if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
                                             area.append(temp + each.lower())
                                         else:
                                             area.append(each.lower())
-                                        # print(area)
 
                                         num = 1
                                         temp = ''
 
-                                    # print(count)
-
-                                    # print(count)
 
         line = f.readline()
 
