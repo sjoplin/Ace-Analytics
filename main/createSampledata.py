@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from makePDFs import printPDFs
 
+
 #parses the rawtext into panda format
 def generateStats(playerdata):
 
@@ -15,13 +16,13 @@ def generateStats(playerdata):
     direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first',
                  '2b', 'c', 'second', '3b', 'third', 'ss',
                  'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
-    trajectory = ['grounded', 'flied', 'lined']
+    # trajectory = ['grounded', 'flied', 'lined']
 
     #arrays for various categories
     names = [];
     results = [];
     area = [];
-    traj = [];
+    # traj = [];
 
     #reading the raw data
     f = open('./../interdata/scraperaw.txt')
@@ -34,68 +35,189 @@ def generateStats(playerdata):
         #splits each line by individual words
         words = line.split(' ')
 
+        newlines = []
+        for each in words:
+            each = each.strip(',')
+            each = each.strip('.\n')
+            newlines.append(each)
+        words = newlines
+
+        # newlines = []
+        # for each in words:
+        #     newlines.append(each.strip('.\n'))
+        # words = newlines
+
+
         #marker to see if the player name has been added to the array
         num1 = 0
 
         #loop through every word and find the words that match the ones in the
         #keys
-        for each in words:
+        #
+        #
 
-            #if the word exists in the potOutcomes then add the name to the
-            #names, result and direction arrays
-            if (each in potOutcome):
+        # print(words)
+        # names.append(words[0].strip(',').lower())
 
-                #checks to see if the playername has been added
-                if (num1 == 0):
-                    nextName = words[0].lower()
-                    if nextName[1] == '.' or len(nextName) < 2:
-                        nextName = nextName + ' ' + words[1].lower()
+        if ('bunt' in words):
+            dirFlag = True
+            names.append(words[0].lower())
+            results.append('bunt')
+            for each in words:
+                # print(each)
+                # if (each == 'through'):
+                #     for other in words:
+                #         if (other in direction):
+                #             # print('inside')
+                #             area.append('through ' + other)
+                # else:
+                #     if (dirFlag):
+                #         if (each in direction):
+                #             area.append(each)
+                #             dirFlag = False
+                if dirFlag:
+                    if (each == 'down'):
+                        for each in words:
+                            if each in direction:
+                                area.append('down ' + each)
+                                dirFlag = False
 
-                    #adds player name and result
-                    names.append(nextName)
-                    results.append(each.lower())
-                    num1 = 1
+                    if (each == 'through'):
+                        for other in words:
+                            if (other in direction):
+                                # print('inside')
+                                if (other == 'rf' or other == 'right' or other == 'left' or other == 'lf'):
+                                    area.append('through ' + other)
+                                    dirFlag = False
+                    else:
+                        if (dirFlag):
+                            if (each in direction):
+                                area.append(each)
+                                dirFlag = False
+            if dirFlag:
+                area.append('pitcher')
+                dirFlag = False
 
-                    #marker to see if direction was added
-                    num = 0;
+        else:
+            for each in words:
 
-                    newlines = []
+                resFlag = True
+                dirFlag = True
+                if (each in potOutcome) and (resFlag):
+
+                    result = each
+                    # if resFlag:
+                        # print('test')
+                    # names.append(words[0].lower())
+                    # results.append(each)
+                    # resFlag = False
+            # print(each)
+
                     for each in words:
-                        newlines.append(each.strip(','))
-                    words = newlines
 
-                    newlines = []
-                    for each in words:
-                        newlines.append(each.strip('.\n'))
-                    words = newlines
+                        if dirFlag and resFlag:
+                            if ('center' in words):
+                                for other in words:
+                                    if (other in direction) and (other != 'center'):
+                                        # print('inside')
+                                        if (other == 'rf' or other == 'right' or other == 'left' or other == 'lf'):
+                                            area.append(other + ' center')
+                                            dirFlag = False
+                                            names.append(words[0].lower())
+                                            results.append(result)
+                                            resFlag = False
 
-                    for each in words:
+                            if (each == 'down'):
+                                for each in words:
+                                    if each in direction:
+                                        area.append('down ' + each)
+                                        dirFlag = False
+                                        names.append(words[0].lower())
+                                        results.append(result)
+                                        resFlag = False
 
-                        flag = False
+                            if (each == 'through'):
+                                for other in words:
+                                    if (other in direction):
+                                        # print('inside')
+                                        if (other == 'rf' or other == 'right' or other == 'left' or other == 'lf'):
+                                            area.append('through ' + other)
+                                            dirFlag = False
+                                            names.append(words[0].lower())
+                                            results.append(result)
+                                            resFlag = False
 
-                        #checks to see if the keyword "down" is in the direction
-                        if (each == 'down'):
-                            flag = True
+                            else:
+                                if (dirFlag):
+                                    if (each in direction):
+                                        area.append(each)
+                                        dirFlag = False
+                                        names.append(words[0].lower())
+                                        results.append(result)
+                                        resFlag = False
 
-                        if (num == 0):
 
-                            if (each in direction or each == "down"):
-                                if (flag == True):
-                                    temp = 'down '
 
-                                if (num == 0):
 
-                                    #adds the direction "down" + direction or
-                                    #just the dierection depending on the
-                                    #keyword
-                                    if each != 'down':
-                                        if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
-                                            area.append(temp + each.lower())
-                                        else:
-                                            area.append(each.lower())
+        # for each in words:
 
-                                        num = 1
-                                        temp = ''
+        #     #if the word exists in the potOutcomes then add the name to the
+        #     #names, result and direction arrays
+        #     if (each in potOutcome):
+
+        #         #checks to see if the playername has been added
+        #         if (num1 == 0):
+        #             nextName = words[0].lower()
+        #             if nextName[1] == '.' or len(nextName) < 2:
+        #                 nextName = nextName + ' ' + words[1].lower()
+        #                 print(nextName[1])
+
+        #             #adds player name and result
+        #             names.append(nextName)
+
+        #             results.append(each.lower())
+        #             num1 = 1
+
+        #             #marker to see if direction was added
+        #             num = 0;
+
+        #             newlines = []
+        #             for each in words:
+        #                 newlines.append(each.strip(','))
+        #             words = newlines
+
+        #             newlines = []
+        #             for each in words:
+        #                 newlines.append(each.strip('.\n'))
+        #             words = newlines
+
+        #             for each in words:
+
+        #                 flag = False
+
+        #                 #checks to see if the keyword "down" is in the direction
+        #                 if (each == 'down'):
+        #                     flag = True
+
+        #                 if (num == 0):
+
+        #                     if (each in direction or each == "down"):
+        #                         if (flag == True):
+        #                             temp = 'down '
+
+        #                         if (num == 0):
+
+        #                             #adds the direction "down" + direction or
+        #                             #just the dierection depending on the
+        #                             #keyword
+        #                             if each != 'down':
+        #                                 if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
+        #                                     area.append(temp + each.lower())
+        #                                 else:
+        #                                     area.append(each.lower())
+
+        #                                 num = 1
+        #                                 temp = ''
 
 
         line = f.readline()
@@ -106,8 +228,9 @@ def generateStats(playerdata):
     p = pd.Series(results)
     a = pd.Series(area)
     data = pd.DataFrame({'Names': s, 'Results': p, 'Area': a})
-    pd.set_option('display.max_rows', 170)
-    # print(data)
+    pd.set_option('display.max_rows', 220)
+    print(data)
+    # TODO: uncomment
     printPDFs(data, playerdata)
 
 
@@ -154,8 +277,8 @@ def getPlayerStats(teamname, url):
         session = requests.Session()
         req = session.get(quote_page2, headers=hdr)
         soup2 = BeautifulSoup(req.content, 'html.parser')
-        dataFields = soup2.findAll('tr', attrs={'class': 'grey_heading'})
-        dataStr = str(dataFields[1])
+        dataFields = soup2.findAll('tr', attrs={'class': 'text'})
+        dataStr = str(dataFields[len(dataFields) - 1])
 
         stats = []
         for k in range(len(dataStr) - 8):
@@ -188,6 +311,9 @@ def getPlayerStats(teamname, url):
     sdata = pd.Series(allStatsForEveryone)
     data = pd.DataFrame({'Names': pnames, 'Stats': sdata})
     return (data)
+
+# if __name__ == "__main__":
+#     generateStats()
 
     # <a href="/player/index?game_sport_year_ctl_id=13430&amp;stats_player_seq=1648871">Cooper, Mikayla</a>
     # print(firstTable.get("href"))

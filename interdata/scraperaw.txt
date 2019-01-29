@@ -1,371 +1,316 @@
-Warren, J. singled to left field.
-Gordon, C. struck out swinging.
-Sherrill, S. struck out swinging.
-Shelnutt, A. homered to center field, 2 RBI; Warren, J. scored.
-Morgan, D. grounded out to 3b.
-Casas, Z. doubled to left center.
-Harrod, C. walked.
-Klaevemann M popped up to 1b, bunt.
-Mason, E. singled to right field, advanced to third on a fielding error by rf, RBI; Harrod, C. scored; Casas, Z. scored.
-Warren, J. singled through the left side, RBI; Mason, E. scored, unearned.
-Gordon, C. grounded into double play ss to 1b; Warren, J. out on the play.
-Sherrill, S. doubled to left center.
-Shelnutt, A. flied out to lf.
-Morgan, D. struck out swinging.
-Casas, Z. struck out looking.
-Helm to c for Milloy.
-Harrod, C. grounded out to ss.
-Klaevemann M hit by pitch.
-Klaevemann M stole second, advanced to third on a fielding error by cf.
-Mason, E. homered to center field, 2 RBI; Klaevemann M scored.
-Plain to p for Alvelo.
-Warren, J. homered to center field, RBI.
-Gordon, C. singled to right field.
-Gordon, C. out at second c to ss, caught stealing.
-Sherrill, S. grounded out to 2b.
-Shelnutt, A. flied out to lf.
-Morgan, D. walked.
-Morgan, D. stole second.
-Casas, Z. grounded out to 1b unassisted; Morgan, D. advanced to third.
-Harrod, C. grounded out to 2b.
-Klaevemann M walked.
-Klaevemann M stole second.
-Mason, E. struck out looking.
-Warren, J. flied out to cf; Klaevemann M advanced to third.
-Gordon, C. grounded out to ss.
-Van Zee grounded out to p.
-Bates grounded out to ss.
-DePonte lined out to 3b.
-Thomas popped up to ss.
-Hee struck out swinging.
-Helm walked.
-Atlee flied out to lf.
-Melhart singled to shortstop.
-Burdick out at first 3b to 2b, SAC, bunt; Melhart advanced to second.
-Van Zee singled up the middle; Melhart advanced to third.
-Van Zee stole second.
-Bates hit by pitch.
-DePonte struck out swinging.
-Thomas struck out swinging.
-Shelnutt, A. to c for Bush, D..
-Hee struck out looking.
-Helm walked.
-Gibson pinch ran for Helm.
-Atlee fouled out to lf.
-Melhart struck out swinging.
-Burdick singled up the middle.
-Van Zee lined out to lf.
-Burdick stole second.
-Bates out at first 3b to 2b, SAC, bunt; Burdick advanced to third.
-DePonte grounded out to 2b.
-Rosario, K. to rf for Casas, Z..
-Thomas grounded out to 2b.
-Hee lined out to rf.
-Helm struck out swinging.
-Warren, J. to 3b for Farris, L..
-Atlee singled up the middle.
-Melhart popped into double play 3b to 2b, bunt; Atlee out on the play.
-Burdick singled through the left side.
-Van Zee grounded out to p.
-Perez, K. flied out to rf (1-2).
-Perez, B. struck out swinging (0-2).
-Jordan singled to left field (0-0).
-Garcia popped up to 3b (3-2).
-Nickles doubled to right center (2-2).
-Tautalafua grounded out to 2b (1-0); Nickles advanced to third.
-Jelenicki popped up to ss (0-1).
-Pack homered to left field, 2 RBI (0-1); Nickles scored.
-Halstead popped up to 2b (0-2).
-Perez, K. flied out to cf (0-0).
-Perez, B. grounded out to ss (1-2).
-Jordan grounded out to 2b (0-0).
-Garcia grounded out to ss (0-1).
-Nickles singled through the right side (1-1).
-Tautalafua doubled to right center (0-0); Nickles advanced to third.
-Jelenicki flied out to rf (0-2).
-Pack singled to center field, 2 RBI (1-0); Tautalafua scored; Nickles scored.
-Halstead struck out swinging (0-2).
+A. Wester reached on a throwing error by 3b, advanced to second on the error (0-1 F).
+Sweet lined out to 1b, bunt (0-0).
+Reed grounded out to 1b unassisted (2-2 BFSB); A. Wester advanced to third.
+Brooks struck out swinging (1-2 BKSS).
+Rochford grounded out to 2b (0-1 K).
+Marino flied out to rf (2-2 BKKB).
+Bazos singled to shortstop (0-1 F).
+Bonamy struck out swinging (1-2 BFSFS).
+Holloway hit by pitch (0-0).
+A. Wester reached on a fielder's choice, bunt (0-1 F); Holloway out at second 3b to 2b.
+Sweet grounded out to ss (0-0); A. Wester advanced to second.
+Reed struck out swinging (1-2 KBKS).
+Brooks popped up to 2b (1-1 BF).
+Rochford singled to left field (2-2 KBBF).
+Marino reached on a fielder's choice to third base (3-2 KBSBB); Rochford out at second 3b to 2b.
+Marino out at second c to 2b, caught stealing.
+Bazos struck out swinging (0-2 KFFFS).
+White pinch hit for Bonamy.
+White flied out to rf (0-0).
+Holloway doubled down the lf line (2-1 KBB).
+A. Wester grounded out to 2b (0-0).
+Sweet doubled to center field (1-0 B).
+Reed singled to shortstop, advanced to second on the throw (1-0 B); Sweet advanced to third.
+Brooks flied out to rf, SF, RBI (0-0); Reed advanced to third; Sweet scored.
+Rochford singled to center field, RBI (0-0); Reed scored.
+Marino reached on a fielder's choice to shortstop (1-1 BF); Rochford out at second ss to 2b.
+Marino stole second.
+Bazos grounded out to 2b (2-2 KKBBFF).
+A. Wester grounded out to p (0-1 F).
+Sweet singled to right field (0-0).
+Reed walked (3-0 BBBB); Sweet advanced to second.
+Reed advanced to second; Sweet out at third c to 3b, caught stealing.
+Brooks struck out looking (2-2 KBKBFK).
+Rochford grounded out to ss (2-0 BB).
+Marino grounded out to 2b (1-1 BK).
+Bazos grounded out to ss (3-2 BBKBFF).
+Bonamy grounded out to ss (0-1 K).
+Holloway grounded out to ss (1-1 BF).
+A. Wester grounded out to 3b (0-2 FS).
+Martens, A to 2b for Henson, K.
+Sweet flied out to rf (2-1 BBK).
+Reed flied out to lf (2-2 BSKB).
+Brooks walked (3-0 BBBB).
+Rochford popped up to 2b (0-0).
+Marino grounded out to p (2-2 KSBB).
+White pinch hit for Bazos.
+White grounded out to ss (1-0 B).
+Bonamy struck out swinging (0-2 SSS).
+Vick, B to lf for Humes, A.
+Humes, A to dp for Vick, B.
+Holloway grounded out to 3b (1-1 BK).
+A. Wester flied out to lf (0-0).
+Sweet struck out swinging (0-2 FKS).
+A. Wester grounded out to ss (2-2 BBFSF).
+Sweet grounded out to ss (2-2 FBBKF).
+Reed tripled to center field (3-2 BSBBKFF).
+Brooks grounded out to 3b (2-2 KFBFB).
+Rochford flied out to cf (0-0).
+Marino reached on a throwing error by 3b (2-1 BBK).
+Bazos reached on a fielder's choice to third base (1-1 BK); Marino out at second 3b to 2b.
+Bonamy popped up to ss (1-1 FB).
+Holloway flied out to cf (0-0).
+A. Wester grounded out to 3b (0-0).
+Sweet struck out swinging, out at first c to 1b (1-2 KBKS).
+Vick, B to lf for Metzger, R.
+Reed grounded out to 1b unassisted (0-0).
+Brooks singled through the left side (2-2 BBFK).
+Rochford grounded into double play 3b to 2b to 1b (1-0 B); Brooks out on the play.
+Marino grounded out to 2b (1-1 FB).
+White pinch hit for Bazos.
+White grounded out to ss (1-1 KB).
+Bonamy popped up to 1b (0-0).
+A. Wester reached on a muffed throw by 1b, assist by ss (0-2 KF).
+Sweet singled to right field (1-2 KFBFFF); A. Wester advanced to second.
+Reed out at first c to 2b, SAC, bunt (2-1 KBB); Sweet advanced to second; A. Wester advanced to third.
+Brooks hit by pitch (1-0 B).
+Rochford flied out to rf, SF, RBI (0-2 FF); Brooks advanced to second; Sweet advanced to third; A. Wester scored, unearned.
+Marino grounded out to 1b unassisted (3-1 BBBK).
+Bazos grounded out to ss (1-1 FB).
+Bonamy popped up to 2b (2-2 BKBKF).
+Holloway singled down the rf line (2-1 BBF).
+Holloway out at first 1b unassisted, runner left early.
+A. Wester grounded out to 3b (0-2 KS).
+Sweet grounded out to 2b (1-2 FBKF).
+Reed popped up to p (1-2 KFB).
+Brooks walked (3-2 KKBBBFB).
+Rochford reached on a fielder's choice to shortstop (0-2 KF); Brooks out at second ss unassisted.
+Marino flied out to cf (0-0).
+White pinch hit for Bazos.
+White reached on a fielder's choice to shortstop (2-2 BSSB); Rochford out at second ss to 2b.
+Bonamy popped up to p (0-0).
+Holloway walked (3-1 BBBKB).
+A. Wester singled up the middle (0-0); Holloway advanced to second.
+Sweet popped up to 2b (3-2 BFBFFFBFF).
+Reed walked (3-1 BBFBB); A. Wester advanced to second; Holloway advanced to third.
+Brooks flied out to cf (0-1 K).
+Falk to rf for Wald.
+Rochford flied out to rf (2-0 BB).
+Marino struck out swinging (1-2 KSFBFS).
+White struck out looking (3-2 KBBFFFBK).
+Bonamy popped up to 1b (0-1 K).
+Holloway struck out swinging (0-2 FSS).
+A. Wester singled down the lf line (0-1 S).
+Sweet singled to center field (2-2 FBBFF); A. Wester advanced to second.
+Reed doubled to left center, 2 RBI (2-2 FBBSF); Sweet scored; A. Wester scored.
+Schaefer to p for Beaubien.
+Brooks singled down the rf line, RBI (0-0); Reed scored.
+Rochford grounded out to 3b (3-2 BKBFFB).
+A. Wester grounded out to 3b (0-1).
+Sweet grounded out to 3b (0-2).
+Reed struck out swinging (0-2).
+Brooks walked (3-0).
+Rochford grounded into double play 3b to 2b to 1b (0-1); Brooks out on the play.
+Marino lined out to 3b (3-2).
+White homered to left center, RBI (1-2).
+Bonamy struck out swinging (2-2).
+Holloway struck out swinging (2-2).
+A. Wester singled to third base, bunt (0-1).
+A. Wester stole second, advanced to third on a throwing error by c.
+Sweet grounded out to 3b (1-2).
+Reed struck out swinging (1-2).
+Brooks walked (3-1).
+Richards pinch ran for Brooks.
+Rochford grounded into double play 3b to 2b to 1b (0-2); Richards out on the play.
+Marino struck out swinging (2-2).
+White grounded out to p (3-2).
+Bonamy grounded out to ss (0-0).
 Rosario, K. to rf.
-Perez, K. grounded out to 2b (2-2).
-Perez, B. homered to right field, RBI (1-2).
-Jordan singled up the middle (0-0).
-Davis, C. to p for Hanson, K..
-Garcia grounded into double play p to ss to 1b (0-2); Jordan out on the play.
-No play.
-Nickles homered to left field, RBI (0-1).
-Tautalafua grounded out to 3b (2-1).
-Jelenicki singled to left field (0-1).
-Crawford pinch ran for Jelenicki.
-Pack singled through the left side (2-2); Crawford advanced to second.
-Quarles pinch hit for Halstead.
-Quarles grounded into double play 3b to 1b (2-1); Pack advanced to second; Crawford out on the play.
-Klaevemann M to cf for Davis, C..
-King, M. to p for Klaevemann M.
-Perez, K. flied out to lf (3-2).
-Perez, B. flied out to lf (3-1).
-Jordan struck out swinging (2-2).
-Warren, J. fouled out to 2b (0-2).
-Gordon, C. singled to left field (2-2).
-Sherrill, S. walked (3-2); Gordon, C. advanced to second.
-Shelnutt, A. struck out swinging (2-2).
-Morgan, D. struck out swinging (1-2).
-Casas, Z. fouled out to ss (1-2).
-Harrod, C. struck out swinging (2-2).
-Klaevemann M doubled down the lf line (1-2).
-Mason, E. grounded out to 2b (1-1).
-Warren, J. grounded out to ss (0-1).
-Gordon, C. flied out to lf (3-2).
-Sherrill, S. singled to left field (0-0).
-Shelnutt, A. popped up to ss (2-2).
-Morgan, D. singled to pitcher, bunt (0-0).
-Casas, Z. singled to center field, advanced to second on the throw (1-0); Morgan, D. advanced to third.
-Harrod, C. struck out looking (2-2).
-Klaevemann M struck out looking (1-2).
-Mason, E. struck out swinging (1-2).
-Warren, J. singled to right field (1-2).
-Gordon, C. struck out looking (3-2).
-Sherrill, S. popped up to 1b (1-0).
-Shelnutt, A. flied out to lf (2-2).
-Morgan, D. flied out to cf (0-0).
-Casas, Z. singled through the right side (0-1).
-Rosario, K. pinch ran for Casas, Z..
-Harrod, C. hit by pitch (2-2); Rosario, K. advanced to second.
-Davis, C. pinch hit for Klaevemann M.
-Davis, C. grounded out to 2b (0-2); Harrod, C. advanced to second; Rosario, K. advanced to third.
-Mason, E. homered to center field, 3 RBI (1-2); Harrod, C. scored; Rosario, K. scored.
-Warren, J. flied out to cf (0-2).
-Lilley, J. lined out to 2b (0-1 K).
-Mack, A. grounded out to 2b (2-2 BFBSFFF).
-Rhodes, S. popped up to 2b (2-2 BFFB).
-Svekis, G. fouled out to 1b (1-0 B).
-Cruse, H. singled through the left side (1-1 BK).
-Burke, L. singled to center field (0-0); Cruse, H. advanced to second.
-Sanders, DJ struck out swinging (1-2 KSBFFS).
-Lindvall, L. grounded out to ss (0-1 K).
-Camuso, M. struck out swinging (0-2 SFS).
-Lilley, J. grounded out to 2b (3-2 FBBKBF).
-Mack, A. fouled out to c (0-0).
-Rhodes, S. singled through the left side (1-0 B).
-Svekis, G. struck out swinging (2-2 KBBFS).
-Cruse, H. lined out to cf (0-0).
-Rhodes, S. stole second.
-Burke, L. struck out swinging (2-2 SBKBS).
-Bowden, S. pinch hit for Sanders, DJ.
-Bowden, S. grounded out to 2b (3-2 BFBSB).
-Lindvall, L. grounded out to 2b (0-2 FS).
-Camuso, M. singled up the middle, advanced to second on a throwing error by 2b (0-0).
-Lilley, J. grounded out to 2b (1-0 B).
-Shelnutt, A. to c for Bush, D..
-Rosario, K. to rf.
-Mack, A. grounded out to 2b (2-2 FBKB).
-Rhodes, S. reached on a fielding error by 2b (0-1 S).
-Svekis, G. popped up to ss (0-0).
-Cruse, H. doubled to left center, RBI (2-2 KBBFFF); Rhodes, S. scored, unearned.
-Burke, L. popped up to ss (2-0 BB).
-Sanders, DJ walked (3-0 BBBB).
-Lindvall, L. flied out to cf (1-0 B).
-Iakopo, M. pinch hit for Camuso, M..
-Iakopo, M. walked (3-2 KBSBFFBB); Sanders, DJ advanced to second.
-Burks, C. pinch ran for Iakopo, M..
-King, M. to p for Hanson, K..
-Lilley, J. flied out to lf (0-1 K).
-Utecht, A. pinch hit for Mack, A..
-Utecht, A. struck out swinging (1-2 SSBFFS).
-Warren, J. singled up the middle (0-0).
-Gordon, C. lined out to lf (0-1).
-Sherrill, S. grounded into double play 2b to ss to 1b (3-1); Warren, J. out on the play.
-Shelnutt, A. walked (3-2).
-Morgan, D. out at first 3b to 2b, SAC, bunt (0-0); Shelnutt, A. advanced to second.
-Harrod, C. grounded out to 3b (1-1).
-Casas, Z. doubled to center field, RBI (2-1); Shelnutt, A. scored.
-Davis, C. grounded out to ss (1-1).
-Mason, E. reached on a fielding error by ss (3-2).
-Warren, J. struck out swinging (2-2).
-Gordon, C. flied out to cf (1-0).
-Sherrill, S. popped up to 3b (0-0).
-Shelnutt, A. walked (3-0).
-Bush, D. pinch ran for Shelnutt, A..
-Bush, D. stole second.
-Morgan, D. singled through the left side (1-2); Bush, D. advanced to third.
-Morgan, D. stole second.
-Harrod, C. walked (3-2).
-Casas, Z. singled up the middle, 2 RBI (0-1); Harrod, C. advanced to third; Morgan, D. scored; Bush, D. scored.
-Davis, C. struck out swinging (1-2).
-Casas, Z. stole second.
-Mason, E. flied out to rf, SF, RBI (2-1); Casas, Z. advanced to third; Harrod, C. scored.
-Warren, J. lined out to rf (2-0).
-Gordon, C. struck out swinging (3-2).
-Sherrill, S. singled to center field (2-2).
-Shelnutt, A. singled, advanced to second on the throw (0-0); Sherrill, S. advanced to third.
-Morgan, D. singled to right field, 2 RBI (1-1); Shelnutt, A. scored; Sherrill, S. scored.
-Harrod, C. fouled out to c (1-2).
-Morgan, D. stole second.
-Casas, Z. struck out swinging (2-2).
-Klaevemann M lined out to 3b (2-2).
-Mason, E. walked (3-2).
-Warren, J. singled, advanced to second on the throw (1-2); Mason, E. advanced to third.
-Gordon, C. walked (3-2).
-Sherrill, S. flied out to lf (0-2).
-Shelnutt, A. walked, RBI (3-2); Gordon, C. advanced to second; Warren, J. advanced to third; Mason, E. scored.
-Morgan, D. flied out to cf (1-2).
-Perez, K. singled up the middle (2-2 BFFB).
-Perez, B. lined out to lf (2-0 BB).
-Jordan struck out looking (2-2 BKSBFK).
-Garcia walked (3-0 BBBB); Perez, K. advanced to second.
-Nickles singled to left field (2-1 BKB); Garcia advanced to second; Perez, K. advanced to third.
-Jelenicki struck out swinging (2-2 BKFBFS).
-Tautalafua popped up to 2b (1-0 B).
-Halstead struck out swinging (1-2 BSKS).
-Washington struck out swinging (1-2 KFBS).
-Perez, K. singled to third base, bunt (0-0).
-Perez, B. out at first p to 2b, SAC, bunt (0-0); Perez, K. advanced to second.
-Jordan grounded out to 1b unassisted (2-1 BSB); Perez, K. advanced to third.
-Garcia out at first p to 2b to 1b (2-2 BFBFFFF).
-Nickles struck out swinging (2-2 BBKFFS).
-Jelenicki flied out to lf (1-0 B).
-Tautalafua grounded out to ss (3-1 KBBB).
-Rosario, K. to rf for Casas, Z..
-Pack pinch hit for Halstead.
-Pack reached on a throwing error by ss (3-1 BFBB).
-Washington singled up the middle (0-2 KSF); Pack advanced to second.
-Perez, K. flied out to cf (1-1 BK).
-Perez, B. singled to left center, RBI (0-1 K); Washington advanced to second; Pack scored, unearned.
-Jordan struck out swinging (3-2 BBSBSS).
+Holloway grounded out to 2b (0-1).
+A. Wester singled to left center (1-1).
+Sweet grounded out to c (0-1); A. Wester advanced to second.
+Reed walked (3-2).
 Hanson, K. to p for King, M..
-Garcia struck out swinging (3-2 BBKBKS).
-Klaevemann M to cf for Farris, L..
-Nickles walked (3-0 BBBB).
-Jelenicki reached on a fielder's choice to third base (1-2 BSF); Nickles out at second 3b to 2b.
-Tautalafua singled through the right side (2-2 KSBB); Jelenicki advanced to second.
-Wisz pinch ran for Jelenicki.
-Crawford pinch ran for Tautalafua.
-Pack singled to left field (1-2 FBS); Crawford advanced to second; Wisz advanced to third.
-Rodriguez pinch hit for Washington.
-Rodriguez flied out to cf, SF, RBI (1-0 B); Wisz scored.
-Perez, K. homered to right field, 3 RBI (1-1 FB); Pack scored; Crawford scored.
-Perez, B. singled to catcher, bunt (0-0).
-Jordan tripled down the rf line, RBI (0-0); Perez, B. scored.
-Prober pinch ran for Jordan.
-Davis, C. to p.
-/  for Hanson, K..
-Garcia reached on a throwing error by ss (3-2 KBBFFBF); Prober scored, unearned.
-Nickles flied out to rf (0-0).
-Warren, J. struck out swinging (2-2).
-Gordon, C. grounded out to ss (2-2).
-Sherrill, S. walked (3-2).
-Shelnutt, A. flied out to cf (0-0).
-Casas, Z. struck out swinging (3-2).
-Harrod, C. fouled out to c, bunt (0-0).
-Morgan, D. flied out to rf (2-2).
-Davis, C. walked (3-2).
-Klaevemann M out at first c to 2b, SAC, bunt (0-1); Davis, C. advanced to second.
-Bush, D. pinch ran for Davis, C..
-Warren, J. homered to left center, 2 RBI (2-1); Bush, D. scored.
-Gordon, C. walked (3-0).
-Sherrill, S. doubled to right field (2-0); Gordon, C. advanced to third.
-Shelnutt, A. flied out to cf, SF, RBI (1-2); Gordon, C. scored.
-Casas, Z. flied out to rf (0-2).
-Harrod, C. walked (3-2).
-Morgan, D. reached on a fielder's choice to third base (0-0); Harrod, C. out at second 3b to 2b.
-Davis, C. to dp for Bush, D..
-Davis, C. flied out to rf down the rf line (0-0); Morgan, D. advanced to second.
-Klaevemann M grounded out to 1b unassisted (0-1).
-Sunseri to dp for Weinberger.
-Schulte to 2b for Thornhill.
-Warren, J. grounded out to 1b unassisted (2-0).
-Gordon, C. struck out swinging (3-2).
-Sherrill, S. reached on a fielding error by 1b (3-1).
-Sherrill, S. advanced to second on a wild pitch.
-Shelnutt, A. struck out swinging (0-2).
-Rosario, K. hit by pitch (1-0).
-Harrod, C. lined out to p, bunt (0-0).
-Morgan, D. lined into double play 1b unassisted (1-0); Rosario, K. out on the play.
-Al. Andrews grounded out to ss (1-2).
-Antoine struck out swinging (0-2).
-Griggs fouled out to 3b (0-0).
-Doyle singled through the left side (2-1).
-Sanchez hit by pitch (3-0); Doyle advanced to second.
-Schlattman reached on a fielder's choice to third base (1-2); Sanchez out at second 3b to 2b; Doyle advanced to third.
-Sunseri singled through the right side, RBI (0-0); Schlattman advanced to second; Doyle scored.
-Sunseri advanced to second on a passed ball; Schlattman advanced to third on a passed ball.
-Serrett fouled out to c (2-2).
-Schulte struck out swinging (1-2).
-Al. Andrews singled to pitcher (0-1).
-Antoine doubled to left center (2-2); Al. Andrews advanced to third.
-Griggs grounded out to p (0-0).
-Doyle struck out swinging (0-2).
-Sanchez flied out to cf (3-2).
+Brooks struck out swinging (3-2).
+Sherrill, S. to 2b for Bush, D..
+Rochford flied out to cf (0-2).
+Marino hit by pitch (3-2).
+White to rf for Bazos.
+White grounded into double play ss to 1b (2-2); Marino out on the play.
+A. Wester popped up to ss (1-1).
+Sweet grounded out to 3b (0-0).
+Reed homered to left center, RBI (0-0).
+Brooks homered to right field, RBI (1-0).
+Rochford walked (3-2).
+Marino singled to second base (0-0)3a Rochford advanced to second.
+Bonamy fouled out to c (2-2).
+Holloway popped up to 2b (1-0).
+Bazos struck out swinging (3-2).
+A. Wester grounded out to 3b (0-0).
+Sweet reached on a fielding error by 2b, bunt (0-0).
+Reed walked (3-1)3a Sweet advanced to second.
+Brooks homered to left center, 3 RBI (1-2)3a Reed scored3a Sweet scored, unearned.
+Frei to p for Dreswick.
+Rochford singled to right field (3-2).
+Marino out at first 1b to 2b, SAC, bunt (0-0)3a Rochford advanced to second.
+Bonamy struck out swinging (1-2).
+Holloway hit by pitch (0-0).
+Bazos struck out swinging (1-2).
+A. Wester grounded out to 2b (0-2).
+Sweet singled to shortstop (1-2).
+Reed struck out swinging (1-2).
+Sweet stole second.
+Brooks lined out to lf (3-2).
+Rochford grounded out to ss (1-0).
+Marino flied out to 2b (2-1).
+Bonamy singled to pitcher (0-1).
+Holloway reached on a fielding error by 2b (0-1)3a Bonamy advanced to second.
+White pinch hit for Bazos.
+White lined out to 2b (3-2).
+A. Wester singled to shortstop (0-0).
+Sweet flied out to 1b (0-0).
+Reed grounded out to 2b (1-1)3a A. Wester advanced to second.
+Brooks walked (3-1).
+Rochford singled to center field, RBI (2-1)3a Brooks advanced to second3a A. Wester scored.
+Marino grounded out to ss (0-0).
+Bonamy struck out swinging, out at first c to 1b (1-2).
+Holloway flied out to cf (1-0).
+Bazos grounded out to p (1-0).
+A. Wester lined out to p (0-0).
+Sweet grounded out to ss (1-2 BSS).
+Reed grounded out to 1b unassisted (0-0).
+Brooks singled to right field, advanced to second on a fielding error by rf (2-0 BB).
+Rochford grounded out to 1b unassisted, SAC, bunt (0-0); Brooks advanced to third.
+Marino doubled to right center, RBI (3-2 KBFFBB); Brooks scored.
+White singled up the middle, RBI (0-2 FFFFFFF); Marino scored.
+Bonamy struck out swinging (1-2 BSSS).
+Holloway flied out to cf (0-0).
+Warren, J. to 3b for Bush, D..
+A. Wester popped up to 3b (1-1 FB).
+Sweet out at first 1b to 2b, bunt (0-0).
+Reed popped up to ss (0-1 F).
+Shelnutt, A. to c for Farris, L..
+King, M. to p for Hanson, K..
+Brooks struck out swinging (1-2 FSFBS).
+Rochford hit by pitch (0-0).
+Marino struck out swinging (1-2 BFSS).
+White popped up to ss (2-0 BB).
+Bonamy grounded out to ss (3-1 BBBK).
+Holloway struck out swinging (0-2 KFS).
+A. Wester grounded out to 3b (1-1 BS).
+Sweet hit by pitch (2-2 BFFBFF).
+Reed struck out swinging (1-2 FFBS).
+Sweet stole second.
+Brooks struck out swinging (1-2 SBSFS).
+Rochford doubled to right center, RBI (0-2 FF); Sweet scored.
+Marino grounded out to 2b (1-1 BS).
+A. Wester flied out to lf (1-2 BFFF).
+Sweet struck out swinging (3-2 BFFFBBFFS).
+Reed grounded out to 1b unassisted (0-2 FF).
+Brooks grounded out to 1b unassisted (2-1 FBB).
+Rochford hit by pitch (0-0).
+Rochford advanced to second on a wild pitch.
+Marino struck out swinging, hit into double play c to 1b to c (0-2 KFFFS); Rochford advanced to third, out on the play.
+White walked (3-2 KBSBBFFB).
+Bonamy singled up the middle (0-2 KFF); White advanced to third.
+McCracken grounded out to p (2-2 KBSB); Bonamy advanced to second.
+A. Wester grounded out to 2b, RBI (0-2 FF); Bonamy advanced to third; White scored.
+Sweet popped up to 2b (1-0 B).
+Reed flied out to cf (0-1 K).
+Brooks hit by pitch (1-1 KB).
+Brooks advanced to second on a wild pitch.
+Brooks advanced to third on a wild pitch.
+Rochford struck out swinging (2-2 FBBFFS).
+Brooks scored on a wild pitch.
+Marino walked (3-0 BBBB).
+Marino stole second.
+White struck out swinging (1-2 FBSS).
+Warren, J. to 3b for Bush, D..
 Casas, Z. to dp.
 Rosario, K. to rf.
-Schlattman struck out swinging (1-2).
-Sunseri singled to right center (2-2).
-Weinberger pinch ran for Sunseri.
-Serrett grounded out to 2b (0-2); Weinberger advanced to second.
-Thornhill pinch hit for Schulte.
-Thornhill fouled out to 3b (0-1).
-Al. Andrews singled to left field (1-1).
-Antoine out at first c to 2b, SAC, bunt (2-0); Al. Andrews advanced to second.
-Griggs walked (3-1).
-Doyle walked (3-2); Griggs advanced to second; Al. Andrews advanced to third.
-Sanchez homered to left field, 4 RBI (1-0); Doyle scored; Griggs scored; Al. Andrews scored.
-Schlattman struck out swinging (2-2).
-Sunseri grounded out to 3b (2-1).
-Klaevemann M to cf for Farris, L..
-Serrett struck out swinging (0-2).
-Schulte popped up to 1b (0-0).
-Al. Andrews lined out to ss (0-2).
-Antoine grounded out to 3b (0-0).
-Griggs struck out swinging, out at first c to 1b (1-2).
-Doyle grounded out to 3b (1-1).
+Shelnutt, A. to c for Mason, E..
+Copeland, S. to p for King, M..
+Bonamy struck out swinging (3-2 BBKKFBFFS).
+McCracken walked (3-2 SFBFBFBB).
+Richards pinch ran for McCracken.
+A. Wester reached on a fielder's choice to third base (0-0); Richards out at second 3b to 2b.
+Sweet doubled to right center (1-1 BS); A. Wester advanced to third.
+Reed grounded out to 1b unassisted (1-2 BKKF).
+Davis, C. to p.
+/  for Copeland, S..
+Brooks reached on a fielding error by ss (1-1 FB).
+Rochford grounded into double play 2b to ss to 1b (0-0); Brooks out on the play.
+Marino walked (3-2 FBKBBB).
+White struck out looking (2-2 FBBFK).
+A. Wester lined out to ss (0-0).
+Sweet popped up to ss (0-1 K).
+Reed walked (3-1 FBBBB).
+Brooks struck out swinging (2-2 BKBKS).
+Marino struck out looking (0-2 KSK).
+Rochford struck out swinging (0-2 FFS).
+Bonamy flied out to lf (1-2 FBF).
+Holloway doubled to left center (1-2 FFB).
+Bazos struck out swinging (2-2 KFFBFBFS).
+A. Wester singled to left center (0-0); Holloway advanced to third.
+Sweet fouled out to rf, SF, RBI (0-2 FF); A. Wester advanced to second, advanced to third on a throwing error by c; Holloway scored.
+Reed grounded out to ss (0-2 FF).
+Brooks walked (3-1 BSBBB).
+Marino popped up to ss (2-1 KBB).
+Rochford grounded into double play 3b to 2b to 1b (0-0); Brooks out on the play.
+Morgan, D. to lf.
+Sherrill, S. to 3b.
 Casas, Z. to rf.
-Sanchez struck out swinging (1-2).
-Schlattman grounded out to 2b (1-1).
-Sunseri walked (3-2).
-Serrett struck out swinging (0-2).
-Schulte struck out swinging (2-2).
-Al. Andrews grounded out to p (2-2).
-Antoine grounded out to 1b unassisted (0-1).
-Griggs walked (3-0).
-Doyle fouled out to c, bunt (0-0).
-Sanchez lined out to rf (0-2).
-Schlattman reached on a throwing error by p (3-2); Griggs advanced to second.
-Sunseri struck out swinging (1-2).
-Serrett singled to right field (2-1).
-Schulte flied out to rf (1-2).
-Al. Andrews struck out swinging (1-2).
-Antoine grounded out to 2b (1-0).
-Warren, J. grounded out to 3b (2-1).
-Gordon, C. grounded out to 3b (2-2).
-Sherrill, S. grounded out to p (2-2).
-Shelnutt, A. flied out to rf (0-0).
-Casas, Z. grounded out to 2b (1-2).
-Harrod, C. struck out swinging (3-2).
-Morgan, D. grounded out to 2b (0-1).
-Davis, C. singled up the middle (0-1).
-Klaevemann M popped up to 1b, bunt (0-0).
-Warren, J. reached on a fielder's choice to shortstop (1-1); Davis, C. out at second ss to 2b.
-Gordon, C. grounded out to 3b (0-0).
-Sherrill, S. walked (3-2).
-Shelnutt, A. popped up to 2b (1-1).
-Casas, Z. grounded out to p (0-0).
-Sunseri to dp for Weinberger.
-Schulte to 2b for Springfield.
-Harrod, C. singled to left center (0-1).
-Morgan, D. doubled to right center, RBI (2-2); Harrod, C. scored.
-Davis, C. struck out swinging (0-2).
-Farris, L. pinch hit for Klaevemann M.
-Farris, L. singled to second base (1-2); Morgan, D. advanced to third.
-Warren, J. flied out to cf, SF, RBI (3-1); Morgan, D. scored.
-Gordon, C. popped up to 2b (2-1).
-Sherrill, S. struck out looking (2-2).
-Shelnutt, A. popped up to ss (1-1).
-Casas, Z. grounded out to 1b unassisted (1-2).
-Harrod, C. struck out swinging (0-2).
-Morgan, D. grounded out to 3b (1-2).
-Davis, C. walked (3-2).
-Bush, D. pinch ran for Davis, C..
-Farris, L. singled to second base (0-1); Bush, D. advanced to third.
-Farris, L. advanced to second on a wild pitch.
-Warren, J. homered to center field, 3 RBI (2-1); Farris, L. scored; Bush, D. scored.
-Hoover to p for Walljasper.
-Gordon, C. struck out swinging (3-2).
+Mason, E. to c.
+Farris, L. to 2b.
+Copeland, S. to p for Hanson, K..
+Bonamy walked (3-0 BBBB).
+Holloway hit into double play 2b to 1b (0-2 FF); Bonamy out on the play.
+Bazos hit by pitch (3-2 BFFBB).
+A. Wester grounded out to 3b (1-2 BKF).
+Casas, Z. to dp.
+Rosario, K. to rf.
+Sweet doubled to right center (3-1 BBSB).
+Reed singled up the middle, out at first cf to 1b to 2b to 1b, RBI (0-0); Sweet scored.
+Brooks walked (3-2 KBBFFBFB).
+Brooks advanced to second on a wild pitch.
+Marino walked (3-2 BBBKKB).
+Rochford singled through the left side (0-2 KFF); Marino advanced to second; Brooks advanced to third.
+Casas, Z. to rf.
+Davis, C. to p for Rosario, K..
+/  for Copeland, S..
+Bonamy reached on a fielder's choice to third base (1-2 KSFB); Rochford advanced to second; Marino out at third 3b unassisted; Brooks out at third 3b unassisted.
+Holloway grounded out to ss (1-0 B).
+White doubled down the lf line (0-0).
+A. Wester grounded out to ss (2-2 BBSSF); White advanced to third.
+Sweet struck out swinging (0-2 FFS).
+A. Wester out at first 3b to 2b, bunt (0-0).
+Sweet hit by pitch (0-0).
+Reed struck out looking (1-2 SBKK).
+Marino walked (3-0 BBBB)3a Sweet advanced to second.
+Brooks singled to right field, advanced to second on the throw, RBI (0-1 K)3a Marino advanced to third3a Sweet scored.
+Rochford singled to left field, out at first lf to 2b to 1b, 2 RBI (3-1 BBBK)3a Brooks scored3a Marino scored.
+Bonamy walked (3-0 BBBB).
+Heide popped into double play ss to 1b (0-1 K)3a Bonamy out on the play.
+Bazos singled to third base (1-2 BSF).
+A. Wester grounded out to ss (3-2 BBBKF).
+Sweet hit by pitch (0-1 F).
+Reed doubled to right field (0-2 SS)3a Sweet advanced to third.
+Marino struck out swinging (3-2 BBKFBFS).
+Brooks lined out to ss (2-2 KFBB).
+Rochford struck out looking (0-2 KFK).
+Bonamy doubled to left center (1-2 KBKFF).
+Heide popped up to ss (0-2 FFF).
+Bazos grounded out to 3b (1-2 KFB).
+A. Wester singled up the middle, advanced to second on the throw, RBI (1-0 B)3a Bonamy scored.
+PARKER,B. to p for MILLER.
+Sweet flied out to lf to left center (0-1 K).
+Reed walked (3-1 BBKBB).
+Marino popped up to 2b (3-2 KBBBKF).
+Brooks popped into double play 2b to 1b (0-0)3a Reed out on the play.
+HAMM to cf for SORGI,A..
+Rochford lined out to ss (0-0).
+Bonamy reached on a fielding error by 3b (3-2 BKBFB).
+White pinch hit for Heide.
+White singled to left field (2-2 SBFFFBFF)3a Bonamy advanced to second.
+Bazos out at first p to 2b, SAC, bunt (0-1 K)3a White advanced to second3a Bonamy advanced to third.
+A. Wester lined out to ss (0-1 F).
