@@ -1,7 +1,7 @@
 # import libraries
 import requests
 from bs4 import BeautifulSoup
-from createSampledata import generateStats, getPlayerStats
+from createSampledata import generateStats, getPlayerStats, getAllPlayers
 
 
 # specify the url
@@ -81,7 +81,8 @@ def singleurlscrape(teamName, teamhomepage):
 
     for i in range(10):
         finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
-    data = getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
+    #data = getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
+    data = getAllPlayers(teamhomepage)
     scrape(data, teamName, finalURLS)
 
 
