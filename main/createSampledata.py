@@ -58,10 +58,14 @@ def generateStats(playerdata):
 
         # print(words)
         # names.append(words[0].strip(',').lower())
-
+        tempName = words[0].lower()
+        if len(words[1]) <= 2:
+            tempName = tempName + ', ' +words[1].lower()
         if ('bunt' in words):
             dirFlag = True
-            names.append(words[0].lower())
+
+            names.append(tempName)
+
             results.append('bunt')
             for each in words:
                 # print(each)
@@ -123,7 +127,7 @@ def generateStats(playerdata):
                                         if (other == 'rf' or other == 'right' or other == 'left' or other == 'lf'):
                                             area.append(other + ' center')
                                             dirFlag = False
-                                            names.append(words[0].lower())
+                                            names.append(tempName)
                                             results.append(result)
                                             resFlag = False
 
@@ -132,7 +136,7 @@ def generateStats(playerdata):
                                     if each in direction:
                                         area.append('down ' + each)
                                         dirFlag = False
-                                        names.append(words[0].lower())
+                                        names.append(tempName)
                                         results.append(result)
                                         resFlag = False
 
@@ -143,7 +147,7 @@ def generateStats(playerdata):
                                         if (other == 'rf' or other == 'right' or other == 'left' or other == 'lf'):
                                             area.append('through ' + other)
                                             dirFlag = False
-                                            names.append(words[0].lower())
+                                            names.append(tempName)
                                             results.append(result)
                                             resFlag = False
 
@@ -152,7 +156,7 @@ def generateStats(playerdata):
                                     if (each in direction):
                                         area.append(each)
                                         dirFlag = False
-                                        names.append(words[0].lower())
+                                        names.append(tempName)
                                         results.append(result)
                                         resFlag = False
 
@@ -229,11 +233,101 @@ def generateStats(playerdata):
     a = pd.Series(area)
     data = pd.DataFrame({'Names': s, 'Results': p, 'Area': a})
     pd.set_option('display.max_rows', 220)
-    print(data)
+    #print(data)
     # TODO: uncomment
+
     printPDFs(data, playerdata)
 
+def getAllPlayers(url):
+    quote_page = url
+    # query the website and return the html to the variable page
+    hdr = {
+        'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+    session = requests.Session()
+    req = session.get(quote_page, headers=hdr)
+    soup = BeautifulSoup(req.content, 'html.parser')
+    tester = soup.findAll('a')
+    #now we have the url for the team roster
+    teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:31]
+    return (getPlayerStats(teamRoster))
 
+def getPlayerStats(url):
+    quote_page = url
+    # query the website and return the html to the variable page
+    hdr = {
+        'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+    session = requests.Session()
+    req = session.get(quote_page, headers=hdr)
+    soup = BeautifulSoup(req.content, 'html.parser')
+    name_boxes = soup.findAll('a')
+    i = 0
+    playerurls = []
+    playernames = []
+    for box in name_boxes:
+        #first 13 are useless
+        if (i >= 13):
+            #need these to access each players stats
+            playerurls.append ('http://stats.ncaa.org' + (str(name_boxes[i])[9:52]) + str(name_boxes[i])[56:80])
+            #need this to match up on PDFs later
+            playernames.append(str(name_boxes[i])[82:-4])
+        i += 1
+    allStatsForEveryone = []
+    j=0
+    #we need to visit each player page
+    for player in playerurls:
+        quote_page2 = player
+        hdr = {
+            'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+        session = requests.Session()
+        req = session.get(quote_page2, headers=hdr)
+        soup2 = BeautifulSoup(req.content, 'html.parser')
+        #getting what houses the data
+        dataFields = soup2.findAll('tr', attrs={'class': 'text'})
+        #Getting this seasons stats row
+        dataStr = str(dataFields[len(dataFields) - 1])
+        stats = []
+        #getting each individual statfrom that row
+        for k in range(len(dataStr) - 8):
+            if dataStr[k:k + 5] == '<div>':
+                stats.append("".join(dataStr[k + 25:k + 40].split()))
+        listOfStats = [2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 15, 16, 17, 18, 23, 24]
+        # length 17 becasue counting stinks
+        statNames = ['BA (2)', 'OBPct(3)', 'SLGPct(4)', 'AB(5)', 'R(6)', 'H(7)', '2B(8)', '3B(9)', 'HR(11)', 'BB(13)', 'HBP(14)', 'RBI(15)','SF(16)', 'SH(17)', 'K(18)', 'SB(23)', 'CS(24)']
+        finalStats = []
+        #getting only the stats we want
+
+        for jk in range(len(stats)):
+            if jk in listOfStats:
+                toAdd = stats[jk]
+                #if the stat is blank, it wont be 0
+                if len(toAdd) < 6:
+                    finalStats.append(toAdd)
+                else:
+                    finalStats.append('0')
+        j += 1
+        #calculating woba
+        woba = round(float(float(finalStats[2]) + float(finalStats[1]) * 2) / 3, 3)
+        stealAttempts = (int(finalStats[13]) + int(finalStats[12]))
+
+        # firsbase = int(listOfStats[4]) - int(listOfStats[5]) - int(listOfStats[6]) - int(listOfStats[7])
+        finalStats.append(woba)
+        finalStats.append(stealAttempts)
+
+        # finalStats.append(firsbase)
+        statNames.append('WOBA')
+        statNames.append('SBA')
+        # statNames.append('1b')
+        allStatsForEveryone.append(finalStats)
+    pnames = pd.Series(playernames)
+    sdata = pd.Series(allStatsForEveryone)
+
+    data = pd.DataFrame({'Names': pnames, 'Stats': sdata})
+
+    return (data)
+
+
+
+"""
 def getPlayerStats(teamname, url):
     quote_page = url
     # query the website and return the html to the variable page
@@ -311,6 +405,7 @@ def getPlayerStats(teamname, url):
     sdata = pd.Series(allStatsForEveryone)
     data = pd.DataFrame({'Names': pnames, 'Stats': sdata})
     return (data)
+"""
 
 # if __name__ == "__main__":
 #     generateStats()
