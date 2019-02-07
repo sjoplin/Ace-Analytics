@@ -6,6 +6,7 @@ from makePDFs import printPDFs
 
 
 #parses the rawtext into panda format
+#add playerdata back
 def generateStats(playerdata):
 
     #Keys of all potential outcomes, directions and trajectory.
@@ -16,13 +17,16 @@ def generateStats(playerdata):
     direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first',
                  '2b', 'c', 'second', '3b', 'third', 'ss',
                  'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
-    # trajectory = ['grounded', 'flied', 'lined']
 
     #arrays for various categories
     names = [];
     results = [];
     area = [];
-    # traj = [];
+
+    #the dict works like this: {"player1": [# of strikes, # of walks, # of stolen bases],
+    #   "player2": [# of strikes, # of walks, # of stolen bases],
+    #   "player3": [# of strikes, # of walks, # of stolen bases]... etc}
+    playerDict = {};
 
     #reading the raw data
     f = open('./../interdata/scraperaw.txt')
@@ -31,6 +35,7 @@ def generateStats(playerdata):
     count = 0
     temp = ''
     while line:
+
 
         #splits each line by individual words
         words = line.split(' ')
@@ -42,10 +47,6 @@ def generateStats(playerdata):
             newlines.append(each)
         words = newlines
 
-        # newlines = []
-        # for each in words:
-        #     newlines.append(each.strip('.\n'))
-        # words = newlines
 
 
         #marker to see if the player name has been added to the array
@@ -61,7 +62,35 @@ def generateStats(playerdata):
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
         if len(words[1]) <= 2:
-            tempName = tempName + ', ' +words[1].lower()
+            tempName = tempName + ', ' + words[1].lower()
+
+        #adds the players to a dictionary and calculates the number of strikes
+        #walks and steals for each player
+        #the dict works like this: {"player": [# of strikes, # of walks, # of stolen bases]}
+        if ('struck' in words):
+            #add the player name if not in dictionary, initalize all values to
+            #0, and then add the count for the appropriate value
+            if (tempName not in playerDict.keys()):
+                playerDict[tempName] = [0, 0, 0]
+                playerDict[tempName][0] = 1
+            else:
+                playerDict[tempName][0] = playerDict[tempName][0] + 1
+        elif ('walked' in words):
+            #add 1 to count
+            if (tempName not in playerDict.keys()):
+                playerDict[tempName] = [0, 0, 0]
+                playerDict[tempName][1] = 1
+            else:
+                playerDict[tempName][1] = playerDict[tempName][1] + 1
+        elif ('stole' in words):
+            if (tempName not in playerDict.keys()):
+                playerDict[tempName] = [0, 0, 0]
+                playerDict[tempName][2] = 1
+            else:
+                playerDict[tempName][2] = playerDict[tempName][2] + 1
+
+        # checks to see if a player bunted first and then adds the player to
+        # players array and adds the result as bunt
         if ('bunt' in words):
             dirFlag = True
 
@@ -69,17 +98,6 @@ def generateStats(playerdata):
 
             results.append('bunt')
             for each in words:
-                # print(each)
-                # if (each == 'through'):
-                #     for other in words:
-                #         if (other in direction):
-                #             # print('inside')
-                #             area.append('through ' + other)
-                # else:
-                #     if (dirFlag):
-                #         if (each in direction):
-                #             area.append(each)
-                #             dirFlag = False
                 if dirFlag:
                     if (each == 'down'):
                         for each in words:
@@ -111,13 +129,6 @@ def generateStats(playerdata):
                 if (each in potOutcome) and (resFlag):
 
                     result = each
-                    # if resFlag:
-                        # print('test')
-                    # names.append(words[0].lower())
-                    # results.append(each)
-                    # resFlag = False
-            # print(each)
-
                     for each in words:
 
                         if dirFlag and resFlag:
@@ -161,68 +172,10 @@ def generateStats(playerdata):
                                         results.append(result)
                                         resFlag = False
 
-
-
-
-        # for each in words:
-
-        #     #if the word exists in the potOutcomes then add the name to the
-        #     #names, result and direction arrays
-        #     if (each in potOutcome):
-
-        #         #checks to see if the playername has been added
-        #         if (num1 == 0):
-        #             nextName = words[0].lower()
-        #             if nextName[1] == '.' or len(nextName) < 2:
-        #                 nextName = nextName + ' ' + words[1].lower()
-        #                 print(nextName[1])
-
-        #             #adds player name and result
-        #             names.append(nextName)
-
-        #             results.append(each.lower())
-        #             num1 = 1
-
-        #             #marker to see if direction was added
-        #             num = 0;
-
-        #             newlines = []
-        #             for each in words:
-        #                 newlines.append(each.strip(','))
-        #             words = newlines
-
-        #             newlines = []
-        #             for each in words:
-        #                 newlines.append(each.strip('.\n'))
-        #             words = newlines
-
-        #             for each in words:
-
-        #                 flag = False
-
-        #                 #checks to see if the keyword "down" is in the direction
-        #                 if (each == 'down'):
-        #                     flag = True
-
-        #                 if (num == 0):
-
-        #                     if (each in direction or each == "down"):
-        #                         if (flag == True):
-        #                             temp = 'down '
-
-        #                         if (num == 0):
-
-        #                             #adds the direction "down" + direction or
-        #                             #just the dierection depending on the
-        #                             #keyword
-        #                             if each != 'down':
-        #                                 if (each == 'rf' or each == 'right' or each == 'left' or each == 'lf'):
-        #                                     area.append(temp + each.lower())
-        #                                 else:
-        #                                     area.append(each.lower())
-
-        #                                 num = 1
-        #                                 temp = ''
+        # checks to see if the name is added in results but not already in
+        # the player dict,
+        if ((tempName not in playerDict.keys()) and (tempName in names)):
+            playerDict[tempName] = [0, 0, 0]
 
         line = f.readline()
 
@@ -233,7 +186,8 @@ def generateStats(playerdata):
     a = pd.Series(area)
     data = pd.DataFrame({'Names': s, 'Results': p, 'Area': a})
     pd.set_option('display.max_rows', 220)
-    #print(data)
+    # print(data)
+    # print(playerDict)
     # TODO: uncomment
 
     printPDFs(data, playerdata)
