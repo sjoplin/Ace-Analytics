@@ -63,6 +63,8 @@ def generateStats(playerdata):
         tempName = words[0].lower()
         if len(words[1]) <= 2:
             tempName = tempName + ', ' + words[1].lower()
+        elif (len(tempName) <= 2):
+            tempName = words[1].lower() + ', ' + tempName
 
         #adds the players to a dictionary and calculates the number of strikes
         #walks and steals for each player
