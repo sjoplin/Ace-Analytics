@@ -48,6 +48,7 @@ def scrape(data, teamName, list_urls):
                 if nextText[0] is not '<' and nextText[5] is not '=':
                     fullText = fullText + nextText[:-5] + '\n'
             homeOAway += 1
+        session.close()
 
     f = open("./../interdata/scraperaw.txt", "w+")
     for line in fullText:
@@ -82,6 +83,7 @@ def singleurlscrape(teamName, teamhomepage):
     for i in range(10):
         finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
     #data = getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
+    session.close()
     data = getAllPlayers(teamhomepage)
     scrape(data, teamName, finalURLS)
 
@@ -95,6 +97,7 @@ def getFinalURL(gameurl):
     soup = BeautifulSoup(req.content, 'html.parser')
     urlend = soup.findAll('ul', attrs={'class': 'level1'})
     urlend = (str(urlend)[134:-233])
+    session.close()
     return ('http://stats.ncaa.org' + urlend)
 
 
