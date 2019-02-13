@@ -7,6 +7,7 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 
 
+
 def printPDFs(df=None, data=None, dict = None):
 
     line = Image.open('line.png')
@@ -228,6 +229,7 @@ def printPDFs(df=None, data=None, dict = None):
                     if linePlay == 2:
                         c.drawImage(ImageReader(fly.rotate(105, expand=True)),(5.7+randx*1.1)*inch,(4.75+randy*1.15)*inch,mask = 'auto')
 
+
                     elif linePlay == 0:
                         c.drawImage(ImageReader(ground.rotate(105, expand=True)),(5.8+randx*1.1)*inch,(4.65+randy*1.15)*inch,mask = 'auto')
 
@@ -301,6 +303,7 @@ def printPDFs(df=None, data=None, dict = None):
                     randy = random.random()
                     if linePlay == 2:
                         c.drawImage(ImageReader(fly.rotate(165, expand=True)),(1.4+randx*.4)*inch,(2.2+randy)*inch,mask = 'auto')
+
                     elif linePlay == 0:
                         c.drawImage(ImageReader(ground.rotate(165, expand=True)),(1.5+randx*.4)*inch,(2.2+randy)*inch,mask = 'auto')
 
@@ -386,6 +389,7 @@ def printPDFs(df=None, data=None, dict = None):
                 c.drawString(.68 * inch, 4.21 * inch, str(data.ix[k, 1][10]))#HBP
                 c.drawString(.78 * inch, 3.9 * inch, str(data.ix[k, 1][12]))#SF
                 c.drawString(1.26 * inch, 3.9 * inch, str((int)(data.ix[k, 1][18]) - (int)(data.ix[k,1][12])))#SA
+
 
                 c.drawString(9*inch, 6.4*inch, 'Strikouts (last 10): ' + str(dict[name][0]))
                 c.drawString(9*inch, 6.1*inch, 'Walks (last 10): ' + str(dict[name][1]))
