@@ -7,7 +7,7 @@ from makePDFs import printPDFs
 
 #parses the rawtext into panda format
 #add playerdata back
-def generateStats(playerdata):
+def generateStats(playerdata, teamName):
 
     #Keys of all potential outcomes, directions and trajectory.
     #Basically looking for these words in the rawtext
@@ -193,7 +193,7 @@ def generateStats(playerdata):
     # print(playerDict)
     # TODO: uncomment
 
-    printPDFs(data, playerdata, playerDict)
+    printPDFs(data, playerdata, playerDict, teamName)
 
 
 def getAllPlayers(url):
@@ -207,6 +207,7 @@ def getAllPlayers(url):
     tester = soup.findAll('a')
     #now we have the url for the team roster
     teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:31]
+    session.close()
     return (getPlayerStats(teamRoster))
 
 def getPlayerStats(url):
@@ -231,6 +232,7 @@ def getPlayerStats(url):
         i += 1
     allStatsForEveryone = []
     j=0
+    session.close()
     #we need to visit each player page
     for player in playerurls:
         quote_page2 = player
@@ -277,6 +279,8 @@ def getPlayerStats(url):
         statNames.append('SBA')
         # statNames.append('1b')
         allStatsForEveryone.append(finalStats)
+        session.close()
+
     pnames = pd.Series(playernames)
     sdata = pd.Series(allStatsForEveryone)
 

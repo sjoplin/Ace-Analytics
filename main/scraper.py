@@ -48,16 +48,16 @@ def scrape(data, teamName, list_urls):
                 if nextText[0] is not '<' and nextText[5] is not '=':
                     fullText = fullText + nextText[:-5] + '\n'
             homeOAway += 1
+        session.close()
 
     f = open("./../interdata/scraperaw.txt", "w+")
     for line in fullText:
         f.write(line)
     f.close()
-    generateStats(data)
+    generateStats(data, teamName)
 
-
-def singleurlscrape(teamName, teamhomepage):
-    quote_page = teamhomepage
+def moreScrapes(teamName, lastSeason, numComplete):
+    quote_page = lastSeason
     hdr = {
         'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
     session = requests.Session()
@@ -79,9 +79,44 @@ def singleurlscrape(teamName, teamhomepage):
             fullURLExt.append("".join(nextText))
     finalURLS = []
 
+    for i in range(10 - numComplete):
+        if numGames - i - 1 >= 0:
+            finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
+    return finalURLS
+
+def singleurlscrape(teamName, teamhomepage, lastSeason):
+    quote_page = teamhomepage
+    hdr = {
+        'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+    session = requests.Session()
+    req = session.get(quote_page, headers=hdr)
+    soup = BeautifulSoup(req.content, 'html.parser')
+    all_boxes = soup.findAll('a', attrs={'class': 'skipMask', 'target': 'TEAM_WIN'})
+    # print(all_boxes)
+    fullURLExt = []
+    numGames = 0
+
+    for name_box in all_boxes:
+        numGames += 1
+        nextText = str(name_box)
+
+        nextText = (nextText[26:-32])[0:31]
+        if "".join(nextText[-1]) is '"':
+            fullURLExt.append("".join(nextText[:-1]))
+        else:
+            fullURLExt.append("".join(nextText))
+    finalURLS = []
+    addUrls = []
     for i in range(10):
-        finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
+        if numGames - i - 1 >= 0:
+            finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
+        else:
+            addUrls = moreScrapes(teamName, teamhomepage, i)
+            break
     #data = getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
+    for url in addUrls:
+        finalURLS.append(addUrls.pop())
+    session.close()
     data = getAllPlayers(teamhomepage)
     scrape(data, teamName, finalURLS)
 
@@ -95,6 +130,7 @@ def getFinalURL(gameurl):
     soup = BeautifulSoup(req.content, 'html.parser')
     urlend = soup.findAll('ul', attrs={'class': 'level1'})
     urlend = (str(urlend)[134:-233])
+    session.close()
     return ('http://stats.ncaa.org' + urlend)
 
 

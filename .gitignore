@@ -2,7 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+# PDFs bc a lot of teams
+*.pdf
+interdata/scraperaw.txt
 # C extensions
 *.so
 
