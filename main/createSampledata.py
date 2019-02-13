@@ -7,7 +7,7 @@ from makePDFs import printPDFs
 
 #parses the rawtext into panda format
 #add playerdata back
-def generateStats(playerdata):
+def generateStats(playerdata, teamName):
 
     #Keys of all potential outcomes, directions and trajectory.
     #Basically looking for these words in the rawtext
@@ -193,7 +193,7 @@ def generateStats(playerdata):
     # print(playerDict)
     # TODO: uncomment
 
-    printPDFs(data, playerdata, playerDict)
+    printPDFs(data, playerdata, playerDict, teamName)
 
 
 def getAllPlayers(url):

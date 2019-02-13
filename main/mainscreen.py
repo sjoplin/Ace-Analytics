@@ -22,8 +22,12 @@ def launch():
     newField.setText('Team URL')
     button = (newField)
     layout.addWidget(newField)
+    newField2 = QLineEdit()
+    newField2.setText('Previous Season URL')
+    button2 = (newField2)
+    layout.addWidget(newField2)
     submit = QPushButton('Submit')
-    submit.clicked.connect(lambda: execute(teamName, button))
+    submit.clicked.connect(lambda: execute(teamName, button, button2))
     layout.addWidget(submit)
     window.setLayout(layout)
     window.show()
@@ -31,10 +35,11 @@ def launch():
     app.exec_()
 
 
-def execute(teamButton, button):
+def execute(teamButton, button, previousSeason):
     desiredTeam = teamButton.text()
     url = button.text()
-    singleurlscrape(desiredTeam, url)
+    url2 = previousSeason.text()
+    singleurlscrape(desiredTeam, url, url2)
 
 
 if __name__ == "__main__":

@@ -5,16 +5,18 @@ from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
+from datetime import date
 
 
 
-def printPDFs(df=None, data=None, dict = None):
+def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
 
     line = Image.open('line.png')
     fly = Image.open('fly.png')
     ground = Image.open('dashed.png')
-
-    c = canvas.Canvas("../sample.pdf", pagesize=landscape(letter))
+    #TODO: make system agnostic, also change interdata path
+    fileNameLoc = './../' + str(teamname) + ':' + str(date.today()) + '.pdf'
+    c = canvas.Canvas(fileNameLoc, pagesize=landscape(letter))
 
     namesInOrder = df.ix[:, 1]
     play = df.ix[:, 2]
