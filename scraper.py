@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 from createSampledata import generateStats, getPlayerStats, getAllPlayers
-
+from time import sleep
 
 # specify the url
 
@@ -49,7 +49,7 @@ def scrape(data, teamName, list_urls):
                     fullText = fullText + nextText[:-5] + '\n'
             homeOAway += 1
         session.close()
-        wait(1)
+        sleep(1)
 
     f = open("./interdata/scraperaw.txt", "w+")
     for line in fullText:
@@ -69,7 +69,7 @@ def moreScrapes(teamName, lastSeason, numComplete):
     fullURLExt = []
     numGames = 0
     session.close()
-    wait(1)
+    sleep(1)
 
     for name_box in all_boxes:
         numGames += 1
@@ -120,7 +120,7 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
     for url in addUrls:
         finalURLS.append(addUrls.pop())
     session.close()
-    wait(1)
+    sleep(1)
     data = getAllPlayers(teamhomepage)
     scrape(data, teamName, finalURLS)
 
@@ -135,7 +135,7 @@ def getFinalURL(gameurl):
     urlend = soup.findAll('ul', attrs={'class': 'level1'})
     urlend = (str(urlend)[134:-233])
     session.close()
-    wait(1)
+    sleep(1)
     return ('http://stats.ncaa.org' + urlend)
 
 

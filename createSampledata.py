@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from makePDFs import printPDFs
-
+from time import sleep
 
 #parses the rawtext into panda format
 #add playerdata back
@@ -29,7 +29,7 @@ def generateStats(playerdata, teamName):
     playerDict = {};
 
     #reading the raw data
-    f = open('./../interdata/scraperaw.txt')
+    f = open('./interdata/scraperaw.txt')
     line = f.readline()
 
     count = 0
@@ -208,7 +208,7 @@ def getAllPlayers(url):
     #now we have the url for the team roster
     teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:31]
     session.close()
-    wait(1)
+    sleep(1)
     return (getPlayerStats(teamRoster))
 
 def getPlayerStats(url):
@@ -234,7 +234,7 @@ def getPlayerStats(url):
     allStatsForEveryone = []
     j=0
     session.close()
-    wait(1)
+    sleep(1)
     #we need to visit each player page
     for player in playerurls:
         quote_page2 = player
@@ -282,7 +282,7 @@ def getPlayerStats(url):
         # statNames.append('1b')
         allStatsForEveryone.append(finalStats)
         session.close()
-        wait(1)
+        sleep(1)
 
     pnames = pd.Series(playernames)
     sdata = pd.Series(allStatsForEveryone)
