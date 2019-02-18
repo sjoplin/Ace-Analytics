@@ -11,6 +11,7 @@ from datetime import date
 
 def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
 
+
     line = Image.open('images/line.png')
     fly = Image.open('images/fly.png')
     ground = Image.open('images/dashed.png')

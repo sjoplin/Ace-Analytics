@@ -51,11 +51,14 @@ def scrape(data, teamName, list_urls):
         session.close()
         sleep(1)
 
+
+
     f = open("./interdata/scraperaw.txt", "w+")
     for line in fullText:
         f.write(line)
     f.close()
     generateStats(data, teamName)
+
 
 def moreScrapes(teamName, lastSeason, numComplete):
     quote_page = lastSeason
@@ -86,6 +89,7 @@ def moreScrapes(teamName, lastSeason, numComplete):
         if numGames - i - 1 >= 0:
             finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
     return finalURLS
+
 
 def singleurlscrape(teamName, teamhomepage, lastSeason):
     quote_page = teamhomepage
@@ -120,7 +124,10 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
     for url in addUrls:
         finalURLS.append(addUrls.pop())
     session.close()
+
     sleep(1)
+
+
     data = getAllPlayers(teamhomepage)
     scrape(data, teamName, finalURLS)
 
@@ -135,7 +142,10 @@ def getFinalURL(gameurl):
     urlend = soup.findAll('ul', attrs={'class': 'level1'})
     urlend = (str(urlend)[134:-233])
     session.close()
+
     sleep(1)
+
+
     return ('http://stats.ncaa.org' + urlend)
 
 
