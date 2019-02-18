@@ -209,6 +209,8 @@ def getAllPlayers(url):
     teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:31]
     session.close()
     sleep(1)
+
+
     return (getPlayerStats(teamRoster))
 
 def getPlayerStats(url):
@@ -235,6 +237,8 @@ def getPlayerStats(url):
     j=0
     session.close()
     sleep(1)
+
+
     #we need to visit each player page
     for player in playerurls:
         quote_page2 = player
@@ -283,6 +287,8 @@ def getPlayerStats(url):
         allStatsForEveryone.append(finalStats)
         session.close()
         sleep(1)
+
+
 
     pnames = pd.Series(playernames)
     sdata = pd.Series(allStatsForEveryone)

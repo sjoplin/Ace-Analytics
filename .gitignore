@@ -4,7 +4,11 @@ __pycache__/
 *$py.class
 # PDFs bc a lot of teams
 *.pdf
+
 *.txt
+
+
+
 # C extensions
 *.so
 .idea/
