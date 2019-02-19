@@ -11,11 +11,12 @@ from datetime import date
 
 def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
 
-    line = Image.open('line.png')
-    fly = Image.open('fly.png')
-    ground = Image.open('dashed.png')
+
+    line = Image.open('images/line.png')
+    fly = Image.open('images/fly.png')
+    ground = Image.open('images/dashed.png')
     #TODO: make system agnostic, also change interdata path
-    fileNameLoc = './../' + str(teamname) + ':' + str(date.today()) + '.pdf'
+    fileNameLoc = './pdfs/' + str(teamname) + ':' + str(date.today()) + '.pdf'
     c = canvas.Canvas(fileNameLoc, pagesize=landscape(letter))
 
     namesInOrder = df.ix[:, 1]
@@ -31,7 +32,7 @@ def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
 
     for name in names:
         # print(name)
-        field = ImageReader('GTSprayCharts.jpg')
+        field = ImageReader('images/GTSprayCharts.jpg')
         c.drawImage(field, 0, 0, 11 * inch, 8.5 * inch, mask='auto')
         c.setFillColorRGB(1, 0, 0)
 
