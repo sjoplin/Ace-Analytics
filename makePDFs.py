@@ -413,6 +413,8 @@ def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
                 c.drawString(9 * inch, .9 * inch, ' X = Triple')
                 c.drawString(9 * inch, .7 * inch, ' # = Home Run')
 
+                break
+
         c.showPage()
     c.save()
 

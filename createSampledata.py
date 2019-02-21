@@ -61,11 +61,19 @@ def generateStats(playerdata, teamName):
         # print(words)
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
-        if len(words[1]) <= 2:
+
+        if (len(tempName) > 2 and len(words[1]) > 2):
+            tempName = words[1].lower() + ', ' + tempName[0]
+
+        elif len(words[1]) <= 2:
             tempName = tempName + ', ' + words[1].lower()
 
         elif (len(tempName) <= 2):
             tempName = words[1].lower() + ', ' + tempName
+
+
+
+
 
         #adds the players to a dictionary and calculates the number of strikes
         #walks and steals for each player
@@ -189,8 +197,8 @@ def generateStats(playerdata, teamName):
     a = pd.Series(area)
     data = pd.DataFrame({'Names': s, 'Results': p, 'Area': a})
     pd.set_option('display.max_rows', 220)
-    # print(data)
-    # print(playerDict)
+    print(data)
+    print(playerDict)
     # TODO: uncomment
 
     printPDFs(data, playerdata, playerDict, teamName)
