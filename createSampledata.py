@@ -12,12 +12,19 @@ def generateStats(playerdata, teamName):
     #Keys of all potential outcomes, directions and trajectory.
     #Basically looking for these words in the rawtext
 
+    # print(playerdata)
+    roster = playerdata["Names"].tolist()
+    # print(roster)
+
     potOutcome = ["grounded", "flied", "lined", "double", "popped", "singled",
                   "doubled", "tripled", "homered"]
     direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first',
                  '2b', 'c', 'second', '3b', 'third', 'ss',
                  'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
 
+    outcomes = ["grounded", "flied", "lined", "double", "popped", "singled", "reached"
+                  "doubled", "tripled", "homered", "struck", "out", "pinch", "stole",
+                  ]
     #arrays for various categories
     names = [];
     results = [];
@@ -61,15 +68,34 @@ def generateStats(playerdata, teamName):
         # print(words)
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
+        if (tempName == "suddeth"):
+            tempName = "sudduth"
 
-        if (len(tempName) > 2 and len(words[1]) > 2):
-            tempName = words[1].lower() + ', ' + tempName[0]
 
-        elif len(words[1]) <= 2:
+        # if (len(tempName) > 2 and len(words[1]) > 2 and words[1] not in outcomes):
+        #     tempName = words[1].lower() + ', ' + tempName[0]
+
+        print("THIS IS ROSTER:")
+        print(roster)
+        if len(words[1]) <= 2:
             tempName = tempName + ', ' + words[1].lower()
 
         elif (len(tempName) <= 2):
             tempName = words[1].lower() + ', ' + tempName
+
+        tempName2 = tempName
+        for i in range(len(roster)):
+            print("THIS IS TEMPNAME")
+            print(tempName)
+            each = roster[i].lower()
+            index = each.find(tempName2)
+            print("THIS IS INDEX")
+            print(index)
+            if (index != -1):
+                tempName = roster[i]
+                break
+
+
 
 
 
@@ -214,7 +240,7 @@ def getAllPlayers(url):
     soup = BeautifulSoup(req.content, 'html.parser')
     tester = soup.findAll('a')
     #now we have the url for the team roster
-    teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:31]
+    teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:33]
     session.close()
     sleep(1)
 
