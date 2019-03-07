@@ -239,6 +239,7 @@ def getAllPlayers(url):
     session = requests.Session()
     req = session.get(quote_page, headers=hdr)
     soup = BeautifulSoup(req.content, 'html.parser')
+    print('got players\n' + str(soup))
     tester = soup.findAll('a')
     #now we have the url for the team roster
     teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:33]
@@ -261,6 +262,7 @@ def getPlayerStats(url):
     playerurls = []
     playernames = []
     for box in name_boxes:
+        print('Another One')
         #first 13 are useless
         if (i >= 13):
             #need these to access each players stats
@@ -282,6 +284,7 @@ def getPlayerStats(url):
         session = requests.Session()
         req = session.get(quote_page2, headers=hdr)
         soup2 = BeautifulSoup(req.content, 'html.parser')
+        print('Got player URL')
         #getting what houses the data
         dataFields = soup2.findAll('tr', attrs={'class': 'text'})
         #Getting this seasons stats row
