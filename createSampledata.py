@@ -68,6 +68,7 @@ def generateStats(playerdata, teamName):
         # print(words)
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
+
         if (tempName == "suddeth"):
             tempName = "sudduth"
 
@@ -78,10 +79,12 @@ def generateStats(playerdata, teamName):
         print("THIS IS ROSTER:")
         print(roster)
         if len(words[1]) <= 2:
+
             tempName = tempName + ', ' + words[1].lower()
 
         elif (len(tempName) <= 2):
             tempName = words[1].lower() + ', ' + tempName
+
 
         tempName2 = tempName
         for i in range(len(roster)):
@@ -94,8 +97,6 @@ def generateStats(playerdata, teamName):
             if (index != -1):
                 tempName = roster[i]
                 break
-
-
 
 
 
