@@ -141,6 +141,7 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
     for url in finalURLS:
         print(url)
     scrape(data, teamName, finalURLS)
+    return "Test Function"
 
 
 def getFinalURL(gameurl):
