@@ -85,6 +85,10 @@ def generateStats(playerdata, teamName):
             tempName = words[1].lower() + ', ' + tempName
 
 
+        if (',') in tempName:
+            temp = tempName.split(',')
+            tempName = temp[0]
+
         tempName2 = tempName
         for i in range(len(roster)):
             print("THIS IS TEMPNAME")
