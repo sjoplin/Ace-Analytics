@@ -68,8 +68,7 @@ def generateStats(playerdata, teamName):
         # print(words)
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
-        if (tempName == "suddeth"):
-            tempName = "sudduth"
+
 
 
         # if (len(tempName) > 2 and len(words[1]) > 2 and words[1] not in outcomes):
@@ -78,6 +77,7 @@ def generateStats(playerdata, teamName):
         print("THIS IS ROSTER:")
         print(roster)
         if len(words[1]) <= 2:
+
             tempName = tempName + ', ' + words[1].lower()
 
         elif (len(tempName) <= 2):
@@ -94,12 +94,6 @@ def generateStats(playerdata, teamName):
             if (index != -1):
                 tempName = roster[i]
                 break
-
-
-
-
-
-
 
         #adds the players to a dictionary and calculates the number of strikes
         #walks and steals for each player
@@ -238,6 +232,7 @@ def getAllPlayers(url):
     session = requests.Session()
     req = session.get(quote_page, headers=hdr)
     soup = BeautifulSoup(req.content, 'html.parser')
+    print('got players\n' + str(soup))
     tester = soup.findAll('a')
     #now we have the url for the team roster
     teamRoster = 'http://stats.ncaa.org' + str(tester[9])[9:33]
@@ -260,6 +255,7 @@ def getPlayerStats(url):
     playerurls = []
     playernames = []
     for box in name_boxes:
+        print('Another One')
         #first 13 are useless
         if (i >= 13):
             #need these to access each players stats
@@ -281,6 +277,7 @@ def getPlayerStats(url):
         session = requests.Session()
         req = session.get(quote_page2, headers=hdr)
         soup2 = BeautifulSoup(req.content, 'html.parser')
+        print('Got player URL')
         #getting what houses the data
         dataFields = soup2.findAll('tr', attrs={'class': 'text'})
         #Getting this seasons stats row

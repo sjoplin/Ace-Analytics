@@ -108,42 +108,59 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
         nextText = str(name_box)
 
         nextText = (nextText[26:-32])[0:31]
+
         if "".join(nextText[-1]) is '"':
             fullURLExt.append("".join(nextText[:-1]))
+            #print(nextText)
         else:
             fullURLExt.append("".join(nextText))
+            #print(nextText)
     finalURLS = []
     addUrls = []
+    lessTen = False
     for i in range(10):
         if numGames - i - 1 >= 0:
             finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
+            #print(str(fullURLExt[numGames - i - 1])[:])
+            print(finalURLS[i])
         else:
             addUrls = moreScrapes(teamName, teamhomepage, i)
+            lessTen = True
             break
     #data = getPlayerStats(teamName, 'http://stats.ncaa.org' + (str(fullURLExt[-1])))
-    for url in addUrls:
-        finalURLS.append(addUrls.pop())
+    if lessTen:
+        for url in addUrls:
+            finalURLS.append(addUrls.pop())
     session.close()
 
     sleep(1)
 
-
+    print('Done with singleurlscrape')
     data = getAllPlayers(teamhomepage)
+    print(data)
+    for url in finalURLS:
+        print(url)
     scrape(data, teamName, finalURLS)
+    return "Test Function"
 
 
 def getFinalURL(gameurl):
-    quote_page = gameurl
-    hdr = {
-        'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
-    session = requests.Session()
-    req = session.get(quote_page, headers=hdr)
-    soup = BeautifulSoup(req.content, 'html.parser')
-    urlend = soup.findAll('ul', attrs={'class': 'level1'})
-    urlend = (str(urlend)[134:-233])
-    session.close()
+    #quote_page = gameurl
+    print(gameurl[33:40])
+    gameId = gameurl[33:40]
+    urlend = '/game/play_by_play/' + gameId
+    # hdr = {
+    #     'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+    # session = requests.Session()
+    # req = session.get(quote_page, headers=hdr)
+    # soup = BeautifulSoup(req.content, 'html.parser')
+    # urlend = soup.findAll('ul', attrs={'class': 'level1'})
+    # print(urlend)
+    # urlend = (str(urlend)[134:-233])
 
-    sleep(1)
+    # session.close()
+
+    # sleep(1)
 
 
     return ('http://stats.ncaa.org' + urlend)
