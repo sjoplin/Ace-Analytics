@@ -71,6 +71,7 @@ def generateStats(playerdata, teamName):
 
 
 
+
         # if (len(tempName) > 2 and len(words[1]) > 2 and words[1] not in outcomes):
         #     tempName = words[1].lower() + ', ' + tempName[0]
 
@@ -82,6 +83,7 @@ def generateStats(playerdata, teamName):
 
         elif (len(tempName) <= 2):
             tempName = words[1].lower() + ', ' + tempName
+
 
         tempName2 = tempName
         for i in range(len(roster)):
