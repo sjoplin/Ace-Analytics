@@ -69,8 +69,7 @@ def generateStats(playerdata, teamName):
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
 
-        if (tempName == "suddeth"):
-            tempName = "sudduth"
+
 
 
         # if (len(tempName) > 2 and len(words[1]) > 2 and words[1] not in outcomes):
@@ -86,6 +85,10 @@ def generateStats(playerdata, teamName):
             tempName = words[1].lower() + ', ' + tempName
 
 
+        if (',') in tempName:
+            temp = tempName.split(',')
+            tempName = temp[0]
+
         tempName2 = tempName
         for i in range(len(roster)):
             print("THIS IS TEMPNAME")
@@ -97,10 +100,6 @@ def generateStats(playerdata, teamName):
             if (index != -1):
                 tempName = roster[i]
                 break
-
-
-
-
 
         #adds the players to a dictionary and calculates the number of strikes
         #walks and steals for each player
