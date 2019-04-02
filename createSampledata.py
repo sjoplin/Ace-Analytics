@@ -17,14 +17,14 @@ def generateStats(playerdata, teamName):
     # print(roster)
 
     potOutcome = ["grounded", "flied", "lined", "double", "popped", "singled",
-                  "doubled", "tripled", "homered"]
+                  "doubled", "tripled", "homered", "fouled"]
     direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first',
                  '2b', 'c', 'second', '3b', 'third', 'ss',
                  'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
 
-    outcomes = ["grounded", "flied", "lined", "double", "popped", "singled", "reached"
-                  "doubled", "tripled", "homered", "struck", "out", "pinch", "stole",
-                  ]
+    # outcomes = ["grounded", "flied", "lined", "double", "popped", "singled", "reached"
+    #               "doubled", "tripled", "homered", "struck", "out", "pinch", "stole",
+    #               "fouled"]
     #arrays for various categories
     names = [];
     results = [];
