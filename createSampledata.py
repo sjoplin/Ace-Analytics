@@ -30,9 +30,9 @@ def generateStats(playerdata, teamName):
     results = [];
     area = [];
 
-    #the dict works like this: {"player1": [# of strikes, # of walks, # of stolen bases],
-    #   "player2": [# of strikes, # of walks, # of stolen bases],
-    #   "player3": [# of strikes, # of walks, # of stolen bases]... etc}
+    #the dict works like this: {"player1": [# of strikes, # of walks, # of stolen bases, # of bunts],
+    #   "player2": [# of strikes, # of walks, # of stolen bases, # of bunts],
+    #   "player3": [# of strikes, # of walks, # of stolen bases, # of bunts]... etc}
     playerDict = {};
 
     #reading the raw data
@@ -69,8 +69,7 @@ def generateStats(playerdata, teamName):
         # names.append(words[0].strip(',').lower())
         tempName = words[0].lower()
 
-        if (tempName == "suddeth"):
-            tempName = "sudduth"
+
 
 
         # if (len(tempName) > 2 and len(words[1]) > 2 and words[1] not in outcomes):
@@ -86,6 +85,10 @@ def generateStats(playerdata, teamName):
             tempName = words[1].lower() + ', ' + tempName
 
 
+        if (',') in tempName:
+            temp = tempName.split(',')
+            tempName = temp[0]
+
         tempName2 = tempName
         for i in range(len(roster)):
             print("THIS IS TEMPNAME")
@@ -98,34 +101,36 @@ def generateStats(playerdata, teamName):
                 tempName = roster[i]
                 break
 
-
-
-
-
         #adds the players to a dictionary and calculates the number of strikes
         #walks and steals for each player
-        #the dict works like this: {"player": [# of strikes, # of walks, # of stolen bases]}
+        #the dict works like this: {"player": [# of strikes, # of walks, # of stolen bases, # of bunts]}
         if ('struck' in words):
             #add the player name if not in dictionary, initalize all values to
             #0, and then add the count for the appropriate value
             if (tempName not in playerDict.keys()):
-                playerDict[tempName] = [0, 0, 0]
+                playerDict[tempName] = [0, 0, 0, 0]
                 playerDict[tempName][0] = 1
             else:
                 playerDict[tempName][0] = playerDict[tempName][0] + 1
         elif ('walked' in words):
             #add 1 to count
             if (tempName not in playerDict.keys()):
-                playerDict[tempName] = [0, 0, 0]
+                playerDict[tempName] = [0, 0, 0, 0]
                 playerDict[tempName][1] = 1
             else:
                 playerDict[tempName][1] = playerDict[tempName][1] + 1
         elif ('stole' in words):
             if (tempName not in playerDict.keys()):
-                playerDict[tempName] = [0, 0, 0]
+                playerDict[tempName] = [0, 0, 0, 0]
                 playerDict[tempName][2] = 1
             else:
                 playerDict[tempName][2] = playerDict[tempName][2] + 1
+        elif ('bunt' in words):
+            if (tempName not in playerDict.keys()):
+                playerDict[tempName] = [0, 0, 0, 0]
+                playerDict[tempName][3] = 1
+            else:
+                playerDict[tempName][3] = playerDict[tempName][3] + 1
 
         # checks to see if a player bunted first and then adds the player to
         # players array and adds the result as bunt
@@ -213,7 +218,7 @@ def generateStats(playerdata, teamName):
         # checks to see if the name is added in results but not already in
         # the player dict,
         if ((tempName not in playerDict.keys()) and (tempName in names)):
-            playerDict[tempName] = [0, 0, 0]
+            playerDict[tempName] = [0, 0, 0, 0]
 
         line = f.readline()
 

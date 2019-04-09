@@ -397,6 +397,7 @@ def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
                 c.drawString(9*inch, 6.4*inch, 'Strikouts (last 10): ' + str(dict[name][0]))
                 c.drawString(9*inch, 6.1*inch, 'Walks (last 10): ' + str(dict[name][1]))
                 c.drawString(9*inch, 5.8*inch, 'Stolen Bases (last 10): ' + str(dict[name][2]))
+                c.drawString(9*inch, 5.5*inch, 'Bunts (last 10): ' + str(dict[name][3]))
 
 
                 c.drawImage(ImageReader(ground), 9 * inch, 2.1 * inch, mask='auto')
