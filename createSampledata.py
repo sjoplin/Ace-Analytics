@@ -271,9 +271,13 @@ def getPlayerStats(url):
         #first 13 are useless
         if (i >= 13):
             #need these to access each players stats
-            playerurls.append ('http://stats.ncaa.org' + (str(name_boxes[i])[9:52]) + str(name_boxes[i])[56:80])
+            shitbroke = 'http://stats.ncaa.org' + (str(name_boxes[i])[9:52]) + str(name_boxes[i])[56:95]
+            playerurls.append (shitbroke)
+            print('url being appended: \n' + str(shitbroke))
+            print('Full name box: \n' + str(name_boxes[i]))
+
             #need this to match up on PDFs later
-            playernames.append(str(name_boxes[i])[82:-4])
+            playernames.append(str(name_boxes[i])[97:-4])
         i += 1
     allStatsForEveryone = []
     j=0
@@ -290,6 +294,7 @@ def getPlayerStats(url):
         req = session.get(quote_page2, headers=hdr)
         soup2 = BeautifulSoup(req.content, 'html.parser')
         print('Got player URL')
+
         #getting what houses the data
         dataFields = soup2.findAll('tr', attrs={'class': 'text'})
         #Getting this seasons stats row
