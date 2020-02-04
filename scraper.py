@@ -98,7 +98,7 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
     session = requests.Session()
     req = session.get(quote_page, headers=hdr)
     soup = BeautifulSoup(req.content, 'html.parser')
-    all_boxes = soup.findAll('a', attrs={'class': 'skipMask', 'target': 'TEAM_WIN'})
+    all_boxes = soup.findAll('a', attrs={'class': 'skipMask', 'target': 'BOX_SCORE_WINDOW'})
     # print(all_boxes)
     fullURLExt = []
     numGames = 0
@@ -107,14 +107,16 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
         numGames += 1
         nextText = str(name_box)
 
-        nextText = (nextText[26:-32])[0:31]
-
+        nextText = (nextText[26:-32])[0:27]
+        #print(nextText)
         if "".join(nextText[-1]) is '"':
             fullURLExt.append("".join(nextText[:-1]))
             #print(nextText)
         else:
             fullURLExt.append("".join(nextText))
             #print(nextText)
+
+
     finalURLS = []
     addUrls = []
     lessTen = False
@@ -122,7 +124,7 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
         if numGames - i - 1 >= 0:
             finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
             #print(str(fullURLExt[numGames - i - 1])[:])
-            print(finalURLS[i])
+
         else:
             addUrls = moreScrapes(teamName, teamhomepage, i)
             lessTen = True
@@ -137,7 +139,7 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
 
     print('Done with singleurlscrape')
     data = getAllPlayers(teamhomepage)
-    print(data)
+    #print(data)
     for url in finalURLS:
         print(url)
     scrape(data, teamName, finalURLS)
@@ -145,25 +147,31 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
 
 
 def getFinalURL(gameurl):
-    #quote_page = gameurl
-    print(gameurl[33:40])
-    gameId = gameurl[33:40]
-    urlend = '/game/play_by_play/' + gameId
-    # hdr = {
-    #     'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
-    # session = requests.Session()
-    # req = session.get(quote_page, headers=hdr)
-    # soup = BeautifulSoup(req.content, 'html.parser')
-    # urlend = soup.findAll('ul', attrs={'class': 'level1'})
-    # print(urlend)
-    # urlend = (str(urlend)[134:-233])
+    #print(gameurl)
+    quote_page = gameurl
+    #print(gameurl[33:40])
+    #gameId = gameurl[33:40]
+    #urlend = '/game/play_by_play/' + gameId
+    hdr = {
+        'Moneyball': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'}
+    session = requests.Session()
+    req = session.get(quote_page, headers=hdr)
 
-    # session.close()
+    soup = BeautifulSoup(req.content, 'html.parser')
+    htmlString = str(soup)
+    index = htmlString.find('play_by_play') + 13
+    gameId = htmlString[index:index+7]
 
-    # sleep(1)
+    #f = open("html.txt", "w+")
+    #f.write(str(soup))
+    #exit()
+    #print(urlend)
+    #urlend = (str(urlend)[134:-233])
 
 
-    return ('http://stats.ncaa.org' + urlend)
+
+
+    return ('http://stats.ncaa.org/game/play_by_play/' + gameId)
 
 
 if __name__ == "__main__":
