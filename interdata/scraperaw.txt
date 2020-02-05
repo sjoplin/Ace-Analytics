@@ -1,369 +1,363 @@
-Goodman,Z to dp.
-DeBerry,D to lf.
-Sonnon, D struck out looking (3-2 BKBFBK).
-Stanford, C doubled to left field (1-2 BKK).
-Krzus, K lined out to rf (0-2 KK).
-Stanford, C advanced to third on a passed ball.
-Prairie, R grounded out to ss (3-1 BFBB).
-Huckabay, C singled to center field (1-1 BK).
-Hooper, L walked (3-0 BBBB)3a Huckabay, C advanced to second.
-Ellebracht struck out looking (3-2 BKBBKK).
-Bell, M flied out to cf (1-1 BF).
-Chisholm, K grounded out to ss (2-2 BKSB).
-Delamora,B to 3b for West,B.
-Sonnon, D walked (3-1 BBFBB).
-Stanford, C singled to third base (2-2 BKBF)3a Sonnon, D advanced to second.
-Krzus, K singled to center field, RBI (0-2 KFF)3a Stanford, C advanced to second3a Sonnon, D scored.
-Prairie, R struck out looking (0-2 FFK).
-Huckabay, C flied out to lf (1-2 BKF).
-Hooper, L flied out to lf (1-1 FB).
-Goodman,Z to dp for Parkinson,S.
-Ellebracht struck out swinging (1-2 KBFFS).
-Bell, M flied out to rf (2-1 BFB).
-Chisholm, K flied out to ss (2-2 KKBB).
-Shifflett,K to 2b for Cole,H.
-Sonnon, D lined out to ss (0-0).
-Stanford, C struck out looking (3-2 BBKBFK).
-Krzus, K flied out to rf (0-0).
-Prairie, R grounded out to p (1-1 BF).
-Huckabay, C lined out to lf (3-2 BBKKFFB).
-Hooper, L struck out swinging (1-2 KFBS).
-Roper, B flied out to cf (0-1 K).
-Bell, M popped up to p (0-1 K).
-Chisholm, K hit by pitch (0-0).
-Sonnon, D walked (3-0 BBBB)3a Chisholm, K advanced to second.
-Webb, S pinch ran for Chisholm, K.
-Stanford, C struck out swinging (0-2 KKS).
-Sonnon, D singled through the left side (1-1).
-Stanford, C walked (3-1)3a Sonnon, D advanced to second.
-Krzus, K struck out swinging (2-2).
-Huckabay, C struck out swinging (3-2).
-Roper, B grounded out to 3b (1-2).
-Hooper, L walked (3-0).
-Ellebracht singled to center field (3-2)3a Hooper, L advanced to third.
-Ellebracht stole second.
-Bell, M flied out to rf, SF, RBI (2-2)3a Ellebracht advanced to third3a Hooper, L scored.
-Chisholm, K lined out to ss (1-2).
-Sonnon, D struck out swinging (1-2).
-Stanford, C walked (3-2).
-Krzus, K reached on a fielder's choice (0-2)3a Stanford, C advanced to second.
-Huckabay, C reached on a fielder's choice (2-1)3a Krzus, K advanced to second on a fielding error by 2b3a Stanford, C advanced to third.
-Roper, B homered to right field, 4 RBI (1-2)3a Huckabay, C scored3a Krzus, K scored, unearned3a Stanford, C scored.
-Dreswick to p for Frei.
-Hooper, L struck out swinging (1-2).
-Ellebracht reached on a fielding error by ss (1-1).
-Bell, M struck out swinging (0-2).
-Chisholm, K hit by pitch (0-0)3a Ellebracht advanced to second.
-Sonnon, D struck out swinging (3-2).
-Stanford, C struck out swinging (1-2).
-Krzus, K grounded out to 3b (0-1).
-Huckabay, C singled through the left side (1-1).
-Roper, B struck out swinging (2-2).
-Mora, B pinch hit for Hooper, L.
-Mora, B struck out swinging (0-2).
-Ellebracht doubled to right field (2-2).
-von Behren pinch ran for Ellebracht.
-Dropped foul ball, E3F.
-Bell, M flied out to rf (0-0)3a von Behren advanced to third.
-Chisholm, K popped up to p (0-1).
-Sonnon, D singled to left field (0-0).
-Stanford, C out at first 1b to 2b, SAC (0-1)3a Sonnon, D advanced to second.
-Sonnon, D advanced to third on a passed ball.
-Krzus, K walked (3-2).
-Huckabay, C doubled to center field, RBI (2-2)3a Krzus, K advanced to third3a Sonnon, D scored.
-Webb, S pinch ran for Huckabay, C.
-Roper, B struck out swinging (2-2).
-Hooper, L popped up to c (0-0).
-Ellebracht flied out to lf (2-1).
-Bell, M fouled out to lf (0-2).
-Chisholm, K popped up to ss (2-2).
-Sonnon, D struck out looking (3-2).
-Stanford, C walked (3-0).
-Krzus, K fouled out to 3b (0-2).
-Huckabay, C struck out swinging (0-2).
-Roper, B walked (3-2).
-Ellebracht hit by pitch (0-0)3a Roper, B advanced to second.
-Hooper, L out at first 1b to 2b, SAC (0-0)3a Ellebracht advanced to second3a Roper, B advanced to third.
-Bell, M popped up to ss (0-0).
-Chisholm, K fouled out to c (0-1).
-Sonnon, D singled, bunt (2-2).
-Stanford, C out at first 2b to ss, reached on a fielder's choice (2-2)3a Sonnon, D out on the play.
-Krzus, K singled to center field (1-1)3a Stanford, C advanced to second.
-Huckabay, C struck out looking (3-2).
-Roper, B walked (3-2)3a Krzus, K advanced to second3a Stanford, C advanced to third.
-Ellebracht grounded out to ss (2-2).
-Hooper, L popped up to 1b (0-0).
-Bell, M flied out to lf (2-2).
-Chisholm, K popped up to ss (2-2).
-Sonnon, D lined out to lf (0-0).
-Stanford, C walked (3-1).
-Krzus, K fouled out to 3b (2-1).
-Huckabay, C popped up to 2b (0-2).
-Roper, B walked (3-2).
-Ellebracht popped up to ss (0-2).
-Pye, S pinch hit for Hooper, L.
-Pye, S reached on a fielder's choice (0-0)3a Roper, B advanced to second on a fielding error by 2b.
-Bell, M flied out to rf (0-1)3a Roper, B advanced to third.
-Chisholm, K homered to left field, 3 RBI, unearned (2-2)3a Pye, S scored, unearned3a Roper, B scored, unearned.
-Sonnon, D flied out to cf (1-2).
-Stanford, C walked (3-1).
-Webb, S pinch ran for Stanford, C.
-Krzus, K out at first ss to 2b, reached on a fielder's choice (0-2)3a Webb, S out on the play.
-Huckabay, C popped up to ss (1-1).
-Roper, B grounded out to 3b (0-1).
-Sonnon, D walked (3-2).
-Stanford, C homered to center field, 2 RBI (1-1)3a Sonnon, D scored.
-Krzus, K struck out swinging (1-2).
-Huckabay, C struck out swinging (1-2).
-Prairie, R struck out swinging (2-2).
-Hooper, L hit by pitch (1-2).
-Roper, B struck out looking (3-2).
-Bell, M popped up to ss (0-1).
-Chisholm, K flied out to rf (1-1).
-Sonnon, D flied out to cf (2-2).
-Stanford, C struck out swinging (2-2).
-Krzus, K struck out swinging (2-2).
-Huckabay, C walked (3-1).
-Prairie, R flied out to rf (0-1).
-Hooper, L walked (3-1)3a Huckabay, C advanced to second.
-Roper, B singled to shortstop, advanced to third on an error by cf, RBI (0-2)3a Hooper, L advanced to third, scored on an error by cf3a Huckabay, C scored.
-Bell, M popped up to 1b (0-2).
-Chisholm, K singled down the lf line, RBI (3-1)3a Roper, B scored.
-Sonnon, D singled up the middle (3-2)3a Chisholm, K advanced to second.
-Stanford, C grounded out to 3b unassisted, reached on a fielder's choice (0-2)3a Sonnon, D advanced to second3a Chisholm, K out on the play.
-Dreswick to p for Frei.
-Krzus, K hit by pitch (0-2).
-Huckabay, C struck out looking (1-2).
-Prairie, R struck out swinging (0-2).
-Hooper, L struck out looking (1-2).
-Severini to 2b.
-Roper, B struck out swinging (1-2).
-Bell, M homered, RBI (0-1).
-Chisholm, K struck out swinging (2-2).
-Sonnon, D struck out looking (1-2).
-Stanford, C grounded out to 1b unassisted (2-2).
-Krzus, K grounded out to ss (2-2).
-Huckabay, C flied out to lf (3-2).
-Chimento to c for Belinskas.
-Prairie, R struck out looking (0-2).
-Hooper, L struck out swinging (0-2).
-Roper, B singled to left field (1-2).
-Bell, M popped up to ss (0-0).
-Chisholm, K struck out swinging (2-2).
-Sonnon, D popped up to ss (0-0).
-Stanford, C grounded out to ss (1-1).
-Krzus, K grounded out to 3b (2-2).
-Huckabay, C fouled out to 1b (1-2).
-Prairie, R flied out to rf (1-2).
-Sonnon, D struck out swinging (3-2).
-Stanford, C struck out swinging (2-2).
-Krzus, K hit by pitch (2-1).
-Huckabay, C struck out swinging (2-2).
-Prairie, R grounded out to 1b unassisted (1-2).
-Hooper, L hit by pitch (3-2).
-Roper, B popped up to ss (1-1).
-Chisholm, K popped up to 2b (3-2).
-Bell, M struck out swinging (1-2).
-Sonnon, D walked (3-1).
-Stanford, C struck out swinging (1-2); Sonnon, D stole second.
-Krzus, K walked (3-1).
-Krzus, K advanced to second on a wild pitch; Sonnon, D advanced to third on a wild pitch.
-Huckabay, C walked (3-2); Krzus, K advanced to third on a wild pitch; Sonnon, D scored on a wild pitch.
-Eberle, C. to p.
-/  for Dail, J..
-Prairie, R struck out swinging (3-2).
-Nolan, C. to ss for Metz, W..
-Hooper, L grounded out to ss (3-2).
-Roper, B fouled out to 3b (0-0).
-Chisholm, K struck out looking (2-2).
-Bell, M grounded out to ss (1-2).
-Sonnon, D walked (3-2).
-Stanford, C struck out swinging (3-2); Sonnon, D stole second.
-Krzus, K walked (3-2).
-Huckabay, C walked (3-2); Krzus, K advanced to second; Sonnon, D advanced to third.
-Prairie, R singled up the middle, 2 RBI (1-1); Huckabay, C advanced to third; Krzus, K scored; Sonnon, D scored.
-Hooper, L grounded out to ss (3-2).
-Trull, D. to lf for Jones, H..
-Roper, B grounded out to p (2-1).
-Chadwick, K pinch hit for Chisholm, K.
-Chadwick, K walked (3-0).
-Stavro, S pinch ran for Chadwick, K.
-Bell, M reached on a fielder's choice (3-2); Stavro, S out at second p to 2b.
-Webb, S pinch ran for Bell, M.
-Chisholm, K to ss for Stavro, S.
-Sonnon, D grounded out to ss (2-1).
-Sonnon, D grounded out to 1b unassisted (1-2).
-Stanford, C struck out looking (2-2).
-Krzus, K popped up to ss (0-1).
-Huckabay, C struck out swinging (1-2).
-Prairie, R struck out swinging (1-2).
-Hooper, L popped up to ss (3-2).
-Ellebracht struck out looking (1-2).
-Chisholm, K popped up to 2b (0-0).
-Bell, M struck out swinging (1-2).
-Trull, D. to lf for Davis, C..
-Sonnon, D fouled out to 1b (0-1).
-Stanford, C doubled to right center (3-2).
-Krzus, K popped up to rf (3-2).
-Huckabay, C fouled out to ss (0-1).
-Prairie, R flied out to cf (1-1).
-Hooper, L walked (3-2).
-Ellebracht singled up the middle (1-1); Hooper, L advanced to second.
-Stavro, S pinch ran for Ellebracht.
-Chisholm, K fouled out to c (1-2).
-Bell, M grounded out to 2b (2-2).
-Sonnon, D fouled out to 3b (3-2).
-Stanford, C grounded out to 2b (1-2).
-Krzus, K struck out looking (3-2).
-Huckabay, C homered to left field, RBI (1-0).
-Prairie, R fouled out to 3b (3-2).
-Hooper, L fouled out to 1b (2-2).
-Ellebracht popped up to 1b (0-1).
-Sonnon, D singled up the middle (2-2).
-Stanford, C walked (3-2); Sonnon, D advanced to second.
-Stanford, C advanced to second on a passed ball; Sonnon, D advanced to third on a passed ball.
-Krzus, K reached on a fielder's choice (3-2); Stanford, C advanced to third; Sonnon, D out at home 2b to c.
-Huckabay, C struck out swinging (3-2).
-Prairie, R struck out looking (2-2).
-Hooper, L popped up to cf (1-1).
-Roper, B walked (3-2).
-Chisholm, K reached on a fielder's choice (1-2); Roper, B out at second 3b to 2b.
-Bell, M homered to left field, 2 RBI (1-0); Chisholm, K scored.
-Sonnon, D grounded out to 2b (1-1).
-Stanford, C singled to left field (0-0).
-Krzus, K reached on a fielding error by 2b (1-1); Stanford, C advanced to second.
-Huckabay, C walked (3-1); Krzus, K advanced to second; Stanford, C advanced to third.
-Prairie, R reached on a fielder's choice (1-0); Huckabay, C advanced to second; Krzus, K advanced to third; Stanford, C out at home p to c.
-Hooper, L lined into double play 1b unassisted (1-2); Prairie, R out on the play.
-Roper, B grounded out to ss (3-2).
-Chisholm, K grounded out to 3b (0-0).
-Bell, M grounded out to 3b (3-2).
-Eberle, C. to p for Metz, W..
-Sonnon, D struck out looking (0-2).
-Stanford, C grounded out to 3b (0-2).
-Krzus, K grounded out to 2b (3-2).
-Huckabay, C walked (3-2).
-Webb, S pinch ran for Huckabay, C.
-Trull, D. to lf for Davis, C..
-Webb, S out at second c to ss, caught stealing.
-Prairie, R doubled to right center (1-2).
-Hooper, L flied out to rf, SF, RBI (2-1); Prairie, R scored.
-Roper, B grounded out to 2b (1-1).
-Sonnon, D struck out swinging (2-2 BBKKFS).
-Stanford, C lined out to cf (2-1 BKB).
-Krzus, K doubled to right center, advanced to third on a throwing error by cf (3-2 BKBBF).
-Prairie, R struck out swinging (2-2 BBKSS).
-Huckabay, C grounded out to 2b (2-2 BBKS).
-Hooper, L lined out to 1b (1-1 KB).
-Chisholm, K struck out swinging (1-2 BKFS).
-Ellebracht grounded out to 2b (2-2 BBKF).
-Bell, M struck out swinging (2-2 BKKBFS).
-Sonnon, D walked (3-2 BKBBKB).
-Stanford, C struck out swinging (1-2 KFBS).
-Krzus, K grounded out to p (0-0).
-Prairie, R struck out swinging, out at first c to 1b (1-2 BSKS).
-Huckabay, C fouled out to 1b (1-1 BF).
-Hooper, L fouled out to 1b (1-2 KFB).
-Chisholm, K struck out looking (0-2 KFK).
-Ellebracht grounded out to 2b (1-1 BK).
-JIMMERSON, A to dp for SNIDER, A..
-CHAMBERS, L. to rf for JONES, A..
-WEAVER, H. to lf for HULL, L..
-Bell, M singled through the left side (0-0).
-Sonnon, D struck out swinging (3-2 KBFBBS).
-Stanford, C walked (3-1 BKBBB)3a Bell, M advanced to second.
-Krzus, K walked (3-0 BBBB)3a Stanford, C advanced to second3a Bell, M advanced to third.
-Prairie, R popped up to 1b (2-1 KBB).
-Huckabay, C singled up the middle, RBI (1-2 BKF)3a Krzus, K advanced to second3a Stanford, C advanced to third, out at home cf to c3a Bell, M scored.
-Hooper, L singled to third base (2-1 BBF).
-Hooper, L advanced to second on a wild pitch.
-Chisholm, K struck out looking (2-2 BBFFK).
-Mora, B pinch hit for Ellebracht.
-Mora, B lined out to 3b (3-2 BFBBF).
-Bell, M fouled out to c (0-0).
-Sonnon, D grounded out to ss (0-0).
-Stanford, C grounded out to ss (3-1 BBKB).
-Krzus, K grounded out to ss (1-0 B).
-Roper, B singled to pitcher (3-2 BKKFBB).
-Huckabay, C out at first p to 2b, SAC, bunt (1-0 B)3a Roper, B advanced to second.
-Chadwick, K pinch hit for Hooper, L.
-Chadwick, K grounded out to 3b (1-1 KB).
-Pye, S pinch hit for Chisholm, K.
-Roper, B advanced to third on a wild pitch.
-Pye, S grounded out to ss (1-0 B).
-Sonnon, D walked (3-1).
-Stanford, C fouled out to 3b (2-2).
-Krzus, K hit by pitch (1-0); Sonnon, D advanced to second.
-Prairie, R fouled out to rf (2-1); Sonnon, D advanced to third.
-Huckabay, C singled through the right side, RBI (1-2); Krzus, K advanced to second; Sonnon, D scored.
-Hooper, L doubled to right field, RBI (1-1); Huckabay, C advanced to third; Krzus, K scored.
-Chisholm, K flied out to lf (3-2).
-Ellebracht hit by pitch (2-1).
-Bell, M singled to left field (2-2); Ellebracht advanced to second.
-Webb, S pinch ran for Ellebracht.
-Sonnon, D walked (3-1); Bell, M advanced to second; Webb, S advanced to third.
-Stanford, C walked, RBI (3-1); Sonnon, D advanced to second; Bell, M advanced to third; Webb, S scored.
-Krzus, K reached on a fielder's choice (1-1); Stanford, C advanced to second; Sonnon, D advanced to third; Bell, M out at home ss to c.
-Prairie, R struck out swinging (2-2).
-Huckabay, C reached on a fielder's choice (1-2); Krzus, K advanced to second; Stanford, C out at third 3b unassisted.
-Hooper, L flied out to lf (3-2).
-Chisholm, K grounded out to 2b (1-1).
-Webb, S grounded out to ss (0-1).
-Bailiff,K to c for West,B.
-Bell, M struck out looking (0-2).
-Sonnon, D walked (3-2).
-Stanford, C flied out to cf (1-1).
-Krzus, K singled to third base (3-1); Sonnon, D advanced to second.
-Prairie, R tripled to right field, 2 RBI (2-1); Krzus, K scored; Sonnon, D scored.
-Huckabay, C walked (3-0).
-Hooper, L hit by pitch (0-0); Huckabay, C advanced to second.
-Chisholm, K flied out to cf (1-0).
-Webb, S grounded out to p (2-2).
-Bell, M walked (3-0).
-Bell, M advanced to second on a wild pitch.
-Bell, M advanced to third on a wild pitch.
-Sonnon, D walked (3-2).
-Pickett,B to p for Cole,H.
-/  for Nommensen,H.
-Stanford, C walked (3-1); Sonnon, D advanced to second.
-Krzus, K singled up the middle, RBI (0-1); Stanford, C advanced to second; Sonnon, D advanced to third; Bell, M scored.
-Prairie, R struck out looking (3-2).
-Huckabay, C lined out to 2b (0-1).
-Dray,M to 3b for Shifflett,K.
-Hooper, L flied out to cf (2-1).
-Chisholm, K grounded out to 3b (1-0).
-Webb, S struck out looking (0-2).
-Sonnon, D struck out looking (1-2).
-Stanford, C lined out to 2b (3-2).
-Krzus, K singled up the middle (1-1).
-Prairie, R walked (3-2); Krzus, K advanced to second.
-Huckabay, C flied out to lf (2-2).
-Hooper, L popped up to rf (0-1).
-Chisholm, K grounded out to ss (3-2).
-Pye, S grounded out to p (0-1).
-Webb, S grounded out to p (1-2).
-Sonnon, D homered to left field, RBI (1-2).
-Stanford, C doubled to left center (2-0).
-Krzus, K doubled to center field (1-2); Stanford, C advanced to third, out at home cf to ss to c.
-Prairie, R walked (3-2).
-Huckabay, C flied out to cf (0-1).
-Dray,M to 3b for West,B.
-Hooper, L grounded out to ss (1-1).
-Chisholm, K lined out to 2b (0-1).
-Pye, S popped up to 2b (1-1).
-Webb, S struck out swinging (3-2).
-Sonnon, D hit by pitch (0-0).
-Stanford, C reached on a fielder's choice (3-2); Sonnon, D out at second 3b to 2b.
-Krzus, K hit by pitch (0-0); Stanford, C advanced to second.
-Roper, B pinch ran for Stanford, C.
-Prairie, R singled up the middle, advanced to second on the throw, RBI (1-1); Krzus, K advanced to third; Roper, B scored.
-Huckabay, C tripled to right field, 2 RBI (1-2); Prairie, R scored; Krzus, K scored.
-Hooper, L flied out to rf (0-1).
-Chisholm, K struck out swinging (2-2).
-Ellebracht pinch hit for Pye, S.
-Ellebracht singled through the left side (1-2).
-von Behren pinch ran for Ellebracht.
-Chadwick, K pinch hit for Webb, S.
-Chadwick, K fouled out to 1b (2-2).
-Sonnon, D tripled to right field, RBI (3-2); von Behren scored.
-Stanford, C popped up to ss (1-1).
+B. Roper grounded out to ss (1-2 KBK).
+K. Krzus struck out swinging (1-2 FKBK).
+C. Stanford struck out swinging (1-2 KBKK).
+T. Awald hit by pitch (0-1 F).
+S. Webb struck out looking (3-2 BBFKBK).
+B. Zeitler hit by pitch (3-2 KKBBB); T. Awald advanced to second.
+C. Huckabay struck out looking (2-2 KKBBK).
+D. Puckett struck out swinging (2-2 BFFBFK).
+Ellebracht grounded out to ss (2-1 BBK).
+B. Roper struck out swinging (1-2 KFFFBK).
+K. Krzus flied out to cf (0-1 K).
+Benavides, R to 3b for Parker, S..
+C. Stanford struck out swinging (2-2 KKBBFK).
+T. Awald grounded out to 3b (0-0).
+S. Webb hit by pitch (0-2 FF).
+B. Zeitler struck out swinging (2-2 BBKKFFFK).
+C. Huckabay fouled out to 1b (0-0).
+D. Puckett popped up to 2b (0-0).
+Ellebracht doubled to right field (0-1 K).
+S. Stavro pinch ran for Ellebracht.
+B. Roper grounded out to p (0-0).
+Sherrill, S. to 3b.
+Farris, L. to 2b.
+Davis, C. to dp for Bush, D..
+K. Krzus walked (3-2 KKFBBBB).
+C. Stanford grounded into double play ss to 2b to 1b (3-2 KFBBFBF); K. Krzus out on the play.
+T. Awald grounded out to 1b unassisted (2-1 BBK).
+Shelnutt, A. to c for Tomlinson, M.
+Casas, Z. to lf.
+Sandercock K to p for King, M..
+S. Webb doubled to right center (2-2 BKKFB).
+B. Zeitler grounded out to 2b (1-1 BF); S. Webb advanced to third.
+C. Huckabay grounded out to 3b (0-2 KFF).
+D. Puckett grounded out to 2b (2-2 KBBK).
+B. Roper doubled to right center (1-1 KB).
+B. Roper advanced to third on a passed ball.
+K. Krzus flied out to cf, SF, RBI (3-2 KBBBKFF); B. Roper scored.
+C. Stanford struck out swinging (3-2 BBKFBK).
+T. Awald homered to left field, RBI (3-2 KBFBB).
+S. Webb singled to second base (3-1 BBFB).
+S. Webb stole second.
+B. Zeitler grounded out to 3b (1-2 KFFFB).
+C. Huckabay flied out to rf (2-2 BFBK).
+D. Puckett fouled out to c (2-2 BFBF).
+Ellebracht popped up to 2b (2-2 KKBBF).
+A. Frei to p for A. Rayle.
+B. Roper struck out looking (3-2 BBBKKK).
+K. Krzus walked (3-0 BBBB).
+C. Stanford grounded into double play ss to 1b (3-2 KBBBF); K. Krzus out on the play.
+O. Gott to c for D. Friedman.
+T. Awald struck out looking (2-2 KBKFBFK).
+S. Webb walked (3-1 BKBBB).
+B. Zeitler grounded out to 3b (2-2 BBKF); S. Webb advanced to second.
+C. Huckabay walked (3-1 BKBBB).
+A. Jackson pinch ran for C. Huckabay.
+D. Puckett walked (3-1 BKBBB); A. Jackson advanced to second; S. Webb advanced to third.
+Ellebracht doubled to left field, 3 RBI (1-1 KB); D. Puckett scored; A. Jackson scored; S. Webb scored.
+B. Roper reached on a fielding error by ss (0-1 K).
+K. Krzus grounded out to ss (3-2 KBBFB).
+C. Stanford walked (3-0 BBBB).
+T. Awald singled through the left side (0-2 KK); C. Stanford advanced to second.
+S. Webb grounded out to p (3-1 BBKB); T. Awald advanced to second; C. Stanford advanced to third.
+B. Zeitler struck out swinging (1-2 KFBK).
+C. Huckabay walked (3-2 BKFBFBB).
+D. Puckett walked, RBI (3-1 BBBKB); C. Huckabay advanced to second; T. Awald advanced to third; C. Stanford scored.
+Ellebracht singled up the middle, 2 RBI (2-2 FBBK); D. Puckett advanced to third; C. Huckabay scored; T. Awald scored.
+B. Roper walked (3-2 KBBBKB).
+B. Zeitler reached on a fielder's choice to second base (2-2 KFBB): B. Roper out at second 2b to ss.
+K. Krzus flied into double play rf to 1b (3-2 BBKFBF): B. Zeitler out on the play.
+T. Awald walked (3-2 KBBBFB).
+S. Webb struck out swinging (2-2 KBKBS).
+C. Stanford walked (3-2 KBBSFBFFFB): T. Awald advanced to second.
+C. Huckabay popped up to 2b (2-2 BFBK).
+D. Puckett flied out to cf (1-1 BK).
+R. Prairie struck out swinging (1-2 FSBFS).
+B. Roper walked (3-2 KBKBBFFB).
+B. Zeitler flied out to lf (2-2 KBBKFF).
+K. Krzus walked (3-2 BBBKKB): B. Roper advanced to second.
+T. Awald struck out looking (2-2 KBBFFFK).
+S. Webb popped up to ss (2-1 KBB).
+C. Stanford homered to left field, RBI (1-2 KBK).
+C. Huckabay lined out to cf (1-0 B).
+D. Puckett grounded out to p (2-2 KBKBF).
+S. Grimm to c for A. Wester.
+Bazos to rf.
+Clark to lf.
+R. Prairie reached on a fielding error by ss (3-1 BKBB).
+B. Roper walked (3-2 BFBBFFB): R. Prairie advanced to second.
+B. Zeitler singled to right field (1-2 KSBF): B. Roper advanced to second: R. Prairie advanced to third.
+K. Krzus flied out to cf, SF, RBI (2-2 KBKB): B. Roper advanced to third: R. Prairie scored, unearned.
+T. Awald grounded into double play 2b to ss to 1b (1-1 BF): B. Zeitler out on the play.
+Biggio to ss for Genz.
+S. Webb grounded out to p (1-2 KFB).
+C. Stanford walked (3-1 BBKBB).
+C. Huckabay flied out to rf (0-2 KK).
+D. Puckett singled to left field (2-2 BKBK): C. Stanford advanced to second.
+R. Prairie singled to center field, advanced to second on the throw, advanced to third on the error, RBI (1-1 KB): D. Puckett advanced to third, scored on an error by cf, unearned: C. Stanford scored.
+B. Roper grounded out to 2b (1-2 KFB).
+Holloway to p for Tidd.
+Purcell to ss for Biggio.
+B. Zeitler struck out swinging (2-2 KBBKS).
+K. Krzus walked (3-1 BKBBB).
+T. Awald struck out swinging (2-2 BBKKS).
+S. Webb walked (3-2 KBSBBFB): K. Krzus advanced to second.
+C. Stanford grounded out to 3b (1-1 BK).
+B. Roper flied out to cf (1-2 BKFF).
+B. Zeitler reached on a fielding error by 3b (2-2 BKBK).
+K. Krzus struck out swinging (3-2 BKBFBFS).
+T. Awald out at first p to ss to 1b (3-2 FBFBBF).
+S. Webb struck out swinging (2-2 KKBBS).
+C. Stanford walked (3-1 BKBBB).
+C. Huckabay reached on a fielder's choice to third base (1-1 KB): C. Stanford out at second 3b to 2b.
+D. Puckett walked (3-2 FBBBKB): C. Huckabay advanced to second.
+K. Ellebrach struck out looking (3-2 KBBKBK).
+B. Roper lined out to lf (0-0).
+B. Zeitler hit by pitch (1-1 KB).
+K. Krzus walked (3-1 BBBKB): B. Zeitler advanced to second.
+T. Awald fouled out to lf (3-2 BKBBKFFF): B. Zeitler advanced to third.
+S. Webb grounded out to p (0-0).
+C. Stanford struck out looking (2-2 KBBFFK).
+C. Huckabay grounded out to 2b (1-2 SBK).
+D. Puckett struck out swinging (2-2 BKBKS).
+K. Ellebrach flied out to cf (0-0).
+B. Roper grounded out to ss (1-0 B).
+B. Zeitler grounded out to 1b unassisted (0-0).
+K. Krzus walked (3-1 KBBBB).
+T. Awald grounded out to p (2-1 BBK): K. Krzus advanced to second.
+S. Webb singled through the left side (2-2 KBKB): K. Krzus advanced to third.
+C. Stanford struck out swinging (1-2 KKBS).
+C. Huckabay lined out to 3b (3-2 KFBBBF).
+Rochford to 3b for Wagner.
+Ryan to p for Holloway.
+D. Puckett grounded out to ss (3-2 BBBKK).
+K. Ellebrach walked (3-1 BBBKB).
+S. Stavro pinch ran for K. Ellebrach.
+B. Roper flied out to lf (3-2 BBKFB).
+B. Zeitler flied out to lf (1-2 KBK).
+B. Roper flied out to cf (1-1 KB).
+B. Zeitler grounded out to 2b (2-2 BBKK).
+C. Stanford struck out swinging (1-2 KKBS).
+T. Awald grounded out to 2b (3-2 SBKBFFB).
+S. Webb struck out swinging (3-2 BBBKKS).
+K. Krzus singled to right field (2-2 KBBK).
+C. Huckabay struck out looking (2-2 BBKSK).
+D. Puckett struck out swinging (2-2 SBBFS).
+K. Ellebrach flied out to lf (0-0).
+B. Roper tripled to right field (3-2 BBBKK).
+B. Zeitler popped up to 2b (3-2 BKBBKF).
+Heide to c for Genz.
+Bazos to rf for Clark.
+C. Stanford grounded out to 3b (2-2 KBBK).
+T. Awald walked (3-2 KKBBBB).
+S. Webb lined into double play ss to 1b (1-2 KBK): T. Awald out on the play.
+Brooks to p.
+Purcell to ss for Wagner.
+/  for Tidd.
+Sweet to cf for Richards.
+K. Krzus lined out to 2b (2-1 BBF).
+C. Huckabay grounded out to 2b (1-0 B).
+D. Puckett walked (3-1 BBKBB).
+K. Ellebrach walked (3-0 BBBB): D. Puckett advanced to second.
+S. Stavro pinch ran for D. Puckett.
+A. Jackson pinch ran for K. Ellebrach.
+B. Roper grounded out to p (1-2 KFB).
+B. Roper walked.
+B. Zeitler hit by pitch; B. Roper advanced to second.
+C. Stanford walked; B. Zeitler advanced to second; B. Roper advanced to third.
+T. Awald doubled to center field, 2 RBI; C. Stanford advanced to third; B. Zeitler scored; B. Roper scored.
+S. Webb grounded out to 1b unassisted.
+C. Huckabay hit by pitch.
+D. Puckett struck out swinging.
+C. Huckabay advanced to second; T. Awald advanced to third; C. Stanford scored on a wild pitch.
+Ellebracht flied out to rf.
+M. Billings struck out looking.
+B. Roper singled to left field.
+B. Zeitler walked; B. Roper advanced to second.
+C. Stanford singled to right field; B. Zeitler out at second rf to 2b; B. Roper advanced to third.
+T. Awald homered to left field, 3 RBI; C. Stanford scored; B. Roper scored.
+S. Webb walked.
+M. Hearn to p for A. Romero.
+C. Huckabay singled to left field; S. Webb advanced to second.
+D. Puckett struck out looking.
+Ellebracht reached on a throwing error by 3b.
+M. Billings walked; Ellebracht advanced to second.
+B. Roper reached on a fielder's choice; M. Billings advanced to second; Ellebracht out at third ss to 3b.
+B. Zeitler reached on a fielder's choice; B. Roper out at second ss to 2b; M. Billings advanced to third.
+C. Stanford doubled to left field, RBI; B. Zeitler advanced to third; M. Billings scored.
+T. Awald grounded out to 3b.
+S. Webb doubled to right field.
+C. Huckabay struck out looking.
+I. Many pinch hit for D. Puckett.
+I. Many singled to left field, RBI; S. Webb scored.
+Ellebracht grounded out to 1b unassisted; I. Many advanced to second.
+M. Billings singled to left field, RBI; I. Many scored.
+S. Stavro pinch ran for M. Billings.
+B. Roper grounded out to 2b.
+B. Roper lined out to 3b.
+B. Zeitler singled to left center.
+C. Stanford walked; B. Zeitler advanced to second.
+T. Awald flied out to cf; B. Zeitler advanced to third.
+S. Webb reached on a fielding error by 1b; C. Stanford advanced to third; B. Zeitler scored, unearned.
+C. Huckabay struck out swinging, reached first on a wild pitch; S. Webb advanced to third; C. Stanford scored, unearned.
+D. Puckett struck out swinging.
+Ellebracht walked.
+M. Billings fouled out to 3b.
+B. Roper singled to right field; Ellebracht advanced to third.
+B. Zeitler grounded out to p; B. Roper advanced to second.
+C. Stanford struck out swinging.
+T. Awald struck out swinging.
+S. Webb flied out to rf.
+Dropped foul ball, E9.
+C. Huckabay walked.
+D. Puckett hit by pitch; C. Huckabay advanced to second.
+Ellebracht doubled down the lf line, 2 RBI; D. Puckett scored, unearned; C. Huckabay scored, unearned.
+M. Billings grounded out to p.
+B. Roper singled through the left side.
+B. Zeitler out at first 1b to 2b, SAC, bunt; B. Roper advanced to second.
+C. Stanford walked.
+S. Dandola to p for M. Hearn.
+T. Awald walked; C. Stanford advanced to second; B. Roper advanced to third.
+S. Webb singled to left field, advanced to second on the error, RBI; T. Awald advanced to third; C. Stanford advanced to third, scored on a fielding error by lf; B. Roper scored.
+C. Huckabay grounded out to 2b.
+D. Puckett walked.
+Ellebracht lined out to ss.
+M. Billings doubled down the rf line.
+S. Stavro pinch ran for M. Billings.
+B. Roper grounded out to 2b; S. Stavro advanced to third.
+B. Zeitler walked.
+C. Stanford singled through the left side, RBI; B. Zeitler advanced to second; S. Stavro scored.
+T. Awald flied out to lf.
+S. Webb flied out to lf.
+G. Carideo to c for T. Martin.
+CasaresMaher to ss for J. Skladal.
+C. Huckabay singled to left field.
+A. Jackson pinch ran for C. Huckabay.
+D. Puckett reached on a fielder's choice; A. Jackson out at second 3b to ss.
+Ellebracht flied out to rf.
+M. Billings struck out looking.
+A. Acevedo to 1b for L. Paul.
+A. Romero to p for S. Dandola.
+B. Roper walked.
+B. Roper advanced to second on a throwing error by c.
+B. Zeitler singled to left field; B. Roper advanced to third.
+C. Stanford singled to right field, RBI; B. Zeitler advanced to second; B. Roper scored, unearned.
+B. Roper struck out swinging.
+B. Zeitler struck out looking.
+C. Stanford walked.
+T. Awald struck out swinging.
+S. Webb walked.
+C. Huckabay struck out looking.
+S. Webb out at first 1b unassisted, runner left early.
+D. Puckett walked.
+Ellebracht hit by pitch; D. Puckett advanced to second.
+M. Billings walked; Ellebracht advanced to second; D. Puckett advanced to third.
+B. Roper singled to right center, 2 RBI; M. Billings advanced to third; Ellebracht scored; D. Puckett scored.
+B. Zeitler singled through the left side, RBI; B. Roper advanced to second; M. Billings scored.
+C. Stanford flied out to cf.
+CasaresMaher to ss for J. Skladal.
+T. Awald homered to center field, RBI.
+S. Webb popped up to 3b.
+C. Huckabay struck out swinging.
+D. Puckett walked.
+Ellebracht struck out looking.
+M. Billings singled to left center.
+S. Stavro pinch ran for M. Billings.
+B. Roper flied out to cf.
+B. Zeitler popped up to p.
+C. Stanford struck out swinging.
+T. Awald lined out to 3b.
+S. Webb flied out to lf.
+C. Huckabay flied out to cf.
+D. Puckett hit by pitch.
+R. Prairie pinch ran for D. Puckett.
+R. Prairie out at second c to ss, caught stealing.
+Ellebracht popped up to 2b.
+M. Billings fouled out to 1b.
+A. Acevedo to 1b for L. Paul.
+B. Roper flied out to lf.
+B. Zeitler flied out to cf.
+C. Stanford walked.
+T. Awald doubled to left center; C. Stanford advanced to third.
+S. Webb singled through the right side, RBI; T. Awald advanced to third; C. Stanford scored.
+B. Roper struck out swinging (2-2 FBBKS).
+B. Zeitler walked (3-2 BKBKFFBB).
+B. Zeitler stole second.
+C. Stanford walked (3-2 KBKBBB).
+T. Awald walked (3-1 KBBBB)3a C. Stanford advanced to second3a B. Zeitler advanced to third.
+S. Webb doubled to left center, 2 RBI (3-2 BKBFB)3a T. Awald advanced to third3a C. Stanford scored3a B. Zeitler scored.
+Hensley to dp.
+Roby to p.
+C. Huckabay singled up the middle, advanced to second on the throw, 2 RBI (1-1 BF)3a S. Webb scored3a T. Awald scored.
+D. Puckett singled up the middle, advanced to third (0-0)3a C. Huckabay advanced to third, out at home cf to c to 3b to c.
+K. Ellebrach reached on a fielding error by p (0-1 S)3a D. Puckett scored, unearned.
+M. Billings singled up the middle3a K. Ellebrach advanced to second.
+B. Roper flied out to lf (2-0 BB).
+Chung to c for Schindler, R.
+Schindler, R to rf.
+B. Zeitler grounded out to ss (1-2 KBK).
+C. Stanford struck out swinging (1-2 BFKS).
+T. Awald walked (3-1 BBBKB).
+S. Webb flied out to lf (1-2 KBK).
+C. Huckabay grounded out to 3b (2-0 BB).
+D. Puckett popped up to ss (1-2 KFFB).
+K. Ellebrach struck out swinging (2-2 BBFFFS).
+Butler to lf for Greenwood.
+M. Billings singled through the left side (2-1 BKB).
+S. Stavro pinch ran for M. Billings.
+B. Roper singled, bunt (0-0)3a S. Stavro advanced to second.
+B. Zeitler singled, bunt (0-1 K)3a B. Roper advanced to second3a S. Stavro advanced to third.
+C. Stanford reached on a fielder's choice to shortstop (1-0 B)3a B. Zeitler advanced to second3a B. Roper advanced to third3a S. Stavro out at home ss to c.
+T. Awald flied out to lf, SF, RBI (3-2 BBBKFF)3a C. Stanford advanced to second3a B. Zeitler advanced to third3a B. Roper scored.
+S. Webb walked (3-1 BBKBB).
+C. Huckabay homered to left center, 4 RBI (0-0)3a S. Webb scored3a C. Stanford scored3a B. Zeitler scored.
+D. Puckett singled to left field (1-1 KB).
+K. Ellebrach walked (3-2 BKKBFFBFFB)3a D. Puckett advanced to second.
+M. Billings to 3b for S. Stavro.
+Hensley to p.
+Roby to dp.
+M. Billings reached on a fielder's choice to shortstop (0-1 S)3a K. Ellebrach advanced to second3a D. Puckett advanced to third on a throwing error by ss.
+B. Roper struck out looking (3-2 BBKSFFBFK).
+Snyder to 1b for Wolfe.
+B. Zeitler struck out swinging (1-2 BKKS).
+C. Stanford struck out swinging (1-2 FSFFFFFBS).
+T. Awald popped up to ss (1-1 BK).
+S. Webb walked (3-2 KBKBBB).
+C. Huckabay fouled out to 1b (1-2 SFB).
+S. Webb out at second c to ss, caught stealing.
+B. Roper struck out looking (1-2 KBFK).
+T. Awald struck out swinging (2-2 BSBSFS).
+C. Stanford struck out swinging (3-2 KBKBBS).
+S. Webb grounded out to 2b (1-1 BK).
+C. Huckabay walked (3-1 BBBKB).
+C. Huckabay advanced to second on a wild pitch.
+B. Zeitler doubled to right center, RBI (2-2 KBBFF)3a C. Huckabay scored.
+D. Puckett struck out looking (2-2 KBBSK).
+R. Prairie struck out swinging (1-2 BKSS).
+M. Billings grounded out to ss.
+B. Roper struck out swinging (2-2 SFBBS).
+T. Awald lined out to cf (1-2 BKK).
+C. Stanford fouled out to 3b (2-2 FBFB).
+S. Webb walked (3-1 BBKBB).
+C. Huckabay fouled out to rf (1-0 B).
+B. Zeitler walked (3-1 BBBKB)3a S. Webb advanced to second.
+D. Puckett walked (3-2 BKBBKFFFB)3a B. Zeitler advanced to second3a S. Webb advanced to third.
+R. Prairie struck out swinging (0-2 FKS).
+M. Billings struck out looking (2-2 BKKBFK).
+B. Roper grounded out to 2b (1-0 B).
+T. Awald hit by pitch (1-0 B).
+C. Stanford struck out looking (1-2 FBSK).
+S. Webb struck out swinging (1-2 KBFS).
+C. Huckabay struck out swinging (3-2 FKBFBFFBS).
+B. Zeitler walked (3-2 BBKFFBB).
+D. Puckett doubled to right center (1-2 KBF)3a B. Zeitler advanced to third.
+S. Pye pinch hit for R. Prairie.
+A. Jackson pinch ran for D. Puckett.
+A. Jackson advanced to third on a wild pitch3a B. Zeitler scored on a wild pitch.
+S. Pye grounded out to 3b (1-2 SKBF).
+H. Turnbull pinch hit for M. Billings.
+H. Turnbull grounded out to ss (1-0 B).
+B. Roper flied out to cf (1-1 KB).
+T. Awald doubled to left field (1-1 SB).
+S. Stavro pinch ran for T. Awald.
+C. Stanford flied out to rf (1-1 KB).

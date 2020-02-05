@@ -1,5 +1,6 @@
 # Import all libraries needed for the tutorial
 import pandas as pd
+import re
 import requests
 from bs4 import BeautifulSoup
 from makePDFs import printPDFs
@@ -17,14 +18,14 @@ def generateStats(playerdata, teamName):
     # print(roster)
 
     potOutcome = ["grounded", "flied", "lined", "double", "popped", "singled",
-                  "doubled", "tripled", "homered"]
+                  "doubled", "tripled", "homered", "fouled"]
     direction = ['p', '3b.', 'catcher', 'shortstop', 'pitcher', '1b', 'first',
                  '2b', 'c', 'second', '3b', 'third', 'ss',
                  'lf', 'left', 'cf', 'center', 'rf', 'right', 'middle', 'short']
 
-    outcomes = ["grounded", "flied", "lined", "double", "popped", "singled", "reached"
-                  "doubled", "tripled", "homered", "struck", "out", "pinch", "stole",
-                  ]
+    # outcomes = ["grounded", "flied", "lined", "double", "popped", "singled", "reached"
+    #               "doubled", "tripled", "homered", "struck", "out", "pinch", "stole",
+    #               "fouled"]
     #arrays for various categories
     names = [];
     results = [];
@@ -270,14 +271,33 @@ def getPlayerStats(url):
         print('Another One')
         #first 13 are useless
         if (i >= 13):
-            #need these to access each players stats
-            shitbroke = 'http://stats.ncaa.org' + (str(name_boxes[i])[9:52]) + str(name_boxes[i])[56:95]
-            playerurls.append (shitbroke)
-            print('url being appended: \n' + str(shitbroke))
-            print('Full name box: \n' + str(name_boxes[i]))
+            #grabbing the raw HTML string from name_boxes
+            raw_html = str(name_boxes[i])
+
+            #using regex to find game_sport_year_ctl_id, org_id, and
+            #stats_player_seq to create the unique player urls
+            game_sport_year_ctl_id = re.findall(r'\bgame_sport_year_ctl_id=\d*', raw_html)
+            org_id = re.findall(r'\borg_id=\d*', raw_html)
+            stats_player_seq = re.findall(r'\bstats_player_seq=\d*', raw_html)
+
+            final_player_url = 'http://stats.ncaa.org/player/index?' + game_sport_year_ctl_id[0] + '&amp;' + org_id[0] + '&amp;' + stats_player_seq[0]
+
+            playerurls.append (final_player_url)
+            print('url being appended: \n' + str(final_player_url))
+            # print('Full name box: \n' + str(name_boxes[i]))
 
             #need this to match up on PDFs later
-            playernames.append(str(name_boxes[i])[97:-4])
+            #uses regex to find player names from raw_html
+            rex = re.compile(r'<a.*?>(.*?)</a>',re.S|re.M)
+            match = rex.match(raw_html)
+            if match:
+                name = match.groups()[0].strip()
+            else:
+                name = "No Player Name"
+
+            print('Player Being appended: ' + name)
+            # playernames.append(str(name_boxes[i])[97:-4])
+            playernames.append(name)
         i += 1
     allStatsForEveryone = []
     j=0
