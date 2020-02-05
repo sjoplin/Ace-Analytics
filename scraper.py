@@ -89,9 +89,7 @@ def moreScrapes(teamName, lastSeason, numComplete):
     finalURLS = []
     print('NUM GAMES: ' + str(numGames))
     for i in range(10 - numComplete):
-        print('HOWDY')
         if numGames - i - 1 >= 0:
-            print("YOOO BITCH")
             print(str(fullURLExt[numGames - i - 1]))
             finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))))
     
@@ -130,12 +128,10 @@ def singleurlscrape(teamName, teamhomepage, lastSeason):
     lessTen = False
     for i in range(10):
         if numGames - i - 1 >= 0:
-            print('NO SWAG')
             finalURLS.append(getFinalURL('http://stats.ncaa.org' + (str(fullURLExt[numGames - i - 1]))[:]))
             #print(str(fullURLExt[numGames - i - 1])[:])
 
         else:
-            print('YOLO SWAG')
             print('LAST SEASON: ' + str(lastSeason))
             addUrls = moreScrapes(teamName, lastSeason, i)
             lessTen = True
