@@ -56,7 +56,7 @@ def printPDFs(df=None, data=None, dict = None, teamname = "sample"):
                     result = 'X'
                 elif thisPlay == 'homered':
                     result = '#'
-                lineType = None
+                linePlay = None
                 if thisPlay == 'grounded' or thisPlay == 'double' or thisPlay == 'bunt':
                     linePlay = 0
                 elif thisPlay == 'flied' or thisPlay == 'popped':
