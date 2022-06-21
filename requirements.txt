@@ -6,7 +6,7 @@ chardet==3.0.4
 future==0.17.1
 idna==2.8
 macholib==1.11
-numpy==1.15.4
+numpy==1.22.0
 pandas==0.23.4
 pefile==2018.8.8
 Pillow==5.4.1
