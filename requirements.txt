@@ -15,7 +15,7 @@ PyQt5==5.11.3
 PyQt5-sip==4.19.13
 python-dateutil==2.7.5
 pytz==2018.9
-reportlab==3.5.12
+reportlab==3.5.55
 requests==2.21.0
 sip==4.19.8
 six==1.12.0
